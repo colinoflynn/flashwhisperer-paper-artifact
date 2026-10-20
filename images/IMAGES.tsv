@@ -1,0 +1,17 @@
+# One row per archived or rebuilt image.
+# Written by tools/build.py; tools/record.py refuses an image that is
+# not listed here.
+#
+# An image whose sha256 differs from the paper_sha256 of the same cell is
+# not a failure. A different compiler emits a different instruction
+# stream and the instruction stream is part of what is measured - but it
+# is a different image, so the trace count it needs may differ, and this
+# file is where that is visible rather than being a surprise in stage 3.
+#
+# NO ROWS YET. Nothing was built when the artifact was assembled: there is no
+# toolchain on that machine, and no capture in the corpus records a hash of
+# the image that produced it, so there is no paper_sha256 to fill in either.
+# Filling this file is what makes the chain image -> capture -> table cell
+# machine-checkable at its first link.
+#
+# cell	path	sha256	paper_sha256	build	toolchain	when

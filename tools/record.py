@@ -96,6 +96,35 @@ def accelerator_word(cell):
     return int(m.group(1), 16) if m else None
 
 
+def build_variant(mcu, lib, layout):
+    """crypto-eval's own variant string for this build, asked of its make.
+
+    Never composed here. The string is long on purpose - several of its axes
+    change the LINK-TIME layout and two builds that differ only in a define are
+    not interchangeable images - and it is also the name a capture gets filed
+    under, so a copy of its format in this file would be a second thing to keep
+    in step with `build.mk`. `make variant` prints it; a build.mk that grows an
+    axis therefore grows it here for free.
+    """
+    import shutil
+    bash = shutil.which("bash")
+    if bash is None:
+        raise SystemExit("no bash on PATH, so crypto-eval's own variant "
+                         "string cannot be read. Pass --variant with the "
+                         "directory name under deps/crypto-eval/build/%s/."
+                         % mcu)
+    out = subprocess.run(
+        [bash, os.path.join(EVAL, "tools", "build.sh"), "MCU=%s" % mcu,
+         "LIB=%s" % lib, "LAYOUT=%s" % layout, "variant"],
+        cwd=EVAL, capture_output=True, text=True)
+    name = [line for line in (out.stdout or "").splitlines() if line.strip()]
+    if out.returncode or not name:
+        raise SystemExit("crypto-eval could not name the variant for "
+                         "MCU=%s LIB=%s LAYOUT=%s:\n%s"
+                         % (mcu, lib, layout, out.stderr.strip()))
+    return name[-1].strip()
+
+
 def listed_images():
     path = os.path.join(ROOT, "images", "IMAGES.tsv")
     out = {}
@@ -141,6 +170,10 @@ def main(argv=None):
     ap.add_argument("--acr", help="accelerator word to write, if the cell's "
                                   "configuration string does not name one")
     ap.add_argument("--lib", default="refsbox")
+    ap.add_argument("--variant", help="the build directory name under "
+                                      "deps/crypto-eval/build/<mcu>/. The "
+                                      "default is whatever crypto-eval's own "
+                                      "`make variant` names for this cell")
     ap.add_argument("--dry-run", action="store_true",
                     help="print what would be run, touch no hardware")
     args = ap.parse_args(argv)
@@ -187,9 +220,9 @@ def main(argv=None):
 
     acr = int(args.acr, 0) if args.acr else accelerator_word(cell)
     layout = LAYOUT[cell["field"]]
+    variant = args.variant or build_variant(mcu, args.lib, layout)
     command = [sys.executable, capture_py, "--mcu", mcu,
-               "--variant", "%s-%s-ram0-<link>-<baud>-<timing>-w1-pad0"
-               % (args.lib, layout),
+               "--variant", variant,
                "-n", str(args.n), "--seed", str(args.seed)]
     if args.probe:
         command += ["--probe", args.probe]
