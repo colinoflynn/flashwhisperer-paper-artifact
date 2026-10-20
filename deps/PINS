@@ -1,0 +1,47 @@
+# The pinned upstreams, one per line: name url commit kind
+#
+# Read by tools/verify.py. Each one is also registered as a submodule, so the
+# commit here is what the parent repository records as the gitlink and the two
+# must agree - verify.py checks that, because a submodule advanced by a
+# `git submodule update --remote` is a different measurement under the same
+# name and nothing else would notice.
+#
+# Nothing here is vendored and nothing here is patched. Everything that
+# measures or scores lives behind one of these three lines; this repository
+# writes the Makefiles, the three stage tools, the docs and the data, and
+# nothing else.
+#
+# Why each one is what it is:
+#
+#   flashwhisperer  the analysis half: the scoring rule, the row geometry, the
+#                   AES reference. Every recovery in tools/reproduce.py goes
+#                   through flashattack.archive.ladder at this commit.
+#
+#                   NOTE, because it changes what stage 3 can do. This commit's
+#                   `archive.load` takes `(path, observable)` and REQUIRES a
+#                   ciphertext column. Three capture classes here have no
+#                   ciphertext column - a seed-only capture, a capture whose
+#                   key or seed was a constant in the capture script, and every
+#                   reduced file in traces/, whose ciphertexts were replaced by
+#                   a SHA-256 on purpose - so tools/reproduce.py resolves those
+#                   columns itself and hands the result to the pinned
+#                   `archive.ladder`. The SCORER is upstream's at this commit;
+#                   only the loading is local, and it collapses to one
+#                   `archive.load` call when a loader that takes `key=`/`seed=`
+#                   and reads a JSON capture is published.
+#
+#   crypto-eval     the instrument stages 1 and 2 run on: one part, one
+#                   library, the victim's own cycle counter, the accelerator
+#                   word read back off the device. At this commit it builds six
+#                   ST parts; `python tools/build.py --list` prints which, and
+#                   which of the roster's parts therefore cannot be rebuilt
+#                   here yet.
+#
+#   demos           section 7 of the paper, the delivered attacks over real
+#                   protocol stacks, each with the vectors it was measured
+#                   from. This artifact covers sections 3 to 6 and does not
+#                   duplicate any of it: its own README points here.
+#
+flashwhisperer  https://github.com/colinoflynn/flashwhisperer.git                3b44032bfa7c5ac4e5942b1ae965489aeed197cf  tool
+crypto-eval     https://github.com/colinoflynn/flashwhisperer-crypto-eval.git    8daf96b3660cee948708f2348e02e2df62d5be64  tool
+demos           https://github.com/colinoflynn/flashwhisperer-demos              ed143146b3ead2e8c73faea0ba3dd8ace1a8796c  tool

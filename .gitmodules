@@ -1,0 +1,9 @@
+[submodule "deps/flashwhisperer"]
+	path = deps/flashwhisperer
+	url = https://github.com/colinoflynn/flashwhisperer.git
+[submodule "deps/crypto-eval"]
+	path = deps/crypto-eval
+	url = https://github.com/colinoflynn/flashwhisperer-crypto-eval.git
+[submodule "deps/demos"]
+	path = deps/demos
+	url = https://github.com/colinoflynn/flashwhisperer-demos
