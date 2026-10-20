@@ -1,1 +1,13 @@
+# LF in the working tree too. The build is driven from a shell script and
+# `#!/bin/bash\r` is not an interpreter.
 * text=auto eol=lf
+
+# Said out loud rather than left to content detection. A capture that went
+# through a line-ending filter is a capture whose SHA-256 no longer matches
+# its manifest, and the manifest is the only thing that would notice.
+*.npz binary
+*.bin binary
+*.elf binary
+*.hex binary
+*.pdf binary
+*.png binary
