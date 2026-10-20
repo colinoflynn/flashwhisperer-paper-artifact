@@ -28,7 +28,7 @@ surprise at the end of a capture.
 
 ## Why a binary has to be shipped for some parts at all
 
-Five parts on the roster need a toolchain you have to register for, so no CI
+Some parts on the roster need a toolchain you have to register for, so no CI
 can ever build them and a reader with the board but not the installer can
 otherwise do nothing. `python tools/build.py --list` names the toolchain for
 each. Shipping the binary leaves stages 2 and 3 open to them, and it is a
