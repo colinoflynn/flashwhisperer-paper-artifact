@@ -10,10 +10,10 @@
   "table_opened": "2026-10-12",
   "unit": "one (part, config, field) triple, field in sbox/ttable1/ttable",
   "verdicts": {
-   "block": 142,
+   "block": 143,
    "drop": 17,
    "flat": 54,
-   "recapture": 81
+   "recapture": 80
   },
   "cells": 294,
   "scoring": "Result cells are scored on key recovery, never on sigma. A sigma appears only where no recovery was run at that cell, and it is labelled. THE TABLE QUOTES THE CHEAPEST KNOWN BREAK. That is a choice between two legitimate questions -- what the originally documented attack needed, against what the best known attack needs -- and this table answers the second, because a trace count is a statement about what an attacker must spend and quoting 25 000 where 12 500 suffices understates it. The scorer of record is `tools/table_recover.py`: a margin-weighted union over all six pair sets, both last-round adjacencies tried and the winner kept. A cell whose figure was re-baselined names what it superseded. A score of n/16 implies a completion search of 2^(8*(16-n)) over the bytes it did not recover, so the one-pager does not write the term out; the full table does.",
@@ -396,14 +396,18 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED: SBOX 0x08001400 mod 8 = 0, so line_off 0. The L152RE's flash read word is 8 bytes and every layout's final round reads the 256 B byte S-box, so the entries are one byte and line_shift is 3 -- predicted rather than swept, research/targets/stm32l152.md §3. Both table addresses are pinned by the linker (sbox 0x08001400, te0 0x08000400) and reported by the firmware's M command, so the address this trace count belongs to is on record.",
     "why": "cy_s_07 in l152re_32mhz.npz: FLASH_ACR 0x07, 20 000 traces at 32 MHz -- the clock this row names, and §3.1a's arm rather than the 16 MHz screen. 17 distinct values, sd 2.1955, mean 5 588.04. Re-scored ladder at the derived geometry: 0/16 at 625 and 1 250, 4/16 at 2 500, 15/16 at 5 000, 16/16 from 10 000. The table's 20 000 is hardware/l1_attack.py's single-shift scorer and is one rung conservative rather than wrong, so `expect` is 10 000 and the cell's figure is an upper bound. ct_adjacent false is the measured one: the byte S-box reaches the ciphertext through PINV and the other adjacency returns 0/16 at every rung. WHY THIS PART HAD NO BLOCK UNTIL NOW: every capture in results/stm32l152/ predates flashattack.archive and carries NO ciphertexts and NO plaintexts -- one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed and an eval-able `rows` string. archive.load resolves its timing column only through cyc/cyc_cycles/cycles/timing (none of which is cy_s_07) and then REQUIRES a ct array, so it raises on all ten files -- which is also why `repro_triage.py candidates` reports n=? for every one of them. The 20 trace-bearing captures that command DOES find are all from results/sstimer_l152/ and results/sstimer_lib/: a different instrument (a second board timing the request/response round trip) on library builds, all at FLASH_ACR 0x07 only, so they cannot cover this row's 0 WS cells or this project's own three layouts. Scored here by regenerating the inputs: flashattack.transport.gen_pts(0xC0FFEE, n) is byte-for-byte identical to hardware/l1_attack.py's prng_plaintexts (the device xorshift32 mirror) and the ciphertexts come from flashattack.aesref against fw_l1_aes's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c -- confirmed independently by results/sstimer_l152/b2000000_5k.npz, which stores pt AND ct and whose pairs that key reproduces exactly. repro_triage.py validate CANNOT replay these blocks until archive.load grows a seed + known-key path; everything else in them is checked.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed. No key, no plaintexts and no ciphertexts: every capture in this campaign predates the archive loader."
    }
   },
   {
@@ -463,14 +467,18 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED: SBOX 0x08001400 mod 8 = 0, so line_off 0. The L152RE's flash read word is 8 bytes and every layout's final round reads the 256 B byte S-box, so the entries are one byte and line_shift is 3 -- predicted rather than swept, research/targets/stm32l152.md §3. Both table addresses are pinned by the linker (sbox 0x08001400, te0 0x08000400) and reported by the firmware's M command, so the address this trace count belongs to is on record.",
     "why": "cy_c_07 in l152re_32mhz.npz: FLASH_ACR 0x07, 20 000 traces at 32 MHz, 10 distinct values, sd 1.2590, mean 2 173.40. Re-scored ladder at the derived geometry: 0/16 at 625, 5/16 at 1 250, 16/16 from 2 500 -- the table's figure exactly. ct_adjacent true is the measured one (the T-table final round folds ShiftRows into the read); false returns 0/16 at every rung, which is the clean null the contract warns a wrong adjacency produces. WHY THIS PART HAD NO BLOCK UNTIL NOW: every capture in results/stm32l152/ predates flashattack.archive and carries NO ciphertexts and NO plaintexts -- one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed and an eval-able `rows` string. archive.load resolves its timing column only through cyc/cyc_cycles/cycles/timing (none of which is cy_s_07) and then REQUIRES a ct array, so it raises on all ten files -- which is also why `repro_triage.py candidates` reports n=? for every one of them. The 20 trace-bearing captures that command DOES find are all from results/sstimer_l152/ and results/sstimer_lib/: a different instrument (a second board timing the request/response round trip) on library builds, all at FLASH_ACR 0x07 only, so they cannot cover this row's 0 WS cells or this project's own three layouts. Scored here by regenerating the inputs: flashattack.transport.gen_pts(0xC0FFEE, n) is byte-for-byte identical to hardware/l1_attack.py's prng_plaintexts (the device xorshift32 mirror) and the ciphertexts come from flashattack.aesref against fw_l1_aes's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c -- confirmed independently by results/sstimer_l152/b2000000_5k.npz, which stores pt AND ct and whose pairs that key reproduces exactly. repro_triage.py validate CANNOT replay these blocks until archive.load grows a seed + known-key path; everything else in them is checked.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed. No key, no plaintexts and no ciphertexts: every capture in this campaign predates the archive loader."
    }
   },
   {
@@ -530,14 +538,18 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED: SBOX 0x08001400 mod 8 = 0, so line_off 0. The L152RE's flash read word is 8 bytes and every layout's final round reads the 256 B byte S-box, so the entries are one byte and line_shift is 3 -- predicted rather than swept, research/targets/stm32l152.md §3. Both table addresses are pinned by the linker (sbox 0x08001400, te0 0x08000400) and reported by the firmware's M command, so the address this trace count belongs to is on record.",
     "why": "cy_t_07 in l152re_32mhz.npz: FLASH_ACR 0x07, 20 000 traces at 32 MHz, 6 distinct values, sd 0.6778, mean 2 293.52 -- the SMALLEST spread of the three layouts and the cheapest break, another instance of the ledger's sigma-does-not-rank row. Re-scored ladder at the derived geometry: 8/16 at 625 and 16/16 from 1 250, so `expect` is 1 250 against the table's 2 500 -- one rung conservative, and the dossier's own §3.1 ladder (5/16 at 625, 15/16 at 1 250) brackets it the same way. ct_adjacent true measured; false returns 0/16 at every rung. WHY THIS PART HAD NO BLOCK UNTIL NOW: every capture in results/stm32l152/ predates flashattack.archive and carries NO ciphertexts and NO plaintexts -- one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed and an eval-able `rows` string. archive.load resolves its timing column only through cyc/cyc_cycles/cycles/timing (none of which is cy_s_07) and then REQUIRES a ct array, so it raises on all ten files -- which is also why `repro_triage.py candidates` reports n=? for every one of them. The 20 trace-bearing captures that command DOES find are all from results/sstimer_l152/ and results/sstimer_lib/: a different instrument (a second board timing the request/response round trip) on library builds, all at FLASH_ACR 0x07 only, so they cannot cover this row's 0 WS cells or this project's own three layouts. Scored here by regenerating the inputs: flashattack.transport.gen_pts(0xC0FFEE, n) is byte-for-byte identical to hardware/l1_attack.py's prng_plaintexts (the device xorshift32 mirror) and the ciphertexts come from flashattack.aesref against fw_l1_aes's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c -- confirmed independently by results/sstimer_l152/b2000000_5k.npz, which stores pt AND ct and whose pairs that key reproduces exactly. repro_triage.py validate CANNOT replay these blocks until archive.load grows a seed + known-key path; everything else in them is checked.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed. No key, no plaintexts and no ciphertexts: every capture in this campaign predates the archive loader."
    }
   },
   {
@@ -583,14 +595,19 @@
     "expect_spelling": "null",
     "n": 20000,
     "distinct": 1,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": null,
     "why": "results/g4_ctguard/g4ct_codepad.npz is the CODEPAD sweep behind research/targets/stm32g474_latency0.md §4f: rigs/fw_g4_ctguard's own aes_sbox_encrypt with the tables in flash (R 0), four code pads x three FLASH_ACR words, 20 000 traces per cell, one array per cell named cy_p<pad>_<acr>. All four 0x000 cells (cy_p0_000, cy_p4_000, cy_p8_000, cy_p12_000) are ONE distinct cycle count, 5 139, sd 0.0000 over 20 000 random plaintexts -- 'flat -- 1 value in 20 000, at all four code offsets' exactly, 80 000 traces in total, and cy_p0_000 is the one named here. The positive control is in the same file and the same session: the 0x001 cells (LATENCY 1, DCEN 0) give 22 to 26 distinct values and the FULL KEY with a 0/16 wrong-key control -- the file's own record says 16/16 at 20 000 traces, and re-scored at the derived geometry cy_p0_001 is 10/16 at 2 500 and 16/16 from 5 000 -- so the rig, the placement and the scorer were all working and the flat reading is the cipher's. A second capture agrees at the whole-ACR level: g4ct_map.npz's cy_flash_000 row is also 1 distinct value at 5 139 with sd 0.0000, against an SRAM twin cy_ram_000 at 1 distinct value on the same build.  ONE CAVEAT THE DOSSIER MAKES ITSELF, worth carrying into the table: 'at all four code offsets' is not what CODEPAD 0/4/8/12 tests. gcc aligns each function to 4 bytes, so those four pads put aes_sbox_encrypt at offsets 4, 0, 4, 0 modulo the 8-byte flash read word -- two alignments twice each, which is the trap stm32l152.md §4.6 documents. Offsets 2 and 6 need a source-level 2-byte step and research/targets/stm32g474_arb_probe.md §4.2 supplies them: one distinct value at all four offsets, 0/16 each, with a 16/16 LATENCY 1 control each. So the claim holds, on two files rather than this one.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the CODEPAD sweep, same campaign and same shape as g4ct_map.npz. Its cells are flat, so only the distinct count is read, but the arguments are here so a block on one of them does not need a second lookup."
    }
   },
   {
@@ -780,14 +797,19 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED, not swept: line_off 0 and line_shift 3. The G474's flash read word is 8 bytes and every build's final round reads the 256 B byte S-box, so entries are one byte -- the same derivation the covered T-table blocks on this part use from SBOX 0x08001f00 mod 8 = 0 in rigs/fw_g4. For rigs/fw_g4_ctguard the base is 8-aligned under both link scripts: link_pad.ld puts SBOX at 0x08000770 (stated in stm32g474_latency0.md §4f) and link.ld puts aes.o's .rodata at 0x08002df0 per rigs/fw_g4_ctguard/fw.map, so the offset is 0 either way and does not depend on which image this capture ran. For rigs/fw_g4_align at SBOX_OFF = 0 it is 0 by construction: tables.h pads with a 32-byte-aligned aestab_pad[32 + SBOX_OFF] so SBOX lands at exactly SBOX_OFF mod 32, read out of the source rather than off a .map. The archived scores agree -- ctguard2_g4.py's recover() sweeps line_shift (3, 4, 5) at line_off 0 and records shift 3 in every leaking cell.",
     "why": "THE FIGURE CURRENTLY IN THIS CELL IS A MEASUREMENT OF A DIFFERENT ROW, and this block replaces it with one at this row's own register word. '12-15/16 @ 20 000' is the ACR 0x00040304 column of research/targets/stm32g474_art_geometry.md's alignment table (15/16 at S-box offsets 0, 8 and 16, 12/16 at 4 and 28, sigma 8.8) -- LATENCY 4, which is config index 5's word, not LATENCY 1. results/g4_ctguard/g4ct_map.npz sweeps the whole ACR space on the byte S-box, 20 000 traces per cell, and its cy_flash_301 IS this row: FLASH_ACR 0x301, 18 distinct values, sd 2.2000, mean 5 295.04, against an SRAM twin cy_ram_301 at 2 distinct values and sd 0.1202 scoring 0/16, and a 0/16 wrong-key control. Re-scored at the derived geometry it is 4/16 at 2 500, 15/16 at 5 000 and 16/16 from 10 000 -- the FULL KEY, where the cell claims 12-15 bytes; the campaign's own record in the file agrees (bytes 16, shift 3, wrongkey 0). line_off 0 is the argmax at the rung where it means something: at 5 000 it gives 15/16 and the next best offset gives 11/16, while by 10 000 offsets 6 and 7 reach 16/16 as well -- a strong channel blurring the row boundary, so read the offset off the 5 000 rung and not off the threshold. ct_adjacent true returns 0/16 at every rung and every offset, the clean null a wrong adjacency gives. g4ct_map.npz is a 70-cell file but it stores FULL per-trace arrays rather than aggregates, so the matrix-capture rule does not confine it to a flat verdict; `observable` names the cell. SCHEMA NOTE, COMMON TO EVERY BYTE-S-BOX CAPTURE ON THIS PART: none of them carries ciphertexts, and g4ct_map.npz / g4ct_codepad.npz / g4_align_sweep.npz carry no key and NO SEED either -- the seed is a module constant (SEED = 0xC0FFEE in results/g4_ctguard/ctguard2_g4.py, a --seed default in results/stm32g474/g4_align_recover.py), which is the gap research/targets/stm32l152.md §4.1 notes about this part's deep run. So flashattack.archive.load cannot read them: it resolves a timing column only through cyc/cyc_cycles/cycles/timing and then requires a ct array. They are re-scored here by regenerating the plaintexts with flashattack.transport.gen_pts(0xC0FFEE, n) -- identical to both scripts' own prng_plaintexts, the device xorshift32 mirror -- and the ciphertexts from flashattack.aesref against fw_g4_ctguard / fw_g4_align's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c. A recovery succeeding at all is what confirms the seed. repro_triage.py validate cannot replay these blocks until archive.load grows a seed + known-key path; the covered T-table blocks on this part are unaffected, because g4_cell_capture.py writes cyc + device-reported ct.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the FLASH_ACR x code-offset map: one cycle array per cell, named cy_flash_<acr>. Neither the key nor the seed is a field; both were constants in the capture script."
    }
   },
   {
@@ -977,14 +999,19 @@
     "expect_spelling": "null",
     "n": null,
     "distinct": null,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED, not swept: line_off 0 and line_shift 3. The G474's flash read word is 8 bytes and every build's final round reads the 256 B byte S-box, so entries are one byte -- the same derivation the covered T-table blocks on this part use from SBOX 0x08001f00 mod 8 = 0 in rigs/fw_g4. For rigs/fw_g4_ctguard the base is 8-aligned under both link scripts: link_pad.ld puts SBOX at 0x08000770 (stated in stm32g474_latency0.md §4f) and link.ld puts aes.o's .rodata at 0x08002df0 per rigs/fw_g4_ctguard/fw.map, so the offset is 0 either way and does not depend on which image this capture ran. For rigs/fw_g4_align at SBOX_OFF = 0 it is 0 by construction: tables.h pads with a 32-byte-aligned aestab_pad[32 + SBOX_OFF] so SBOX lands at exactly SBOX_OFF mod 32, read out of the source rather than off a .map. The archived scores agree -- ctguard2_g4.py's recover() sweeps line_shift (3, 4, 5) at line_off 0 and records shift 3 in every leaking cell.",
     "why": "A BOUNDED NULL, WITH THE SIGMA IN THE CLAIM CORRECTED. cy_flash_701 in g4ct_map.npz is FLASH_ACR 0x701 -- DCEN 1, LATENCY 1, this row's own word, the same word its covered ttable block uses: 20 000 traces, 85 distinct values, sd 11.6539, mean 5 207.40. Re-scored at the derived geometry it never exceeds 1/16 -- at any of 2 500, 5 000, 10 000 and 20 000 traces, at any of the eight line offsets, in either adjacency -- and one byte in sixteen is chance, so `expect` is null rather than absent. The null is bounded rather than unexamined, because the SAME FILE's cy_flash_301 differs only in the DCEN bit and gives the full key at 10 000 traces through the identical scorer. The campaign's own record agrees (bytes 0, shift 3, wrongkey 0, SRAM twin cy_ram_701 also 0/16). THE 'sigma 20-46' IN THE CLAIM IS NOT THIS CELL: that range is research/targets/stm32g474_art_geometry.md's ACR 0x00040704 column at LATENCY 4 (sigma 20.08 at S-box offset 0 rising to 46.28 at offset 28), which is config index 4's word. At LATENCY 1 the spread is 11.65. The 0/16 is right in both rows; only the sigma travelled. SCHEMA NOTE, COMMON TO EVERY BYTE-S-BOX CAPTURE ON THIS PART: none of them carries ciphertexts, and g4ct_map.npz / g4ct_codepad.npz / g4_align_sweep.npz carry no key and NO SEED either -- the seed is a module constant (SEED = 0xC0FFEE in results/g4_ctguard/ctguard2_g4.py, a --seed default in results/stm32g474/g4_align_recover.py), which is the gap research/targets/stm32l152.md §4.1 notes about this part's deep run. So flashattack.archive.load cannot read them: it resolves a timing column only through cyc/cyc_cycles/cycles/timing and then requires a ct array. They are re-scored here by regenerating the plaintexts with flashattack.transport.gen_pts(0xC0FFEE, n) -- identical to both scripts' own prng_plaintexts, the device xorshift32 mirror -- and the ciphertexts from flashattack.aesref against fw_g4_ctguard / fw_g4_align's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c. A recovery succeeding at all is what confirms the seed. repro_triage.py validate cannot replay these blocks until archive.load grows a seed + known-key path; the covered T-table blocks on this part are unaffected, because g4_cell_capture.py writes cyc + device-reported ct.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the FLASH_ACR x code-offset map: one cycle array per cell, named cy_flash_<acr>. Neither the key nor the seed is a field; both were constants in the capture script."
    }
   },
   {
@@ -1163,14 +1190,19 @@
     "expect_spelling": "null",
     "n": 20000,
     "distinct": 2,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": null,
     "why": "results/g4_ctguard/g4ct_codepad.npz is the CODEPAD sweep behind research/targets/stm32g474_latency0.md §4f: rigs/fw_g4_ctguard's own aes_sbox_encrypt with the tables in flash (R 0), four code pads x three FLASH_ACR words, 20 000 traces per cell, one array per cell named cy_p<pad>_<acr>. The 0x300 cells (prefetch and the I-cache ON, DCEN 0, LATENCY 0) are 1 distinct value at 5 139 and sd 0.0000 at pads 0, 4 and 12. THE FOURTH IS NOT BIT-EXACT and is the one named here so the record is the worst of the four: cy_p8_300 holds TWO distinct values, sd 0.0071, mean 5 139.00005 -- one trace in 20 000 one cycle high. Read it as an instrument artefact rather than a channel, because the SRAM TWIN SHOWS THE SAME THING: g4ct_map.npz's cy_ram_300 is also 2 distinct values at sd 0.0071, and a table in SRAM has no flash row to collide in. The L152RE's dossier §3 documents the mechanism on the same bench -- the VCP drops a line about once in 5 000 and a lost digit gives a wrong but parseable number. It was not chased here, so it is recorded rather than explained. The positive control is in the same file and the same session: the 0x001 cells (LATENCY 1, DCEN 0) give 22 to 26 distinct values and the FULL KEY with a 0/16 wrong-key control -- the file's own record says 16/16 at 20 000 traces, and re-scored at the derived geometry cy_p0_001 is 10/16 at 2 500 and 16/16 from 5 000 -- so the rig, the placement and the scorer were all working and the flat reading is the cipher's. A second capture agrees at the whole-ACR level: g4ct_map.npz's cy_flash_300 row is 2 distinct values at sd 0.0071 with its SRAM twin cy_ram_300 identical on the same build.  ONE CAVEAT THE DOSSIER MAKES ITSELF, worth carrying into the table: 'at all four code offsets' is not what CODEPAD 0/4/8/12 tests. gcc aligns each function to 4 bytes, so those four pads put aes_sbox_encrypt at offsets 4, 0, 4, 0 modulo the 8-byte flash read word -- two alignments twice each, which is the trap stm32l152.md §4.6 documents. Offsets 2 and 6 need a source-level 2-byte step and research/targets/stm32g474_arb_probe.md §4.2 supplies them: one distinct value at all four offsets, 0/16 each, with a 16/16 LATENCY 1 control each. So the claim holds, on two files rather than this one.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the CODEPAD sweep, same campaign and same shape as g4ct_map.npz. Its cells are flat, so only the distinct count is read, but the arguments are here so a block on one of them does not need a second lookup."
    }
   },
   {
@@ -1346,14 +1378,19 @@
     "expect_spelling": "null",
     "n": null,
     "distinct": null,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED, not swept: line_off 0 and line_shift 3. The G474's flash read word is 8 bytes and every build's final round reads the 256 B byte S-box, so entries are one byte -- the same derivation the covered T-table blocks on this part use from SBOX 0x08001f00 mod 8 = 0 in rigs/fw_g4. For rigs/fw_g4_ctguard the base is 8-aligned under both link scripts: link_pad.ld puts SBOX at 0x08000770 (stated in stm32g474_latency0.md §4f) and link.ld puts aes.o's .rodata at 0x08002df0 per rigs/fw_g4_ctguard/fw.map, so the offset is 0 either way and does not depend on which image this capture ran. For rigs/fw_g4_align at SBOX_OFF = 0 it is 0 by construction: tables.h pads with a 32-byte-aligned aestab_pad[32 + SBOX_OFF] so SBOX lands at exactly SBOX_OFF mod 32, read out of the source rather than off a .map. The archived scores agree -- ctguard2_g4.py's recover() sweeps line_shift (3, 4, 5) at line_off 0 and records shift 3 in every leaking cell.",
     "why": "THE CELL SAYS 'flat' AND THE CAPTURE SAYS 121 DISTINCT VALUES, so the word is wrong even though the result is right. results/stm32g474/g4_align_sweep.npz o0_00040704 is this row's exact word on the byte S-box: 20 000 traces, 121 distinct values, sd 20.0830, mean 5 216.65. Re-scored at the derived geometry it is 0/16 at 5 000, 10 000 and 20 000 across all eight line offsets in BOTH adjacencies (one 1/16 at off 5, which is chance), hence `expect` null. So the cell is a bounded null with a LARGE spread, not a flat cell -- the F429's 'no rec @ 50 000 ... NOT flat: 13 distinct values' phrasing is the form this one needs, and it matters twice: repro_triage.py buckets this cell as flat purely because its text starts with 'flat', and the part's own best_why leans on 'the 256 B S-box is flat because it FITS the 256 B cache' when what the data shows is a cipher whose timing varies over 121 values while carrying no recoverable key. The null is bounded rather than unexamined because o0_00040304 in the same file, differing only in DCEN, gives the full key at 10 000 through the identical scorer. The '0/16 at 150 000 per half' in the cell is NOT this capture: that figure came from a live fullrecover.py run that saved nothing (the only copies of fullrecover.py / ttw_fullrecover.py are under results/stm32l552/, they stream from the serial port and never savez), so 20 000 traces is what the bench can actually show. SCHEMA NOTE, COMMON TO EVERY BYTE-S-BOX CAPTURE ON THIS PART: none of them carries ciphertexts, and g4ct_map.npz / g4ct_codepad.npz / g4_align_sweep.npz carry no key and NO SEED either -- the seed is a module constant (SEED = 0xC0FFEE in results/g4_ctguard/ctguard2_g4.py, a --seed default in results/stm32g474/g4_align_recover.py), which is the gap research/targets/stm32l152.md §4.1 notes about this part's deep run. So flashattack.archive.load cannot read them: it resolves a timing column only through cyc/cyc_cycles/cycles/timing and then requires a ct array. They are re-scored here by regenerating the plaintexts with flashattack.transport.gen_pts(0xC0FFEE, n) -- identical to both scripts' own prng_plaintexts, the device xorshift32 mirror -- and the ciphertexts from flashattack.aesref against fw_g4_ctguard / fw_g4_align's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c. A recovery succeeding at all is what confirms the seed. repro_triage.py validate cannot replay these blocks until archive.load grows a seed + known-key path; the covered T-table blocks on this part are unaffected, because g4_cell_capture.py writes cyc + device-reported ct.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the table-alignment sweep: one array per (code offset, FLASH_ACR) named o<off>_<acr> and nothing else at all, not even a rows string."
    }
   },
   {
@@ -1541,14 +1578,19 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": "DERIVED, not swept: line_off 0 and line_shift 3. The G474's flash read word is 8 bytes and every build's final round reads the 256 B byte S-box, so entries are one byte -- the same derivation the covered T-table blocks on this part use from SBOX 0x08001f00 mod 8 = 0 in rigs/fw_g4. For rigs/fw_g4_ctguard the base is 8-aligned under both link scripts: link_pad.ld puts SBOX at 0x08000770 (stated in stm32g474_latency0.md §4f) and link.ld puts aes.o's .rodata at 0x08002df0 per rigs/fw_g4_ctguard/fw.map, so the offset is 0 either way and does not depend on which image this capture ran. For rigs/fw_g4_align at SBOX_OFF = 0 it is 0 by construction: tables.h pads with a 32-byte-aligned aestab_pad[32 + SBOX_OFF] so SBOX lands at exactly SBOX_OFF mod 32, read out of the source rather than off a .map. The archived scores agree -- ctguard2_g4.py's recover() sweeps line_shift (3, 4, 5) at line_off 0 and records shift 3 in every leaking cell.",
     "why": "THE FULL KEY AT 10 000 TRACES, WHICH IS FIFTEEN TIMES CHEAPER THAN THE FIGURE IN THE CELL. results/stm32g474/g4_align_sweep.npz o0_00040304 is this row's exact word on the byte S-box: 20 000 traces, 19 distinct values, sd 8.8410, mean 5 758.17. Re-scored at the derived geometry: 15/16 at 5 000, 16/16 at 10 000 and 16/16 at 20 000, against the cell's '16/16 full key at 150 000 per half'. The two are different attacks, not different silicon -- 'per half' is fullrecover.py's two-read-order method, which takes eight k10 bytes from each of two captures, where archive's margin-weighted vote over all six pair sets takes all sixteen from one. That live run saved nothing (fullrecover.py and ttw_fullrecover.py exist only under results/stm32l552/, stream from the port and never savez), so this capture is the only artifact the claim has, and it is 15x better than the claim. research/targets/stm32g474_art_geometry.md scored the same array at 15/16 at 20 000 traces; the one-byte difference is the vote, not the data. line_off 0 is the argmax at the rung that matters (16/16 at 10 000 where offsets 1 to 5 give 15, 11, 8, 3 and 9) -- by 20 000 seven of the eight offsets reach 16/16, which is a strong channel blurring the row boundary rather than a geometry result, so read the offset off the 10 000 rung. ct_adjacent true gives 0/16 at every offset and rung. ALSO: a recovery succeeding here is the only evidence that this capture used seed 0xC0FFEE, because the file does not record it. SCHEMA NOTE, COMMON TO EVERY BYTE-S-BOX CAPTURE ON THIS PART: none of them carries ciphertexts, and g4ct_map.npz / g4ct_codepad.npz / g4_align_sweep.npz carry no key and NO SEED either -- the seed is a module constant (SEED = 0xC0FFEE in results/g4_ctguard/ctguard2_g4.py, a --seed default in results/stm32g474/g4_align_recover.py), which is the gap research/targets/stm32l152.md §4.1 notes about this part's deep run. So flashattack.archive.load cannot read them: it resolves a timing column only through cyc/cyc_cycles/cycles/timing and then requires a ct array. They are re-scored here by regenerating the plaintexts with flashattack.transport.gen_pts(0xC0FFEE, n) -- identical to both scripts' own prng_plaintexts, the device xorshift32 mirror -- and the ciphertexts from flashattack.aesref against fw_g4_ctguard / fw_g4_align's compiled-in key 2b7e151628aed2a6abf7158809cf4f3c. A recovery succeeding at all is what confirms the seed. repro_triage.py validate cannot replay these blocks until archive.load grows a seed + known-key path; the covered T-table blocks on this part are unaffected, because g4_cell_capture.py writes cyc + device-reported ct.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the table-alignment sweep: one array per (code offset, FLASH_ACR) named o<off>_<acr> and nothing else at all, not even a rows string."
    }
   },
   {
@@ -3058,19 +3100,13 @@
    "field": "sbox",
    "implementation": "256 B byte S-box",
    "claim": "7/16 @ 50 000 -- does NOT verify",
-   "verdict": "recapture",
+   "verdict": "block",
    "in_paper_one_page": false,
    "clock_mhz": 16,
    "ws": "0",
    "addr": null,
    "src": "research/targets/stm32f429.md",
-   "dossier": "research/targets/stm32f429.md",
-   "recapture": {
-    "board": "f429 (NUCLEO-F429ZI, probe 0671FF353445503043081931)",
-    "cipher": "aes_sbox_encrypt -- this project's own 256 B byte S-box out of rigs/fw_f4, single-shot, device-reported ciphertexts",
-    "n": 150000,
-    "reason": "THERE IS NO BYTE-S-BOX CAPTURE OF THIS PROJECT'S OWN aes.c ON THIS PART AT ALL. The f4cell_* campaign that produced this row's two covered T-table blocks captured ttable1 and ttable only -- results/stm32f4/ holds twelve f4cell_* files and not one is the S-box build -- so every `sbox` cell in the F429 row is filled from a library capture instead. The figure here, '7/16 @ 50 000 -- does NOT verify', is research/targets/stm32f429.md's mbedTLS FEWER_TABLES wait-state sweep at 0x700: its last-round row reads '7/16, not verified' and its std 1.836 / 14 distinct match results/f429_matrix/f4mx_mbedtls_compact_700_ws0.npz exactly. mbedTLS FEWER_TABLES is a 1 KB ONE-TABLE build, not a byte S-box, so the figure is in the wrong column -- and the dossier's §2 prose attributes the same 7/16 to 'the byte S-box', so the two readings cannot both be right. The library capture also carries no ciphertexts (timing, seed and key only) and no table address, and RESCORE_LIBS.md measured mbedtls_compact's offset as 8 at a different ACR on a different image revision. What the bench owes: the S-box arm of the f4cell single-shot capture at 0x700, which is one command on the existing rig and would put this row's three cells on one image at one geometry."
-   }
+   "dossier": "research/targets/stm32f429.md"
   },
   {
    "id": "stm32f429/latency-0-caches-on-ttable1",
@@ -3847,14 +3883,19 @@
     "expect_spelling": "null",
     "n": 150000,
     "distinct": 1,
-    "key_hex": null,
-    "pt_seed": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+    "pt_seed": 12648430,
     "loader": null,
     "replay": null,
     "line_off_derivation": null,
     "why": "The capture holds the claim directly. stm32l552.md section 7a is the 15-cell cost surface -- ICACHE mode against LATENCY, TABLEPAD 0, tables in flash, batched Q 10 with a warm-up before each timed call -- and its ICACHE-off / LATENCY-0 row reads mean 5049.0, std 0.00, ONE distinct value, 0/8 recovered at every rung from 5 000 to 150 000. Re-read 2026-10-20 off the file: the cyc_off_0 array is 150 000 long and np.unique gives exactly 1, which is the table's 'flat -- 1 value in 150 000' with its n attached, as the contract's distinct-count gotcha asks. Section 7b is why it is a real zero and not a quiet instrument: the four cache-off captures share a PRNG seed, (cycles - min) / LATENCY is bit-identical across LATENCY 2, 4, 8 and 15 for 100.0000 % of 150 000 traces, so cycles = base(LATENCY) + LATENCY * M(input) with M a pure function of the input. At LATENCY 0 the miss is free, M is multiplied by nothing, and the latch -- which section 2c shows no register on this part can switch off -- is worth zero. The capture's own 1-way and 2-way columns are the same single value at every LATENCY, because at TABLEPAD 0 the table never shares a set with the cipher's code. No line_shift applies to this cell and none was used: with one distinct cycle count there is no collision to group, which is the contract's point that a flat cell has nothing to recover and a screen on one is not evidence of anything. TWO THINGS TO KNOW ABOUT THIS ARTIFACT. The observable is cyc_off_0, not cyc, because the file is a 15-cell surface with one cycle vector per cell. And repro_triage.py validate CANNOT load it: l5_surface.npz has no ciphertext column, so archive.load raises after resolving the observable, and this block will show as ERROR in a validate run. Nothing needs loading to support a constancy claim -- repro_merge.py's own docstring says it does not check that a flat verdict's capture is the one the claim was made from, and the artifact here is the capture plus its distinct count -- but the ERROR row is expected rather than a regression. The scope limit worth keeping with the row: section 7c makes LATENCY 0 an absolute mitigation only for an attacker with an exact cycle counter, since signal and noise scale together on this bench; for a remote attacker against a fixed noise floor the 1/LATENCY-squared law reasserts itself and that case was not measured. And LATENCY 0 is only in spec at low clock -- this board is HSI16 at 16 MHz, an L552 at 110 MHz needs 5 wait states and cannot buy the immunity back.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex",
+     "pt_seed"
+    ],
+    "loader_args_why": "the ICACHE x line-offset surface, one array per cell named cyc_<waysel>_<off>, plus two summary strings."
    }
   },
   {
@@ -12979,7 +13020,7 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": {
      "format": "json, written by results/mpc5606b/aes_collect.py",
@@ -12994,7 +13035,11 @@
     "line_off_derivation": "S-box at 0x00003ff8, read off the capture's own header line `# sbox=0x00003ff8 pfcr0=0x18c780ed impl=0 ram=0 n=20000 seed=0x00001234`; low nibble 8 in the measured 16-byte row. Dossier section 4 and section 5. NOT swept here: on this toolchain the linker snaps the table to 8 and only offsets 8 and 0 are reachable at all (section 5a-bis), so the 16-point curve the other parts have does not exist.",
     "why": "Re-run 2026-10-20 against the file on disk: 2/16 round-10 bytes at 2 000, 8/16 at 3 000, 14/16 at 3 500, 16/16 and the verified master key 2b7e151628aed2a6abf7158809cf4f3c at 3 750. Matches the dossier's section 5 ladder rung for rung. Covering is the sequential one (r0r1 then r2r3) with STATE adjacency, which is this build's read order; the cell's second number, 7 500 for the same S-box at line offset 0, is a DIFFERENT IMAGE and not this capture scored at the wrong offset -- results/mpc5606b/aes_place_off0_20260923T222340Z.json (SBOXPAD 6, S-box at 0x00003050) reproduces 7 500 at line_off 0, and this same capture scored at the wrong offset needs 20 000 instead (section 5a). Three numbers, one cell: 3 750 at offset 8, 7 500 for the relinked image at offset 0, 20 000 for this image attacked at the wrong offset. An enumeration ladder is saved beside the capture in results/mpc5606b/enumerability_sbox.json: residual 2^0.0 and 1 candidate at 3 750, and 3 000 traces with a verified 27 921-key search.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "a JSON capture with no key field. The header's self-test ciphertext for the all-zero block is what confirms it."
    }
   },
   {
@@ -13052,7 +13097,7 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": {
      "same_as": "the sbox cell of this configuration",
@@ -13062,7 +13107,11 @@
     "line_off_derivation": "Same image and same header line as the S-box cell: `# sbox=0x00003ff8`, low nibble 8. The rig builds all three implementations into one image and the header's address is the byte S-box's; the T-table cells are scored at the same offset because the tables sit in the same .rodata run.",
     "why": "Re-run 2026-10-20: 14/16 round-10 bytes at 1 250, 16/16 and the verified master key at 2 500. CIPHERTEXT adjacency, unlike the byte S-box cell in the same configuration -- aes.c's T-table final round fuses SubBytes and ShiftRows, so its four consecutive reads land on ciphertext bytes 4c+0..4c+3 and the state-adjacent pairing returns a clean null. Sigma is 5.2184 against the S-box build's 9.0992 and the cell is cheaper, which is this part's backwards-sigma result (section 4f).",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "same campaign, the compact single-table build."
    }
   },
   {
@@ -13122,7 +13171,7 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": {
      "same_as": "the sbox cell of this configuration",
@@ -13132,7 +13181,11 @@
     "line_off_derivation": "Header line `# sbox=0x00003ff8 pfcr0=0x18c780ed impl=2 ram=0 n=20000 seed=0x00001234`, low nibble 8 in a 16-byte row. Confirmed independently by the enumerability ladder, which records line_off 8 for this capture.",
     "why": "THE CHEAPEST CELL IN THE TABLE, and it reproduces from the file on disk. Re-run 2026-10-20: 10/16 round-10 bytes at 375, 10/16 at 500, 12/16 at 625, 16/16 and the verified master key 2b7e151628aed2a6abf7158809cf4f3c at 750 -- no search. Ciphertext adjacency, sequential covering. results/mpc5606b/enumerability.json holds the enumeration ladder for the same capture: residual 2^0.0 with 1 candidate at 750, and 450 traces with a 7 550-key search verified by re-encryption, so the cell is (750, no search) or (450, 7 550 keys). The last surface to clean up is the ciphertext pair (8, 9) at every rung. Sigma here is 2.7472, the SMALLEST on the part and the cheapest cell -- quoting this number without its sigma inverts the usual reading.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "same campaign, the four-table build."
    }
   },
   {
@@ -13178,14 +13231,18 @@
     "expect_spelling": "null",
     "n": 20000,
     "distinct": 1,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": null,
     "replay": null,
     "line_off_derivation": null,
     "why": "One distinct cycle count, 6370, in 20 000 encryptions, sd 0.0000 -- the cell's wording exactly. PFCR0 readback 0x18c180ed in the capture header, which is the configuration the cell names, and the S-box is at 0x00003ff8 as in the leaking cells, so the image is otherwise unchanged. This is a gain-zero reading rather than an absence: section 4c shows (cycles at RWSC N) - min = N x ((cycles at RWSC 1) - min) with maximum absolute error 0 and correlation 1.0000000000 over all 20 000 traces, and the RWSC 1 and RWSC 2 captures beside it (sd 3.0331 and 6.0661, 24 distinct values each) are the same information scaled. So the channel closing at RWSC 0 is the same statement at gain zero, not a separate effect. Nothing on disk records whether this file is the one the cell was written from; the n and the distinct count match it exactly.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "same campaign, RWSC 0."
    }
   },
   {
@@ -13287,14 +13344,18 @@
     "expect_spelling": "null",
     "n": 20000,
     "distinct": 1,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": null,
     "replay": null,
     "line_off_derivation": null,
     "why": "One distinct cycle count, 21528, in 20 000 encryptions, sd 0.0000. PFCR0 readback 0x18c780ec in the header -- the reset value with bit 0 (BFE) cleared and nothing else changed, which is the configuration the cell names, and the S-box is at 0x00003ff8 as in the leaking cells. The mechanism makes this the expected answer rather than a surprise: with the page buffers off nothing holds a read, so there is no reuse to price, and the cost is 2.07x runtime (21 528 against 10 381). Independent control in the same direction: the tables-in-SRAM capture at the SAME flash configuration is also one distinct value over 20 000 (aes_sbox_ram_20260923T183112Z.json), so the rig's own noise floor is bit-exact and this flat reading is not a dead instrument.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "same campaign, buffers disabled."
    }
   },
   {
@@ -13403,7 +13464,7 @@
     "expect_spelling": "int",
     "n": null,
     "distinct": null,
-    "key_hex": null,
+    "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
     "pt_seed": null,
     "loader": {
      "same_as": "the sbox cell of configuration 0",
@@ -13413,7 +13474,11 @@
     "line_off_derivation": "Header line `# sbox=0x00800000`, the base of the DFlash array: low nibble 0, so line offset 0 in the same measured 16-byte row. The offset is the whole reason this cell costs 7 500 rather than 3 750 -- it is the offset-0 number, not a DFlash penalty.",
     "why": "Re-run 2026-10-20: 12/16 round-10 bytes at 5 000, 16/16 and the verified master key at 7 500, state adjacency, sequential covering. The comparison the cell is making needs its CONTROL quoted with it, and the control is on disk: results/mpc5606b/aes_place_off0_20260923T222340Z.json, the same cipher in CODE flash at 0x00003050 (also offset 0), ladders IDENTICALLY -- same 12/16 at 5 000, the same wrong key c707f74908231e50df9db1cc51fa9b8b at that rung, the same margins, 16/16 at 7 500. Every trace differs by exactly +91 cycles and by nothing else (section 4h). So DFlash is not dearer to attack than CFlash; both are offset-0 images and both cost 7 500, against 3 750 for the offset-8 image. Reading this cell as `moving the tables to DFlash doubles the trace count` is the error the pair of captures rules out: the doubling is the line offset, and one holding register is all the channel needs. results/mpc5606b/aes_sbox_dflash_20260923T223059Z.json is the failed first attempt at this cell, n=0, and must not be read as a flat result.",
     "note": null,
-    "function_note": null
+    "function_note": null,
+    "loader_args_from": [
+     "key_hex"
+    ],
+    "loader_args_why": "same campaign, tables in the DFLASH array."
    }
   },
   {

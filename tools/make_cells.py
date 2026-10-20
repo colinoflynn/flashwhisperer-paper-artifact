@@ -195,6 +195,24 @@ def fragment_verdicts(research):
     return out
 
 
+def loader_args():
+    """`cells/loader_args.json`, the local overlay of key and seed arguments.
+
+    Some captures hold a cycle count and nothing else a recovery needs,
+    because the capture script kept the key or the seed as a module constant.
+    Those arguments are data about particular files, so they live in a file
+    here rather than in a tool, and they are folded in only where the upstream
+    block does not carry its own. That file says why supplying a key is not
+    assuming the answer; the short version is that a wrong key gives a clean
+    0/16 rather than a wrong 16/16.
+    """
+    path = os.path.join(ROOT, "cells", "loader_args.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh).get("captures", {})
+
+
 def build(research):
     data = os.path.join(research, "research", "reference",
                         "cross_part_table.json")
@@ -203,6 +221,7 @@ def build(research):
     cpt = load_module(os.path.join(research, "tools", "cross_part_table.py"),
                       "_research_cross_part_table")
     frags = fragment_verdicts(research)
+    overlays = loader_args()
     excluded = paper_cmd_excludes(doc)
     onepage_cols = cpt.PRESETS["onepage"]
 
@@ -295,6 +314,16 @@ def build(research):
                     if len(here) > 1:
                         rec["repro"]["also"] = [b.get("capture")
                                                 for b in here[1:]]
+                    overlay = overlays.get(block.get("capture") or "")
+                    if overlay:
+                        for name in ("key_hex", "pt_seed"):
+                            if (rec["repro"].get(name) is None
+                                    and overlay.get(name) is not None):
+                                rec["repro"][name] = overlay[name]
+                                rec["repro"].setdefault("loader_args_from",
+                                                        []).append(name)
+                        if rec["repro"].get("loader_args_from"):
+                            rec["repro"]["loader_args_why"] = overlay.get("why")
                 if frag is not None and frag.get("recapture"):
                     rec["recapture"] = frag["recapture"]
                 if frag is not None and frag.get("note"):

@@ -43,10 +43,15 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "expect": 2500,
  "expect_n": 2500,
  "expect_spelling": "int",
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
  "loader": {
   "same_as": "the sbox cell of this configuration",
   "impl": "cap['config']['impl'] == 'ttable1', the compact single-table build (flags 16)"
- }
+ },
+ "loader_args_from": [
+  "key_hex"
+ ],
+ "loader_args_why": "same campaign, the compact single-table build."
 }
 ```
 

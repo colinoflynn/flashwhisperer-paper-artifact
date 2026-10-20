@@ -29,7 +29,14 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "observable": "cyc_off_0",
  "expect_spelling": "null",
  "n": 150000,
- "distinct": 1
+ "distinct": 1,
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+ "pt_seed": 12648430,
+ "loader_args_from": [
+  "key_hex",
+  "pt_seed"
+ ],
+ "loader_args_why": "the ICACHE x line-offset surface, one array per cell named cyc_<waysel>_<off>, plus two summary strings."
 }
 ```
 

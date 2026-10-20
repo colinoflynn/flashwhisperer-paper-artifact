@@ -29,7 +29,12 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "observable": "cyc",
  "expect_spelling": "null",
  "n": 20000,
- "distinct": 1
+ "distinct": 1,
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+ "loader_args_from": [
+  "key_hex"
+ ],
+ "loader_args_why": "same campaign, buffers disabled."
 }
 ```
 

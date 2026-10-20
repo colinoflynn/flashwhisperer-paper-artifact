@@ -45,6 +45,7 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "expect": 3750,
  "expect_n": 3750,
  "expect_spelling": "int",
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
  "loader": {
   "format": "json, written by results/mpc5606b/aes_collect.py",
   "traces": "cap['traces'] -- flat list[int] of STM_CNT ticks, which are core cycles at the measured 16.126 MHz (cap['header'] carries `# clk_hz=16126000`). No per-trace plaintext or ciphertext is stored.",
@@ -53,7 +54,11 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
   "stats": "cap['stats'] = {n, distinct, min, max, mean, sd}",
   "geometry": "read the S-box address from the HEADER line, not from cap['config']: config['pfcr0'] is the REQUESTED value and is 0 whenever the capture was taken at the reset configuration, while the header's `pfcr0=` is the live readback. Same for `sbox=`.",
   "empty_files": "results/mpc5606b/aes_place_s4_20260923T203432Z.json and aes_sbox_dflash_20260923T223059Z.json hold n=0 and no stats -- failed first attempts, superseded by aes_place_off8/off0 and aes_sbox_dflash2. A loader must not read them as a flat cell."
- }
+ },
+ "loader_args_from": [
+  "key_hex"
+ ],
+ "loader_args_why": "a JSON capture with no key field. The header's self-test ciphertext for the all-zero block is what confirms it."
 }
 ```
 

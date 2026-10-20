@@ -732,6 +732,14 @@ def main(argv=None):
             futures = {pool.submit(score_one, c): c for c in ordered}
             for future in concurrent.futures.as_completed(futures):
                 done[futures[future]["id"]] = future.result()
+                # progress on stderr, because the rows themselves wait for the
+                # whole selection so they can print in cell order, and a run
+                # that prints nothing for twenty minutes looks hung
+                sys.stderr.write("\r%d/%d scored, %.0f s elapsed   "
+                                 % (len(done), len(ordered),
+                                    time.time() - started))
+                sys.stderr.flush()
+            sys.stderr.write("\n")
         # printed in cell order rather than completion order, so two runs of
         # the same selection produce the same output
         rows = [done[c["id"]] for c in ordered]

@@ -29,7 +29,14 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "observable": "cy_p0_000",
  "expect_spelling": "null",
  "n": 20000,
- "distinct": 1
+ "distinct": 1,
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+ "pt_seed": 12648430,
+ "loader_args_from": [
+  "key_hex",
+  "pt_seed"
+ ],
+ "loader_args_why": "the CODEPAD sweep, same campaign and same shape as g4ct_map.npz. Its cells are flat, so only the distinct count is read, but the arguments are here so a block on one of them does not need a second lookup."
 }
 ```
 

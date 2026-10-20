@@ -49,7 +49,12 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "ct_adjacent": true,
  "expect": 1250,
  "expect_n": 1250,
- "expect_spelling": "int"
+ "expect_spelling": "int",
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+ "loader_args_from": [
+  "key_hex"
+ ],
+ "loader_args_why": "one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed. No key, no plaintexts and no ciphertexts: every capture in this campaign predates the archive loader."
 }
 ```
 

@@ -1,0 +1,80 @@
+{
+ "note": [
+  "Loader arguments for the captures that cannot be opened from their own",
+  "contents. A capture in this file stores a cycle count and nothing else that",
+  "a recovery needs: no key, or no plaintexts and no seed, because the capture",
+  "script held one or both as a module constant. archive.load then raises, and",
+  "the cell reads as unreproducible for a reason that has nothing to do with",
+  "the part.",
+  "",
+  "This is a LOCAL OVERLAY and not derived. tools/make_cells.py folds it into",
+  "cells.json where the upstream block carries no key or seed of its own, and",
+  "marks the cell so a reader can see where the value came from. It is a file",
+  "here rather than a constant in reproduce.py because it is data about",
+  "particular captures, and because an earlier revision of the research tree",
+  "carried these as `key_hex` and `pt_seed` on the blocks themselves and a",
+  "later merge dropped them: a value that lives in only one tree disappears",
+  "when that tree is regenerated.",
+  "",
+  "WHY SUPPLYING A KEY IS NOT ASSUMING THE ANSWER. The recovery never reads",
+  "the key: it recovers the round-10 subkey from ciphertexts and timings, and",
+  "the key is used afterwards, to score the result and to check that inverting",
+  "the schedule gives the key back. A wrong key therefore produces a clean",
+  "0/16 and not a wrong 16/16, so a row that reports `16/16 verified` has",
+  "proved the key it was given. On the JSON captures there is a second and",
+  "stronger check: each file's header carries the device's own self-test",
+  "ciphertext for the all-zero block, and reproduce.py refuses the capture if",
+  "the key does not reproduce it."
+ ],
+ "seed_note": "12648430 is 0xC0FFEE, the seed constant the capture scripts on this bench use; the firmware's xorshift32 and flashattack.transport.gen_pts are byte-for-byte mirrors of each other, so the plaintexts regenerate exactly.",
+ "captures": {
+  "results/stm32l152/l152re_32mhz.npz": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "one cycle array per (layout, FLASH_ACR) cell named cy_<lay>_<acr>, plus the PRNG seed. No key, no plaintexts and no ciphertexts: every capture in this campaign predates the archive loader."
+  },
+  "results/g4_ctguard/g4ct_map.npz": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "pt_seed": 12648430,
+   "why": "the FLASH_ACR x code-offset map: one cycle array per cell, named cy_flash_<acr>. Neither the key nor the seed is a field; both were constants in the capture script."
+  },
+  "results/g4_ctguard/g4ct_codepad.npz": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "pt_seed": 12648430,
+   "why": "the CODEPAD sweep, same campaign and same shape as g4ct_map.npz. Its cells are flat, so only the distinct count is read, but the arguments are here so a block on one of them does not need a second lookup."
+  },
+  "results/stm32g474/g4_align_sweep.npz": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "pt_seed": 12648430,
+   "why": "the table-alignment sweep: one array per (code offset, FLASH_ACR) named o<off>_<acr> and nothing else at all, not even a rows string."
+  },
+  "results/stm32l552/l5_surface.npz": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "pt_seed": 12648430,
+   "why": "the ICACHE x line-offset surface, one array per cell named cyc_<waysel>_<off>, plus two summary strings."
+  },
+  "results/mpc5606b/aes_sbox_flash_20k_20260923T182407Z.json": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "a JSON capture with no key field. The header's self-test ciphertext for the all-zero block is what confirms it."
+  },
+  "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "same campaign, the compact single-table build."
+  },
+  "results/mpc5606b/aes_ttable4_flash_20260923T183012Z.json": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "same campaign, the four-table build."
+  },
+  "results/mpc5606b/aes_sbox_rwsc0_20260923T183637Z.json": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "same campaign, RWSC 0."
+  },
+  "results/mpc5606b/aes_sbox_bfe0_20260923T183242Z.json": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "same campaign, buffers disabled."
+  },
+  "results/mpc5606b/aes_sbox_dflash2_20260923T223718Z.json": {
+   "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
+   "why": "same campaign, tables in the DFLASH array."
+  }
+ }
+}

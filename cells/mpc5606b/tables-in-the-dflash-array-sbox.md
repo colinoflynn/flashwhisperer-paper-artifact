@@ -42,10 +42,15 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "expect": 7500,
  "expect_n": 7500,
  "expect_spelling": "int",
+ "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
  "loader": {
   "same_as": "the sbox cell of configuration 0",
   "note": "This capture and aes_place_off0 differ in a constant only, so a loader that gets one right gets both right; they are the cheapest pair on the part for checking a new loader against."
- }
+ },
+ "loader_args_from": [
+  "key_hex"
+ ],
+ "loader_args_why": "same campaign, tables in the DFLASH array."
 }
 ```
 
