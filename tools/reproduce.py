@@ -6,6 +6,7 @@
     python tools/reproduce.py --part STM32L475VG
     python tools/reproduce.py --table 3            just the paper's Table 3
     python tools/reproduce.py --json out.json      the rows, machine readable
+    python tools/reproduce.py -j 8                 eight cells at a time
 
 One row per cell: what the paper claims, what the recovery gave, and whether
 those agree. No hardware, no serial port, no toolchain.
@@ -19,8 +20,8 @@ one would report the part safe.
 
 Three details that are easy to get wrong and expensive to notice:
 
-* `ct_adjacent` is spelled `"both"` on 85 cells, meaning both adjacencies were
-  swept when the cell was triaged. `archive.ladder` takes a BOOLEAN and every
+* `ct_adjacent` is spelled `"both"` on a good many cells, meaning both
+  adjacencies were swept when the cell was triaged. `archive.ladder` takes a BOOLEAN and every
   non-empty string is truthy, so handing `"both"` straight through scores
   ciphertext adjacency alone - which on a byte-S-box final round is a clean
   0/16. Both are run here and the row says which won.
