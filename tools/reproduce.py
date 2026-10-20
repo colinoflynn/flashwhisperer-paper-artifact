@@ -125,7 +125,13 @@ def claim_count(claim):
     Both are reported; neither is silently preferred.
     """
     text = str(claim or "").strip()
-    if re.match(r"^\d+\s*/\s*\d+", text):
+    # A byte count, not a trace count. Both spellings are in the table: `8/16`
+    # and `12-15/16`, and the second one is the trap - its leading digits are
+    # followed by a hyphen rather than a slash, so a test for `^\d+/` lets it
+    # through and reads "12-15/16 @ 20 000" as a break at twelve traces, which
+    # files the cheapest number in the whole artifact against a cell that does
+    # not recover a full key at all.
+    if re.match(r"^\d+\s*(?:[-–]\s*\d+\s*)?/\s*\d+", text):
         return None
     m = CLAIM_COUNT.match(text)
     if not m:

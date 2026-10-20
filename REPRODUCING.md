@@ -42,6 +42,16 @@ cheapest known break and is one rung conservative in places, so a cell can
 reproduce exactly and still be `cheaper` than what is in print. Neither column
 is preferred over the other and the summary tallies both.
 
+Read the two columns together, because one combination is not what it looks
+like. A row that reads `DISAGREES` under `vs block` and `same` under `vs the
+table` recovered a full verified key at exactly the trace count in print, and
+disagreed only with its own block's `expect`, which is empty. Every such row
+is a cell whose block was written with `expect: null` while the table prints a
+count: the `expect` field is the thing that is wrong, not the measurement, and
+the fix belongs in the research tree's block rather than here. The row that
+matters is `DISAGREES` with `DEARER` or with `NOTHING WHERE THE TABLE PRINTS A
+COUNT` beside it.
+
 ### Narrowing it
 
 ```bash
