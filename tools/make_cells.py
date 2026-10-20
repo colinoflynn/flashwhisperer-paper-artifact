@@ -247,8 +247,22 @@ def build(research):
                 here = blocks.get((index, field), [])
                 block = here[0] if here else None
                 frag = frags.get((part["part"], index, field))
+                block_from = "cross_part_table.json"
+                if block is None and frag is not None and frag.get("block"):
+                    # The fragment has been written and `repro_merge.py` has
+                    # not folded it in yet. That window is normal in a tree
+                    # several people are triaging at once, and the fragment IS
+                    # the block - the merge copies it. Carrying it across here
+                    # keeps a cell scorable during the window; without it the
+                    # cell reads `block` with nothing to run, which is how one
+                    # malformed cell can take out a whole run.
+                    block = frag["block"]
+                    block_from = "research/reference/repro fragment, not yet " \
+                                 "merged into cross_part_table.json"
                 if block is not None:
                     verdict = "flat" if block.get("kind") == "flat" else "block"
+                    if frag is not None and frag["verdict"] in ("block", "flat"):
+                        verdict = frag["verdict"]
                 elif frag is not None:
                     verdict = frag["verdict"]
                 else:
@@ -286,6 +300,7 @@ def build(research):
                 }
                 if block is not None:
                     rec["repro"] = {
+                        "block_from": block_from,
                         "capture": block.get("capture"),
                         "capture_form": capture_form(block.get("capture")),
                         "field": block.get("field"),

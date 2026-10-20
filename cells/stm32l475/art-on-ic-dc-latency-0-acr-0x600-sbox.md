@@ -23,6 +23,7 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
 
 ```json
 {
+ "block_from": "cross_part_table.json",
  "capture": "results/l475/l475_sbox_flash_acr600_vos1_100000.npz + l475_sbox_flash_acr600_vos1_sbeef2[1-4]_25000.npz + l475_sbox_flash_acr600_vos1_sbeef3[1-3]_25000.npz (summed with ladder.py --concat)",
  "field": "sbox",
  "kind": "block",

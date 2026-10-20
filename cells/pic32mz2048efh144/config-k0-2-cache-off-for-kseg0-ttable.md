@@ -24,6 +24,7 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
 
 ```json
 {
+ "block_from": "cross_part_table.json",
  "capture": "results/pic32mz/tbl_row2_ttable_200k.npz",
  "field": "ttable",
  "kind": "block",

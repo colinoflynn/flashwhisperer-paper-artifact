@@ -23,6 +23,7 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
 
 ```json
 {
+ "block_from": "cross_part_table.json",
  "capture": "results/l475/l475_sbox_flash_acr104_vos1_100000.npz",
  "field": "sbox",
  "kind": "block",

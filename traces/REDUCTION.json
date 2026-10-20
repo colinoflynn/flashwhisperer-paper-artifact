@@ -601,6 +601,54 @@
    "source_bytes": 3326674
   },
   {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttable_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttable_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 111856,
+   "source_bytes": 3325410
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttw_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttw_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 115417,
+   "source_bytes": 3330114
+  },
+  {
    "path": "results/lpc2124/lpc_mul1_tim7_mam2_flash_sbox_100000.npz",
    "source": "results/lpc2124/lpc_mul1_tim7_mam2_flash_sbox_100000.npz",
    "source_sha256": null,
@@ -1892,6 +1940,30 @@
    "source_bytes": 12806895
   },
   {
+   "path": "results/same51/deep_cen0_autows_sbox_400k.npz",
+   "source": "results/same51/deep_cen0_autows_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'cen0_autows', 'kind': 'sbox', 'n': 400000, 'seed': 20261007, 'mhz': 47.83737269502194, 'selftest': 63, 'rws': 0, 'autows': 1, 'cachedis': 0, 'cen': 0, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 9024, 'line_off': 0, 'line_shift': 4, 'cipher_addr': 7133, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 208002,
+   "source_bytes": 13053272
+  },
+  {
    "path": "results/same51/deep_cen0_autows_ttable1_400k.npz",
    "source": "results/same51/deep_cen0_autows_ttable1_400k.npz",
    "source_sha256": null,
@@ -1914,6 +1986,30 @@
    ],
    "reduced_bytes": 152792,
    "source_bytes": 12987021
+  },
+  {
+   "path": "results/same51/deep_cen0_autows_ttable_400k.npz",
+   "source": "results/same51/deep_cen0_autows_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'cen0_autows', 'kind': 'ttable', 'n': 400000, 'seed': 20261007, 'mhz': 47.99584995827724, 'selftest': 63, 'rws': 0, 'autows': 1, 'cachedis': 0, 'cen': 0, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 9024, 'line_off': 0, 'line_shift': 4, 'cipher_addr': 7133, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 2777,
+   "source_bytes": 12806897
   },
   {
    "path": "results/same51/deep_csize1k_sbox_400k.npz",
@@ -2633,6 +2729,30 @@
    ],
    "reduced_bytes": 4915,
    "source_bytes": 3208609
+  },
+  {
+   "path": "results/stm32f4/f4cell_sbox_acr700_150000.npz",
+   "source": "results/stm32f4/f4cell_sbox_acr700_150000.npz",
+   "source_sha256": null,
+   "n": 150000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "f0a2719ab79f12f0858c8b786ff4dd271317b8ef65ddfb4133be9aa6f3c0fb5e",
+   "pt_sha256": "118fc3a97c9723abd8fa8e4ceeb052790583243eebecf35a0eaa5dc3a6421f99",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x700 = LATENCY 0, caches on; tables=flash; cipher=sbox (256 B byte S-box, aes_sbox_encrypt); single-shot `E`, device-reported ciphertexts, AES-verified on all 150000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 2498883,
+   "source_bytes": 4930608
   },
   {
    "path": "results/stm32f4/f4cell_ttable1_acr000_50000.npz",
@@ -3489,6 +3609,18 @@
   [
    "results/same51/matrix.npz",
    "no per-trace timing column"
+  ],
+  [
+   "results/stm32f303re/f303_impl0_8mhz_acr30_25k.npz",
+   "no plaintexts; cannot drop ct"
+  ],
+  [
+   "results/stm32f303re/f303_impl1_8mhz_acr30_25k.npz",
+   "no plaintexts; cannot drop ct"
+  ],
+  [
+   "results/stm32f303re/f303_impl2_8mhz_acr30_25k.npz",
+   "no plaintexts; cannot drop ct"
   ],
   [
    "results/stm32g474/g4_align_sweep.npz",

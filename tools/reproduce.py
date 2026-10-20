@@ -610,7 +610,13 @@ def score_one(cell):
     run is a ladder per cell and a ladder is six pair sets at every rung, which
     on the large captures is minutes rather than seconds."""
     loader = _worker_loader()
-    repro = cell["repro"]
+    # A cell can be verdict `block` and carry no block: the triage fragment was
+    # written and the research tree's merge has not folded it in. That is a
+    # normal window rather than a corrupt file, and it is handled HERE as well
+    # as in the generator because one such cell once ended a fifty-minute run
+    # with a KeyError out of a worker process. A row that cannot be scored is a
+    # row; an exception is a lost run.
+    repro = cell.get("repro") or {}
     control = is_control(cell)
     row = {"id": cell["id"], "part": cell["part"], "field": cell["field"],
            "config": cell["config"], "verdict": cell["verdict"],
@@ -621,6 +627,12 @@ def score_one(cell):
            "src": cell.get("src")}
     t0 = time.time()
     try:
+        if not repro:
+            raise Unscorable(
+                "the cell's verdict is %r and it carries no recovery block. "
+                "The triage fragment is probably written and not yet merged; "
+                "regenerate with tools/make_cells.py, which carries an "
+                "unmerged fragment across" % cell["verdict"])
         if cell["verdict"] == "flat":
             row.update(score_flat(cell, loader, repro))
         else:
@@ -653,7 +665,7 @@ def _worker_loader():
 def print_row(cell, row):
     in_print = (thousands(row["claim_count"]) if row["claim_count"]
                 else str(cell["claim"])[:9])
-    repro = cell["repro"]
+    repro = cell.get("repro") or {}
     want = repro.get("expect_n")
     if cell["verdict"] == "flat":
         expect = "%d dist" % (repro.get("distinct") or 0)
@@ -732,7 +744,26 @@ def main(argv=None):
                 max_workers=args.jobs) as pool:
             futures = {pool.submit(score_one, c): c for c in ordered}
             for future in concurrent.futures.as_completed(futures):
-                done[futures[future]["id"]] = future.result()
+                cell = futures[future]
+                try:
+                    done[cell["id"]] = future.result()
+                except Exception as exc:              # noqa: BLE001
+                    # A worker that dies takes its cell down and nothing else.
+                    # Letting the exception out of here ends the whole run,
+                    # and on a selection this size that is an hour of other
+                    # cells thrown away for one bad row.
+                    done[cell["id"]] = {
+                        "id": cell["id"], "part": cell["part"],
+                        "field": cell["field"], "config": cell["config"],
+                        "verdict": cell["verdict"], "claim": cell["claim"],
+                        "control": is_control(cell),
+                        "in_paper_one_page": cell["in_paper_one_page"],
+                        "got": "worker died: %s: %s" % (type(exc).__name__,
+                                                        exc),
+                        "agree": "ERROR", "error": str(exc),
+                        "vs_paper": "not scored",
+                        "claim_count": claim_count(cell["claim"]),
+                        "seconds": None}
                 # progress on stderr, because the rows themselves wait for the
                 # whole selection so they can print in cell order, and a run
                 # that prints nothing for twenty minutes looks hung

@@ -10,10 +10,10 @@
   "table_opened": "2026-10-12",
   "unit": "one (part, config, field) triple, field in sbox/ttable1/ttable",
   "verdicts": {
-   "block": 143,
+   "block": 146,
    "drop": 17,
-   "flat": 54,
-   "recapture": 80
+   "flat": 55,
+   "recapture": 76
   },
   "cells": 294,
   "scoring": "Result cells are scored on key recovery, never on sigma. A sigma appears only where no recovery was run at that cell, and it is labelled. THE TABLE QUOTES THE CHEAPEST KNOWN BREAK. That is a choice between two legitimate questions -- what the originally documented attack needed, against what the best known attack needs -- and this table answers the second, because a trace count is a statement about what an attacker must spend and quoting 25 000 where 12 500 suffices understates it. The scorer of record is `tools/table_recover.py`: a margin-weighted union over all six pair sets, both last-round adjacencies tried and the winner kept. A cell whose figure was re-baselined names what it superseded. A score of n/16 implies a completion search of 2^(8*(16-n)) over the bytes it did not recover, so the one-pager does not write the term out; the full table does.",
@@ -43,6 +43,7 @@
    "src": "research/targets/stm32f303.md",
    "dossier": "research/targets/stm32f303.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f303re/f303_impl0_8mhz_acr30_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -96,6 +97,7 @@
    "src": "research/targets/stm32f303.md",
    "dossier": "research/targets/stm32f303.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f303re/f303_impl1_8mhz_acr30_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -149,6 +151,7 @@
    "src": "research/targets/stm32f303.md",
    "dossier": "research/targets/stm32f303.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f303re/f303_impl2_8mhz_acr30_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -202,6 +205,7 @@
    "src": "research/targets/stm32l152.md",
    "dossier": "research/targets/stm32l152.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l152/l152re_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -255,6 +259,7 @@
    "src": "research/targets/stm32l152.md",
    "dossier": "research/targets/stm32l152.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l152/l152re_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -308,6 +313,7 @@
    "src": "research/targets/stm32l152.md",
    "dossier": "research/targets/stm32l152.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l152/l152re_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -361,6 +367,7 @@
    "src": "research/targets/stm32l152.md",
    "dossier": "research/targets/stm32l152.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l152/l152re_32mhz.npz",
     "capture_form": {
      "kind": "path",
@@ -432,6 +439,7 @@
    "src": "research/targets/stm32l152.md",
    "dossier": "research/targets/stm32l152.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l152/l152re_32mhz.npz",
     "capture_form": {
      "kind": "path",
@@ -503,6 +511,7 @@
    "src": "research/targets/stm32l152.md",
    "dossier": "research/targets/stm32l152.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l152/l152re_32mhz.npz",
     "capture_form": {
      "kind": "path",
@@ -574,6 +583,7 @@
    "src": "research/targets/stm32g474_latency0.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/g4_ctguard/g4ct_codepad.npz",
     "capture_form": {
      "kind": "path",
@@ -632,6 +642,7 @@
    "src": "research/targets/stm32g474_latency0.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable1_acr000_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -698,6 +709,7 @@
    "src": "research/targets/stm32g474_latency0.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable_acr000_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -764,6 +776,7 @@
    "src": "research/targets/stm32g474_art_geometry.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/g4_ctguard/g4ct_map.npz",
     "capture_form": {
      "kind": "path",
@@ -834,6 +847,7 @@
    "src": "research/targets/stm32g474_art_geometry.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable1_acr301_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -900,6 +914,7 @@
    "src": "research/targets/stm32g474_art_geometry.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable_acr301_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -966,6 +981,7 @@
    "src": "research/targets/stm32g474_art_geometry.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/g4_ctguard/g4ct_map.npz",
     "capture_form": {
      "kind": "path",
@@ -1036,6 +1052,7 @@
    "src": "research/targets/stm32g474_art_geometry.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable1_acr701_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1103,6 +1120,7 @@
    "src": "research/targets/stm32g474_art_geometry.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable_acr701_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1169,6 +1187,7 @@
    "src": "research/targets/stm32g474_latency0.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/g4_ctguard/g4ct_codepad.npz",
     "capture_form": {
      "kind": "path",
@@ -1227,6 +1246,7 @@
    "src": "research/targets/stm32g474_latency0.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable1_acr300_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1280,6 +1300,7 @@
    "src": "research/targets/stm32g474_latency0.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable_acr300_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1346,6 +1367,7 @@
    "src": "research/targets/stm32g474.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_align_sweep.npz",
     "capture_form": {
      "kind": "path",
@@ -1415,6 +1437,7 @@
    "src": "research/targets/stm32g474.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable1_acr40704_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1481,6 +1504,7 @@
    "src": "research/targets/stm32g474.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable_acr40704_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1546,6 +1570,7 @@
    "src": "research/targets/stm32g474.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_align_sweep.npz",
     "capture_form": {
      "kind": "path",
@@ -1615,6 +1640,7 @@
    "src": "research/targets/stm32g474.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable1_acr40304_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1681,6 +1707,7 @@
    "src": "research/targets/stm32g474.md",
    "dossier": "research/targets/stm32g474_art_geometry.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32g474/g4_ttable_acr40304_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -1746,6 +1773,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_flash_acr600_vos1_100000.npz + l475_sbox_flash_acr600_vos1_sbeef2[1-4]_25000.npz + l475_sbox_flash_acr600_vos1_sbeef3[1-3]_25000.npz (summed with ladder.py --concat)",
     "capture_form": {
      "kind": "concat",
@@ -1878,6 +1906,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_flash_acr004_vos1_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -1947,6 +1976,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_ttable1_flash_acr004_vos1_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -2043,6 +2073,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_flash_acr104_vos1_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -2220,6 +2251,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_ttable_flash_acr404_vos1_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -2289,6 +2321,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_flash_acr504_vos1_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -2412,6 +2445,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_ram_acr504_vos1_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -2474,6 +2508,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/matrix.json",
     "capture_form": {
      "kind": "path",
@@ -2527,6 +2562,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/matrix.json",
     "capture_form": {
      "kind": "path",
@@ -2580,6 +2616,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/pads/l475_sbox_flash_acr504_vos1_fw_tp16_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -2702,6 +2739,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_flash_acr004_vos1_O3_sbeef11_12500.npz",
     "capture_form": {
      "kind": "path",
@@ -2824,6 +2862,7 @@
    "src": "research/targets/stm32l475.md",
    "dossier": "research/targets/stm32l475.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/l475/l475_sbox_flash_acr004_vos1_at3c0_sbeef1b_12500.npz",
     "capture_form": {
      "kind": "path",
@@ -2974,6 +3013,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f4/f4cell_ttable1_acr705_50000.npz",
     "capture_form": {
      "kind": "path",
@@ -3041,6 +3081,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f4/f4cell_ttable_acr705_50000.npz",
     "capture_form": {
      "kind": "path",
@@ -3106,7 +3147,52 @@
    "ws": "0",
    "addr": null,
    "src": "research/targets/stm32f429.md",
-   "dossier": "research/targets/stm32f429.md"
+   "dossier": "research/targets/stm32f429.md",
+   "repro": {
+    "block_from": "cross_part_table.json",
+    "capture": "results/stm32f4/f4cell_sbox_acr700_150000.npz",
+    "capture_form": {
+     "kind": "path",
+     "paths": [
+      "results/stm32f4/f4cell_sbox_acr700_150000.npz"
+     ]
+    },
+    "field": "sbox",
+    "kind": "block",
+    "observable": "cyc",
+    "function": "aes_sbox_encrypt",
+    "rungs": [
+     12500,
+     25000,
+     50000,
+     100000,
+     150000
+    ],
+    "pairsets": [
+     "r0r1",
+     "r1r2",
+     "r2r3",
+     "r0r3",
+     "r0r2",
+     "r1r3"
+    ],
+    "line_shift": 4,
+    "line_off": 12,
+    "ct_adjacent": false,
+    "expect": 100000,
+    "expect_n": 100000,
+    "expect_spelling": "int",
+    "n": null,
+    "distinct": null,
+    "key_hex": null,
+    "pt_seed": null,
+    "loader": null,
+    "replay": null,
+    "line_off_derivation": "DERIVED: SBOX 0x08001eec from arm-none-eabi-nm on rigs/fw_f4/fw.elf; 0xec mod 16 = 12 entries on the measured 16-byte flash row, one-byte entries.",
+    "why": "RE-TAKEN ON SILICON 2026-10-20, and this cell had NO byte-S-box capture of this project's own aes.c on this part at all: the f4cell_* campaign that produced this row's two covered T-table blocks captured ttable1 and ttable only, so every F429 sbox cell in the table was being filled from a library capture. Taken through the SAME instrument as those two blocks (results/stm32f4/f4_ttable_cells.py --cipher sbox), so the number is comparable to its neighbours rather than a third thing. 150 000 traces, mean 5184.40, sd 3.8116, 33 distinct, 0 AES mismatches. EXACT MASTER KEY AT 100 000 TRACES, verified: the ladder is 0, 0, 6, 16, 16 bytes at 12 500 / 25 000 / 50 000 / 100 000 / 150 000 under state adjacency, and the inverted master key reproduces the capture's own key. Ciphertext adjacency is the wrong model here and tops out at 11/16 at 150 000, so the flag matters. line_off 12 is DERIVED, not swept: SBOX is at 0x08001eec from arm-none-eabi-nm on rigs/fw_f4/fw.elf, and 0xec mod 16 = 12 on this part's measured 16-byte row. Gated before the run: rigs/fw_f4/fw.bin flashed by SWD, FLASH_ACR written and READ BACK as 0x700 off the device, and FIPS-197 checked on all four ciphers in that exact configuration. Ciphertexts are DEVICE-REPORTED (f4_ttable_cells.py reads them from the device response rather than computing them), so archive.verify_cipher's pass on 4 096 blocks is evidence about the silicon and not a comparison of two host AES implementations. THIS CORRECTS THE CELL AS WELL AS FILLING IT: the text it replaces, '7/16 @ 50 000 -- does NOT verify', is mbedTLS FEWER_TABLES at FLASH_ACR 0x700, a 1 KB one-table build, whose std 1.836 over 14 distinct values matches f4mx_mbedtls_compact_700_ws0.npz exactly. The dossier's section 2 prose attributes that 7/16 to the byte S-box; it is not the byte S-box, and the byte S-box gives the whole key.",
+    "note": null,
+    "function_note": null
+   }
   },
   {
    "id": "stm32f429/latency-0-caches-on-ttable1",
@@ -3130,6 +3216,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f4/f4cell_ttable1_acr700_150000.npz",
     "capture_form": {
      "kind": "path",
@@ -3199,6 +3286,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f4/f4cell_ttable_acr700_150000.npz",
     "capture_form": {
      "kind": "path",
@@ -3268,6 +3356,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/f429_matrix/f4mx_tinyaes_000_ws0.npz",
     "capture_form": {
      "kind": "path",
@@ -3321,6 +3410,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f4/f4cell_ttable1_acr000_50000.npz",
     "capture_form": {
      "kind": "path",
@@ -3388,6 +3478,7 @@
    "src": "research/targets/stm32f429.md",
    "dossier": "research/targets/stm32f429.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32f4/f4cell_ttable_acr000_50000.npz",
     "capture_form": {
      "kind": "path",
@@ -3862,6 +3953,7 @@
    "src": "research/mechanism/MEASURING_CHANNELS.md",
    "dossier": "research/targets/stm32l552.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32l552/l5_surface.npz",
     "capture_form": {
      "kind": "path",
@@ -4178,6 +4270,7 @@
    "src": "research/targets/stm32h723.md",
    "dossier": "research/targets/stm32h723.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32h723/h7_ttw_icache_flash_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -4250,6 +4343,7 @@
    "src": "research/targets/stm32h723.md",
    "dossier": "research/targets/stm32h723.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32h723/h7_ttable_icache_flash_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -4319,6 +4413,7 @@
    "src": "research/targets/stm32h723.md",
    "dossier": "research/targets/stm32h723.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32h723/h7_aes_sbox_idcache.npz",
     "capture_form": {
      "kind": "path",
@@ -4413,6 +4508,7 @@
    "src": "research/targets/stm32h723.md",
    "dossier": "research/targets/stm32h723.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32h723/h7_ttable_idcache_flash_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -4507,6 +4603,7 @@
    "src": "research/targets/stm32h723.md",
    "dossier": "research/targets/stm32h723.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32h723/h7_ttw_cachesoff_axi_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -4574,6 +4671,7 @@
    "src": "research/targets/stm32h723.md",
    "dossier": "research/targets/stm32h723.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/stm32h723/h7_ttable_cachesoff_axi_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -4641,6 +4739,7 @@
    "src": "research/targets/nrf52840.md",
    "dossier": "research/targets/nrf52840.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/nrf52840/nrf_aes_deep_sbox_aligned.npz",
     "capture_form": {
      "kind": "path",
@@ -4706,6 +4805,7 @@
    "src": "research/targets/nrf52840.md",
    "dossier": "research/targets/nrf52840.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/nrf52840/nrf_aes_deep_ttw_icoff_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -4771,6 +4871,7 @@
    "src": "research/targets/nrf52840.md",
    "dossier": "research/targets/nrf52840.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/nrf52840/nrf_aes_deep_ttable_icoff_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -4994,6 +5095,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_matrix_branchless.npz",
     "capture_form": {
      "kind": "path",
@@ -5047,6 +5149,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_matrix_branchless.npz",
     "capture_form": {
      "kind": "path",
@@ -5100,6 +5203,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_matrix_branchless.npz",
     "capture_form": {
      "kind": "path",
@@ -5159,6 +5263,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_sbox_fc1_stock.npz",
     "capture_form": {
      "kind": "path",
@@ -5232,6 +5337,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_ttw_fc1_mw1_flwt0_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -5310,6 +5416,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_ttable_fc1_mw1_flwt0_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -5382,6 +5489,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_sbox_fc1_mw1_flwt7_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -5454,6 +5562,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_ttw_fc1_mw1_flwt7_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -5526,6 +5635,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_ttable_fc1_mw1_flwt7_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -5598,6 +5708,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_flwt_bl.npz",
     "capture_form": {
      "kind": "path",
@@ -5651,6 +5762,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_flwt_bl.npz",
     "capture_form": {
      "kind": "path",
@@ -5704,6 +5816,7 @@
    "src": "research/targets/ra2a1.md",
    "dossier": "research/targets/ra2a1.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ra2a1/ra2_flwt_bl.npz",
     "capture_form": {
      "kind": "path",
@@ -5762,6 +5875,7 @@
    "src": "research/targets/m2351.md",
    "dossier": "research/targets/m2351.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/m2351/m2351_s2c2_sbox_alt_400000_o3.npz",
     "capture_form": {
      "kind": "path",
@@ -5867,6 +5981,7 @@
    "src": "research/targets/m2351.md",
    "dossier": "research/targets/m2351.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/m2351/m2351_s2c2_ttable_200000_attack.npz",
     "capture_form": {
      "kind": "path",
@@ -5931,6 +6046,7 @@
    "src": "research/targets/m2351.md",
    "dossier": "research/targets/m2351.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/m2351/screen_align0.npz",
     "capture_form": {
      "kind": "path",
@@ -5984,6 +6100,7 @@
    "src": "research/targets/m2351.md",
    "dossier": "research/targets/m2351.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/m2351/screen_align0.npz",
     "capture_form": {
      "kind": "path",
@@ -6037,6 +6154,7 @@
    "src": "research/targets/m2351.md",
    "dossier": "research/targets/m2351.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/m2351/screen_align0.npz",
     "capture_form": {
      "kind": "path",
@@ -6090,6 +6208,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_fw_sbox.npz",
     "capture_form": {
      "kind": "path",
@@ -6158,6 +6277,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_fw_c4_ttw.npz",
     "capture_form": {
      "kind": "path",
@@ -6224,6 +6344,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_fw_ttable.npz",
     "capture_form": {
      "kind": "path",
@@ -6290,6 +6411,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_sbox_fc1_w0_30M.npz",
     "capture_form": {
      "kind": "path",
@@ -6382,6 +6504,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_ttable_fc1_w0_30M.npz",
     "capture_form": {
      "kind": "path",
@@ -6446,6 +6569,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_sbox_fc0_w2.npz",
     "capture_form": {
      "kind": "path",
@@ -6499,6 +6623,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_matrix_bl_o2.npz",
     "capture_form": {
      "kind": "path",
@@ -6552,6 +6677,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_ttable_fc0_w2.npz",
     "capture_form": {
      "kind": "path",
@@ -6605,6 +6731,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_matrix_bl_o2.npz",
     "capture_form": {
      "kind": "path",
@@ -6658,6 +6785,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_matrix_bl_o2.npz",
     "capture_form": {
      "kind": "path",
@@ -6711,6 +6839,7 @@
    "src": "research/targets/s5d3.md",
    "dossier": "research/targets/s5d3.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/s5d3/s5d3_matrix_bl_o2.npz",
     "capture_form": {
      "kind": "path",
@@ -6764,6 +6893,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_cache_sbox_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -6832,6 +6962,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_cache_compact_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -6900,6 +7031,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_cache_ttable_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -6968,6 +7100,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_off_sbox_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -7036,6 +7169,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_off_compact_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -7104,6 +7238,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_off_ttable_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -7172,6 +7307,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_off_lbdis_sbox_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -7240,6 +7376,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_off_lbdis_compact_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -7308,6 +7445,7 @@
    "src": "research/targets/cc1352.md",
    "dossier": "research/targets/cc1352.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/cc1352/cc13_bl_off_lbdis_ttable_50k.npz",
     "capture_form": {
      "kind": "path",
@@ -7381,6 +7519,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_nomiss_rws0_sbox_400k_2bb4.npz",
     "capture_form": {
      "kind": "path",
@@ -7451,6 +7590,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_nomiss_rws0_ttw_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -7526,6 +7666,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_nomiss_rws0_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -7602,6 +7743,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_nomiss_rws1_sbox_400k_2bb4.npz",
     "capture_form": {
      "kind": "path",
@@ -7673,6 +7815,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_ttw_nomiss_rws1_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -7745,6 +7888,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_ttable_nomiss_rws1_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -7816,6 +7960,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_lowpower_rws0_sbox_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -7885,6 +8030,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_lowpower_rws0_ttw_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -7960,6 +8106,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_lowpower_rws0_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8035,6 +8182,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_determ_rws1_sbox_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8104,6 +8252,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_determ_rws1_ttw_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8179,6 +8328,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_determ_rws1_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8254,6 +8404,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_cachedis_rws1_sbox_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8323,6 +8474,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_cachedis_rws1_ttw_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8398,6 +8550,7 @@
    "src": "research/targets/samd21j18a.md",
    "dossier": "research/targets/samd21j18a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samd21/deep_cachedis_rws1_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -8468,6 +8621,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f0_sbox.npz",
     "capture_form": {
      "kind": "path",
@@ -8531,6 +8685,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f0_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -8599,6 +8754,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f0_ttable_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -8672,6 +8828,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_clk24_f6_off_sbox_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -8741,6 +8898,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_clk24_f6_off_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -8814,6 +8972,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_clk24_f6_off_ttable_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -8886,6 +9045,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f1_sbox_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -8954,6 +9114,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f1_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9022,6 +9183,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f1_ttable_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9099,6 +9261,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f6_sbox.npz",
     "capture_form": {
      "kind": "path",
@@ -9170,6 +9333,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f6_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9243,6 +9407,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_off_f6_ttable_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9315,6 +9480,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_on_f6_sbox.npz",
     "capture_form": {
      "kind": "path",
@@ -9381,6 +9547,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_on_f6_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9449,6 +9616,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_on_f6_ttable_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9545,6 +9713,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_on_f0_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9613,6 +9782,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_on_f0_ttable.npz",
     "capture_form": {
      "kind": "path",
@@ -9679,6 +9849,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_pg3_f6_sbox_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9747,6 +9918,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_pg3_f6_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -9815,6 +9987,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_pg3_f6_ttable.npz",
     "capture_form": {
      "kind": "path",
@@ -9886,6 +10059,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_clk24_f15_cloe0_sbox_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -9959,6 +10133,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_clk24_f15_cloe0_ttw_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -10032,6 +10207,7 @@
    "src": "research/targets/samg55j19.md",
    "dossier": "research/targets/samg55j19.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/samg55/deep_clk24_f15_cloe0_ttable_100k.npz",
     "capture_form": {
      "kind": "path",
@@ -10096,7 +10272,7 @@
    "field": "sbox",
    "implementation": "256 B byte S-box",
    "claim": "5 000 -- master key verified (state, r1r2 + r0r3)",
-   "verdict": "recapture",
+   "verdict": "block",
    "in_paper_one_page": true,
    "clock_mhz": 47.769,
    "ws": "AUTOWS -- behaves as RWS 1-2 at 48 MHz",
@@ -10108,11 +10284,56 @@
    },
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
-   "recapture": {
-    "board": "same51",
-    "cipher": "aes_sbox_encrypt (byte S-box), branchless xtime, -O2, at cell cen0_autows (CTRLA AUTOWS 1 / RWS 0, CEN 0, CACHEDIS 00)",
-    "n": 400000,
-    "reason": "The row names AUTOWS 1 / RWS 0 / CMCC disabled -- the cell deep.py labels cen0_autows -- and the only captures at that cell are results/same51/deep_cen0_autows_ttable1_400k.npz and deep_cen0_autows_ttable1_tp0_400k.npz, both compact-1-table. There is no byte-S-box capture at it. The 5 000 the cell quotes is section 5a's cen0, whose capture results/same51/deep_cen0_sbox_400k.npz records rws 1 / autows 0 / cen 0 in its meta: a DIFFERENT wait-state setting. That capture does reproduce -- verified here, 8/16 at 2 000 and 16/16 with the master key verified from 5 000 on at line_shift 4 / line_off 12 / state, margins 0.82 on r1r2 and 0.97 on r0r3, flat across the ladder exactly as section 5a records -- so the number is real and only its row is wrong, and filing it here would put a verified trace count against the wrong register setting, which is the one thing the fragment/table config check exists to stop. The row's own `notes` field already says this: 'THIS ROW'S CONFIG STRING MATCHES NO CELL IN THE DOSSIER ... The row is a COMPOSITE -- its sbox 5 000 comes from cen0 (RWS 1) and its ttable sigma 19.951 from shipped (CMCC on)'. Two ways out, and the bench only owes one of them: take the byte S-box at cen0_autows at 400 000 (AUTOWS is between RWS 1 and RWS 3 at 48 MHz per section 4c, and the wait state is a gain factor on this part, so the trace count can legitimately differ from cen0's 5 000 and is worth having), or correct the row's config string to cen0's registers -- that second fix is an edit to research/reference/cross_part_table.json and is deliberately not made here."
+   "repro": {
+    "block_from": "cross_part_table.json",
+    "capture": "results/same51/deep_cen0_autows_sbox_400k.npz",
+    "capture_form": {
+     "kind": "path",
+     "paths": [
+      "results/same51/deep_cen0_autows_sbox_400k.npz"
+     ]
+    },
+    "field": "sbox",
+    "kind": "block",
+    "observable": "cyc",
+    "function": "aes_sbox_encrypt",
+    "rungs": [
+     250,
+     500,
+     1000,
+     1500,
+     2000,
+     3000,
+     4000,
+     5000,
+     25000,
+     100000,
+     400000
+    ],
+    "pairsets": [
+     "r0r1",
+     "r1r2",
+     "r2r3",
+     "r0r3",
+     "r0r2",
+     "r1r3"
+    ],
+    "line_shift": 4,
+    "line_off": 0,
+    "ct_adjacent": false,
+    "expect": 3000,
+    "expect_n": 3000,
+    "expect_spelling": "int",
+    "n": null,
+    "distinct": null,
+    "key_hex": null,
+    "pt_seed": null,
+    "loader": null,
+    "replay": null,
+    "line_off_derivation": "DERIVED: the device reports sbox 0x2340 and line_off 0 into the capture; 0x2340 mod 16 = 0 on the measured 16-byte row.",
+    "why": "400 000 traces, mean 6185.0, sd 4.3316, 18 distinct, cipher check 0 mismatches on 4 096. EXACT MASTER KEY AT 3 000 TRACES, verified. Ladder: 0, 0, 0, 8, 10, 16 bytes at 250 / 500 / 1 000 / 1 500 / 2 000 / 3 000, holding 16/16 through 400 000. State adjacency; ciphertext adjacency is 0/16 at every rung. THE ROW'S OWN FIGURE WAS 5 000 AND IT CAME FROM A DIFFERENT CELL - section 5a's `cen0`, whose capture records rws 1 / autows 0. So the coincidence is worth naming: the borrowed number is in the right region but it is not this cell's, and this cell is CHEAPER. I laddered below 5 000 deliberately rather than quoting the smallest rung I happened to test first, which is the rung artefact the L475's ledger row was corrected for. RE-TAKEN ON SILICON 2026-10-20 at the configuration THIS ROW NAMES, which had never been captured: deep.py's `cen0_autows` cell (CTRLA 0x0004 - AUTOWS 1, RWS 0, CACHEDIS 00, SR.CSTS 0). The dossier's section 4a has neither shape - its `cen0` is RWS 1 / AUTOWS 0, and its only AUTOWS rows run with the CMCC ON - so both figures standing in this row were borrowed from other cells. Device-reported: sbox@0x2340, line_off 0, line_shift 4, ~48 MHz.",
+    "note": null,
+    "function_note": null
    }
   },
   {
@@ -10142,6 +10363,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_cen0_autows_ttable1_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10202,7 +10424,7 @@
    "field": "ttable",
    "implementation": "4.25 KB 4-table",
    "claim": "0/16 @ 400 000 with every pair set falling as 1/sqrt(n) -- and sigma 19.951, the LARGEST in its matrix",
-   "verdict": "recapture",
+   "verdict": "flat",
    "in_paper_one_page": true,
    "clock_mhz": 47.769,
    "ws": "AUTOWS -- behaves as RWS 1-2 at 48 MHz",
@@ -10214,11 +10436,37 @@
    },
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
-   "recapture": {
-    "board": "same51",
-    "cipher": "aes_ttable_encrypt (4-table, 4.25 KB), branchless xtime, -O2, at cell cen0_autows (CEN 0, CACHEDIS 00, AUTOWS 1 / RWS 0)",
+   "repro": {
+    "block_from": "cross_part_table.json",
+    "capture": "results/same51/deep_cen0_autows_ttable_400k.npz",
+    "capture_form": {
+     "kind": "path",
+     "paths": [
+      "results/same51/deep_cen0_autows_ttable_400k.npz"
+     ]
+    },
+    "field": "ttable",
+    "kind": "flat",
+    "observable": "cyc",
+    "function": null,
+    "rungs": null,
+    "pairsets": null,
+    "line_shift": null,
+    "line_off": null,
+    "ct_adjacent": null,
+    "expect": null,
+    "expect_n": null,
+    "expect_spelling": "null",
     "n": 400000,
-    "reason": "Same composite row, and here the mis-sourcing changes the sign of the claim rather than only its register setting. '0/16 @ 400 000 ... and sigma 19.951, the LARGEST in its matrix' is section 5b's shipped cell, which is CMCC ON -- capture results/same51/deep_shipped_ttable_400k.npz, already filed against config 1 (CEN 1 -- CMCC on), which is the row whose registers it actually describes. This row is CMCC DISABLED, and with the cache off the 4-table is nearly flat: the matrix cell ram0_cen0_ttable reads chan_sd 0.4921 over 3 distinct values at 2 048 traces (section 4a), against 19.951 over 116 for shipped. So the cell as written attributes a cache-on statistic -- and the largest one on the part -- to a cache-off row, and there is no capture of the 4-table at this row's configuration at any n beyond the 2 048-trace matrix. A 400 000-trace 4-table capture at cen0_autows settles it; the prediction from the matrix is that it is nearly flat and nothing like the quoted sigma, which is exactly why it should be measured rather than inferred. The alternative, again, is to correct the row's config string instead."
+    "distinct": 1,
+    "key_hex": null,
+    "pt_seed": null,
+    "loader": null,
+    "replay": null,
+    "line_off_derivation": null,
+    "why": "ONE distinct cycle count in 400 000 traces, mean 2785.0, sd 0.000 - bit-exactly constant. THIS REVERSES THE CELL. Its text reads '0/16 @ 400 000, sigma 19.951, the LARGEST in its matrix', which is section 5b's `shipped` cell with the CMCC **ON** and is already filed on that row. In the configuration this row actually names, with the CMCC DISABLED, the 4-table is not the loudest cell on the part - it is silent. So the borrowed figure had the wrong cell and the wrong sign of interest, not just the wrong register setting. RE-TAKEN ON SILICON 2026-10-20 at the configuration THIS ROW NAMES, which had never been captured: deep.py's `cen0_autows` cell (CTRLA 0x0004 - AUTOWS 1, RWS 0, CACHEDIS 00, SR.CSTS 0). The dossier's section 4a has neither shape - its `cen0` is RWS 1 / AUTOWS 0, and its only AUTOWS rows run with the CMCC ON - so both figures standing in this row were borrowed from other cells. Device-reported: sbox@0x2340, line_off 0, line_shift 4, ~48 MHz.",
+    "note": null,
+    "function_note": null
    }
   },
   {
@@ -10243,6 +10491,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_shipped_sbox_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10296,6 +10545,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/matrix.npz",
     "capture_form": {
      "kind": "path",
@@ -10349,6 +10599,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_shipped_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10419,6 +10670,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/matrix.npz",
     "capture_form": {
      "kind": "path",
@@ -10472,6 +10724,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/matrix.npz",
     "capture_form": {
      "kind": "path",
@@ -10525,6 +10778,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_ws0_24m_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10595,6 +10849,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_csize1k_sbox_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10665,6 +10920,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_csize1k_ttw_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10731,6 +10987,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_csize1k_ttable_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10799,6 +11056,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/deep_alloff_sbox_400k.npz",
     "capture_form": {
      "kind": "path",
@@ -10852,6 +11110,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/matrix.npz",
     "capture_form": {
      "kind": "path",
@@ -10905,6 +11164,7 @@
    "src": "research/targets/same51j20a.md",
    "dossier": "research/targets/same51j20a.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/same51/matrix.npz",
     "capture_form": {
      "kind": "path",
@@ -10958,6 +11218,7 @@
    "src": "research/targets/xmc1100.md",
    "dossier": "research/targets/xmc1100.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/xmc1100/sbox_adaptive_32.npz",
     "capture_form": {
      "kind": "path",
@@ -11050,6 +11311,7 @@
    "src": "research/targets/xmc1100.md",
    "dossier": "research/targets/xmc1100.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/xmc1100/ttable_adaptive_32.npz",
     "capture_form": {
      "kind": "path",
@@ -11114,6 +11376,7 @@
    "src": "research/targets/k21fn1m0.md",
    "dossier": "research/targets/k21fn1m0.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/k21fn1m0/k21_all-on_sbox_alt_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -11234,6 +11497,7 @@
    "src": "research/targets/k21fn1m0.md",
    "dossier": "research/targets/k21fn1m0.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/k21fn1m0/k21_sebe-only_sbox_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -11358,6 +11622,7 @@
    "src": "research/targets/k21fn1m0.md",
    "dossier": "research/targets/k21fn1m0.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/k21fn1m0/k21_all-off_sbox_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -11551,6 +11816,7 @@
    "src": "research/targets/aducm3029.md",
    "dossier": "research/targets/aducm3029.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/aducm3029/aducm3029_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -11618,6 +11884,7 @@
    "src": "research/targets/aducm3029.md",
    "dossier": "research/targets/aducm3029.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/aducm3029/aducm3029_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -11685,6 +11952,7 @@
    "src": "research/targets/aducm3029.md",
    "dossier": "research/targets/aducm3029.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/aducm3029/aducm3029_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -11754,6 +12022,7 @@
    "src": "research/targets/aducm3029.md",
    "dossier": "research/targets/aducm3029.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/aducm3029/aducm3029_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -11807,6 +12076,7 @@
    "src": "research/targets/aducm3029.md",
    "dossier": "research/targets/aducm3029.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/aducm3029/aducm3029_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -11860,6 +12130,7 @@
    "src": "research/targets/aducm3029.md",
    "dossier": "research/targets/aducm3029.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/aducm3029/aducm3029_screen.npz",
     "capture_form": {
      "kind": "path",
@@ -11913,6 +12184,7 @@
    "src": "research/targets/rp2040.md",
    "dossier": "research/targets/rp2040.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/rp2040/sbox_ram0_cache1_b2c1d30048_25000.npz",
     "capture_form": {
      "kind": "path",
@@ -11994,6 +12266,7 @@
    "src": "research/targets/rp2040.md",
    "dossier": "research/targets/rp2040.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/rp2040/ttable4_ram0_cache1_b230fa3603_400000.npz",
     "capture_form": {
      "kind": "path",
@@ -12142,6 +12415,7 @@
    "src": "research/targets/rp2350.md",
    "dossier": "research/targets/rp2350.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pico2/sbox_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
     "capture_form": {
      "kind": "path",
@@ -12206,6 +12480,7 @@
    "src": "research/targets/rp2350.md",
    "dossier": "research/targets/rp2350.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pico2/ttw0_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
     "capture_form": {
      "kind": "path",
@@ -12270,6 +12545,7 @@
    "src": "research/targets/rp2350.md",
    "dossier": "research/targets/rp2350.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pico2/ttable4_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
     "capture_form": {
      "kind": "path",
@@ -12334,6 +12610,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/lpc_mul1_tim7_mam0_flash_sbox_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -12387,6 +12664,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/traces/mul1_tim7_mam0_flash_ttw.npz",
     "capture_form": {
      "kind": "path",
@@ -12440,6 +12718,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/traces/mul1_tim7_mam0_flash_ttable.npz",
     "capture_form": {
      "kind": "path",
@@ -12498,6 +12777,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/lpc_mul1_tim7_mam2_flash_sbox_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -12568,6 +12848,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/lpc_mul1_tim7_mam2_flash_ttw_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -12639,6 +12920,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/lpc_mul1_tim7_mam2_flash_ttable_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -12705,6 +12987,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/lpc_mul1_tim1_mam2_flash_sbox_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -12758,6 +13041,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/traces/mul1_tim1_mam2_flash_ttw.npz",
     "capture_form": {
      "kind": "path",
@@ -12811,6 +13095,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/traces/mul1_tim1_mam2_flash_ttable.npz",
     "capture_form": {
      "kind": "path",
@@ -12864,6 +13149,7 @@
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/lpc2124/lpc_mul1_tim7_mam1_flash_sbox_100000.npz",
     "capture_form": {
      "kind": "path",
@@ -12921,18 +13207,56 @@
    "field": "ttable1",
    "implementation": "1.25 KB compact T",
    "claim": "n/s",
-   "verdict": "recapture",
+   "verdict": "block",
    "in_paper_one_page": false,
    "clock_mhz": 14.7456,
    "ws": "7",
    "addr": null,
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
-   "recapture": {
-    "board": "lpc2124",
-    "cipher": "compact single-table T-table, `aes_ttw_encrypt` (impl `ttw`), tables in flash, MAMCR 1, MAMTIM 7, mul 1, state adjacency",
-    "n": 100000,
-    "reason": "The cell reads n/s and the data on disk cannot carry it: results/lpc2124/traces/mul1_tim7_mam1_flash_ttw.npz is 2 048 traces, 127 distinct values, sd 22.6184 -- it LEAKS, so this is not a flat cell going begging -- but it holds no ciphertexts (only `cycles`, `plaintexts`, `key`), so flashattack.archive cannot load it, and 2 048 traces is a quarter of the 25 000 the same implementation needed at MAMCR 2 where THREE pair sets were live instead of one. Expect it to need more than 25 000, not less. This is also the cell that would settle how far mode 1's discount goes: at MAMCR 2 the compact T-table costs 25 000 traces against the byte S-box's never-16, and mode 1 removes two of the three live pair sets from both."
+   "repro": {
+    "block_from": "cross_part_table.json",
+    "capture": "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttw_100000.npz",
+    "capture_form": {
+     "kind": "path",
+     "paths": [
+      "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttw_100000.npz"
+     ]
+    },
+    "field": "ttable1",
+    "kind": "block",
+    "observable": "cyc",
+    "function": "aes_ttw_encrypt",
+    "rungs": [
+     12500,
+     25000,
+     50000,
+     100000
+    ],
+    "pairsets": [
+     "r0r1",
+     "r1r2",
+     "r2r3",
+     "r0r3",
+     "r0r2",
+     "r1r3"
+    ],
+    "line_shift": 4,
+    "line_off": 0,
+    "ct_adjacent": false,
+    "expect": null,
+    "expect_n": null,
+    "expect_spelling": "null",
+    "n": null,
+    "distinct": null,
+    "key_hex": null,
+    "pt_seed": null,
+    "loader": null,
+    "replay": null,
+    "line_off_derivation": "DERIVED: the device reports sbox 0x00005D00 and line_off 0 into the capture; 0x5D00 mod 16 = 0 on the measured 16-byte row.",
+    "why": "100 000 traces, mean 5213.702, sd 34.4881, 265 distinct, cipher check 0 mismatches. IT LEAKS AND YIELDS NOTHING: the best recovery anywhere is 1/16, at line_shift 4 / line_off 12 / ct adjacency, which is chance. Screened across line_shift 2/3/4 and line_off 0/4/8/12 under both adjacencies at 50 000 traces - every combination is 0 or 1 byte. So this is a cell that recovers nothing rather than a cell that is constant, and sd 34.49 over 265 distinct values is the opposite of flat. The 2 048-trace file the table's claim rested on was right that it leaks and could not have shown whether it breaks. RE-TAKEN ON SILICON 2026-10-20. The first attempt measured the WRONG CELL and is worth recording: the board was carrying rigs/fw_lpc2124_aes/fw_ramcode.bin, so the cipher ran from SRAM, only the table read touched flash, and at MAMCR 1 - NXP's documented data-side bypass - the capture came back bit-exactly constant against a 2 048-trace file on disk showing 127 distinct values. The selftest passed throughout. What settled it was code_addr: 0x40001880 (SRAM) against the reference sbox capture's 0x108c (flash). Those two captures are kept, correctly relabelled as the _ramcode variant they are, which completes that triple. rigs/fw_lpc2124_aes/fw.bin was then flashed, moving the cipher back into flash (code_sbox 0x10d4), and these captures are at sbox 0x00005D00 - the same table address as the covered sbox block beside them. ON THIS PART THE CODE ADDRESS IS LOAD-BEARING, not just the table's, and only the _ramcode filename suffix was carrying it.",
+    "note": null,
+    "function_note": null
    }
   },
   {
@@ -12949,18 +13273,56 @@
    "field": "ttable",
    "implementation": "4.25 KB 4-table",
    "claim": "n/s",
-   "verdict": "recapture",
+   "verdict": "block",
    "in_paper_one_page": false,
    "clock_mhz": 14.7456,
    "ws": "7",
    "addr": null,
    "src": "research/targets/lpc2124.md",
    "dossier": "research/targets/lpc2124.md",
-   "recapture": {
-    "board": "lpc2124",
-    "cipher": "4-table T-table, `aes_ttable_encrypt` (impl `ttable`), tables in flash, MAMCR 1, MAMTIM 7, mul 1, CIPHERTEXT adjacency (this build wants ct adjacency at MAMCR 2 and the flag must not be inherited from the S-box cell)",
-    "n": 100000,
-    "reason": "n/s, and as the ttw cell beside it the only data is the 2 048-trace matrix file traces/mul1_tim7_mam1_flash_ttable.npz: 163 distinct values, sd 29.1375, leaking, no ciphertexts, and 2 048 traces against the 10 000 this implementation needed at MAMCR 2 with three live pair sets. Take it with the ttw cell in one deepall.py run. It is the more valuable of the two: the 4-table build is this part's cheapest cell at MAMCR 2 (5 000 traces with a 782-key search, 10 000 clean), so its cost at MAMCR 1 is the number that says what the vendor's documented bypass actually buys an attacker."
+   "repro": {
+    "block_from": "cross_part_table.json",
+    "capture": "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttable_100000.npz",
+    "capture_form": {
+     "kind": "path",
+     "paths": [
+      "results/lpc2124/lpc_mul1_tim7_mam1_flash_ttable_100000.npz"
+     ]
+    },
+    "field": "ttable",
+    "kind": "block",
+    "observable": "cyc",
+    "function": "aes_ttable_encrypt",
+    "rungs": [
+     12500,
+     25000,
+     50000,
+     100000
+    ],
+    "pairsets": [
+     "r0r1",
+     "r1r2",
+     "r2r3",
+     "r0r3",
+     "r0r2",
+     "r1r3"
+    ],
+    "line_shift": 4,
+    "line_off": 0,
+    "ct_adjacent": true,
+    "expect": null,
+    "expect_n": null,
+    "expect_spelling": "null",
+    "n": null,
+    "distinct": null,
+    "key_hex": null,
+    "pt_seed": null,
+    "loader": null,
+    "replay": null,
+    "line_off_derivation": "DERIVED: device-reported sbox 0x00005D00, line_off 0; 0x5D00 mod 16 = 0.",
+    "why": "100 000 traces, mean 5284.598, sd 28.9642, 223 distinct, cipher check 0 mismatches. EIGHT OF SIXTEEN BYTES, AND IT PLATEAUS: 3/16 at 12 500, 4/16 at 25 000, 8/16 at 50 000, and STILL 8/16 at 100 000, under ciphertext adjacency. Eight is exactly one pair set's worth, so one pair set is live and the rest are dead. By this project's own rule a partial recovery that does not improve with data is a MODEL problem rather than a trace problem, so more traces here would not help and the missing eight bytes want a different pair model. expect is null because sixteen bytes never land; the 8/16 is the result. The adjacency is not inherited: a geometry screen over line_shift 2/3/4 and line_off 0/4/8/12 in both adjacencies at 50 000 ranks (line_shift 4, line_off 0, ct) top at 8 bytes with the next best at 2, and state adjacency never exceeds 1 - which confirms the worklist's warning that this build wants ct adjacency and the flag must not be carried over from the S-box cell. RE-TAKEN ON SILICON 2026-10-20. The first attempt measured the WRONG CELL and is worth recording: the board was carrying rigs/fw_lpc2124_aes/fw_ramcode.bin, so the cipher ran from SRAM, only the table read touched flash, and at MAMCR 1 - NXP's documented data-side bypass - the capture came back bit-exactly constant against a 2 048-trace file on disk showing 127 distinct values. The selftest passed throughout. What settled it was code_addr: 0x40001880 (SRAM) against the reference sbox capture's 0x108c (flash). Those two captures are kept, correctly relabelled as the _ramcode variant they are, which completes that triple. rigs/fw_lpc2124_aes/fw.bin was then flashed, moving the cipher back into flash (code_sbox 0x10d4), and these captures are at sbox 0x00005D00 - the same table address as the covered sbox block beside them. ON THIS PART THE CODE ADDRESS IS LOAD-BEARING, not just the table's, and only the _ramcode filename suffix was carrying it.",
+    "note": null,
+    "function_note": null
    }
   },
   {
@@ -12990,6 +13352,7 @@
    "src": "research/targets/mpc5606b.md",
    "dossier": "research/targets/mpc5606b.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/mpc5606b/aes_sbox_flash_20k_20260923T182407Z.json",
     "capture_form": {
      "kind": "path",
@@ -13069,6 +13432,7 @@
    "src": "research/targets/mpc5606b.md",
    "dossier": "research/targets/mpc5606b.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json",
     "capture_form": {
      "kind": "path",
@@ -13141,6 +13505,7 @@
    "src": "research/targets/mpc5606b.md",
    "dossier": "research/targets/mpc5606b.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/mpc5606b/aes_ttable4_flash_20260923T183012Z.json",
     "capture_form": {
      "kind": "path",
@@ -13210,6 +13575,7 @@
    "src": "research/targets/mpc5606b.md",
    "dossier": "research/targets/mpc5606b.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/mpc5606b/aes_sbox_rwsc0_20260923T183637Z.json",
     "capture_form": {
      "kind": "path",
@@ -13323,6 +13689,7 @@
    "src": "research/targets/mpc5606b.md",
    "dossier": "research/targets/mpc5606b.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/mpc5606b/aes_sbox_bfe0_20260923T183242Z.json",
     "capture_form": {
      "kind": "path",
@@ -13436,6 +13803,7 @@
    "src": "research/targets/mpc5606b.md",
    "dossier": "research/targets/mpc5606b.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/mpc5606b/aes_sbox_dflash2_20260923T223718Z.json",
     "capture_form": {
      "kind": "path",
@@ -13559,6 +13927,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/deep_dcbyp1_sbox_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -13652,6 +14021,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/deep_d1p1_ttable_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -13720,6 +14090,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/deep_dcbyp0_sbox_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -13812,6 +14183,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/deep_d0p1_ttable_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -13877,6 +14249,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/ws1_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -13998,6 +14371,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/dflash_sbox_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -14079,6 +14453,7 @@
    "src": "research/targets/tc234lp.md",
    "dossier": "research/targets/tc234lp.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/tc234lp/dflash_ttable_26k.npz",
     "capture_form": {
      "kind": "path",
@@ -14382,6 +14757,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row1_ttw_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -14451,6 +14827,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row1_ttable_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -14525,6 +14902,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/deep_sbox_uncached.npz",
     "capture_form": {
      "kind": "path",
@@ -14596,6 +14974,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row2_ttw_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -14670,6 +15049,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row2_ttable_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -14742,6 +15122,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row3_sbox_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -14811,6 +15192,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row3_ttw_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -14880,6 +15262,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/tbl_row3_ttable_200k.npz",
     "capture_form": {
      "kind": "path",
@@ -15023,6 +15406,7 @@
    "src": "research/targets/pic32mz2048efh144.md",
    "dossier": "research/targets/pic32mz2048efh144.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/pic32mz/deep_ttable_ram_uncached.npz",
     "capture_form": {
      "kind": "path",
@@ -15076,6 +15460,7 @@
    "src": "research/targets/msp430f5529.md",
    "dossier": "research/targets/msp430f5529.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/msp430f5529/msp430_sbox_branchless_ram_25mhz_25k.npz",
     "capture_form": {
      "kind": "path",
@@ -15129,6 +15514,7 @@
    "src": "research/targets/msp430f5529.md",
    "dossier": "research/targets/msp430f5529.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/msp430f5529/aes_matrix_25mhz.json",
     "capture_form": {
      "kind": "path",
@@ -15182,6 +15568,7 @@
    "src": "research/targets/msp430f5529.md",
    "dossier": "research/targets/msp430f5529.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/msp430f5529/aes_matrix_25mhz.json",
     "capture_form": {
      "kind": "path",
@@ -15322,6 +15709,7 @@
    "src": "research/targets/ch32v203.md",
    "dossier": "research/targets/ch32v203.md",
    "repro": {
+    "block_from": "cross_part_table.json",
     "capture": "results/ch32v203/nzw_sbox_eh0_100k.npz",
     "capture_form": {
      "kind": "path",
