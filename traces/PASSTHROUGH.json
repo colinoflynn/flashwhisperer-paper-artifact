@@ -1,0 +1,405 @@
+{
+ "files": {
+  "results/aducm3029/aducm3029_screen.npz": {
+   "path": "results/aducm3029/aducm3029_screen.npz",
+   "source": "results/aducm3029/aducm3029_screen.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 55287,
+   "cells": [
+    "aducm3029/any-flash-configuration-sbox",
+    "aducm3029/any-flash-configuration-ttable1",
+    "aducm3029/any-flash-configuration-ttable",
+    "aducm3029/tables-in-ram-sbox",
+    "aducm3029/tables-in-ram-ttable1",
+    "aducm3029/tables-in-ram-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/f429_matrix/f4mx_tinyaes_000_ws0.npz": {
+   "path": "results/f429_matrix/f4mx_tinyaes_000_ws0.npz",
+   "source": "results/f429_matrix/f4mx_tinyaes_000_ws0.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 3001,
+   "cells": [
+    "stm32f429/latency-0-caches-off-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/g4_ctguard/g4ct_codepad.npz": {
+   "path": "results/g4_ctguard/g4ct_codepad.npz",
+   "source": "results/g4_ctguard/g4ct_codepad.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 69196,
+   "cells": [
+    "stm32g474/art-off-dcen-0-latency-0-sbox",
+    "stm32g474/latency-0-with-the-d-cache-off-sbox"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/g4_ctguard/g4ct_map.npz": {
+   "path": "results/g4_ctguard/g4ct_map.npz",
+   "source": "results/g4_ctguard/g4ct_map.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 637714,
+   "cells": [
+    "stm32g474/dcen-0-latency-1-sbox",
+    "stm32g474/dcen-1-latency-1-sbox"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_100000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_100000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_100000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 3275659,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef21_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef21_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef21_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820200,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef22_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef22_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef22_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820179,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef23_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef23_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef23_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820257,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef24_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef24_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef24_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820244,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef31_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef31_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef31_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820181,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef32_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef32_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef32_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820220,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/l475_sbox_flash_acr600_vos1_sbeef33_25000.npz": {
+   "path": "results/l475/l475_sbox_flash_acr600_vos1_sbeef33_25000.npz",
+   "source": "results/l475/l475_sbox_flash_acr600_vos1_sbeef33_25000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "device",
+   "bytes": 820087,
+   "cells": [
+    "stm32l475/art-on-ic-dc-latency-0-acr-0x600-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/l475/matrix.json": {
+   "path": "results/l475/matrix.json",
+   "source": "results/l475/matrix.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 101925,
+   "cells": [
+    "stm32l475/tables-in-sram1-code-left-in-fla-ttable1",
+    "stm32l475/tables-in-sram1-code-left-in-fla-ttable"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/m2351/screen_align0.npz": {
+   "path": "results/m2351/screen_align0.npz",
+   "source": "results/m2351/screen_align0.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 63011,
+   "cells": [
+    "m2351/tables-in-sram-sbox",
+    "m2351/tables-in-sram-ttable1",
+    "m2351/tables-in-sram-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/mpc5606b/aes_sbox_bfe0_20260923T183242Z.json": {
+   "path": "results/mpc5606b/aes_sbox_bfe0_20260923T183242Z.json",
+   "source": "results/mpc5606b/aes_sbox_bfe0_20260923T183242Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 140480,
+   "cells": [
+    "mpc5606b/bfe-0-buffers-disabled-sbox"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_sbox_dflash2_20260923T223718Z.json": {
+   "path": "results/mpc5606b/aes_sbox_dflash2_20260923T223718Z.json",
+   "source": "results/mpc5606b/aes_sbox_dflash2_20260923T223718Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 140516,
+   "cells": [
+    "mpc5606b/tables-in-the-dflash-array-sbox"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_sbox_flash_20k_20260923T182407Z.json": {
+   "path": "results/mpc5606b/aes_sbox_flash_20k_20260923T182407Z.json",
+   "source": "results/mpc5606b/aes_sbox_flash_20k_20260923T182407Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 140483,
+   "cells": [
+    "mpc5606b/pfcr0-0x18c780ed-buffers-on-dept-sbox"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_sbox_rwsc0_20260923T183637Z.json": {
+   "path": "results/mpc5606b/aes_sbox_rwsc0_20260923T183637Z.json",
+   "source": "results/mpc5606b/aes_sbox_rwsc0_20260923T183637Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120478,
+   "cells": [
+    "mpc5606b/pfcr0-0x18c180ed-rwsc-0-sbox"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json": {
+   "path": "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json",
+   "source": "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120483,
+   "cells": [
+    "mpc5606b/pfcr0-0x18c780ed-buffers-on-dept-ttable1"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_ttable4_flash_20260923T183012Z.json": {
+   "path": "results/mpc5606b/aes_ttable4_flash_20260923T183012Z.json",
+   "source": "results/mpc5606b/aes_ttable4_flash_20260923T183012Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120482,
+   "cells": [
+    "mpc5606b/pfcr0-0x18c780ed-buffers-on-dept-ttable"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/msp430f5529/aes_matrix_25mhz.json": {
+   "path": "results/msp430f5529/aes_matrix_25mhz.json",
+   "source": "results/msp430f5529/aes_matrix_25mhz.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 24240,
+   "cells": [
+    "msp430f5529/xt-branchless-fctl4-mgr-0-3-tabl-ttable1",
+    "msp430f5529/xt-branchless-fctl4-mgr-0-3-tabl-ttable"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/pic32mz/deep_sbox_uncached.npz": {
+   "path": "results/pic32mz/deep_sbox_uncached.npz",
+   "source": "results/pic32mz/deep_sbox_uncached.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 1761586,
+   "cells": [
+    "pic32mz2048efh144/config-k0-2-cache-off-for-kseg0-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/pic32mz/deep_ttable_ram_uncached.npz": {
+   "path": "results/pic32mz/deep_ttable_ram_uncached.npz",
+   "source": "results/pic32mz/deep_ttable_ram_uncached.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 1604481,
+   "cells": [
+    "pic32mz2048efh144/tables-in-ram-and-config-k0-2-ttable"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
+  },
+  "results/ra2a1/ra2_flwt_bl.npz": {
+   "path": "results/ra2a1/ra2_flwt_bl.npz",
+   "source": "results/ra2a1/ra2_flwt_bl.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 3292,
+   "cells": [
+    "ra2a1/fcacheen-0-or-memwait-0-sbox",
+    "ra2a1/fcacheen-0-or-memwait-0-ttable1",
+    "ra2a1/fcacheen-0-or-memwait-0-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/ra2a1/ra2_matrix_branchless.npz": {
+   "path": "results/ra2a1/ra2_matrix_branchless.npz",
+   "source": "results/ra2a1/ra2_matrix_branchless.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 3966,
+   "cells": [
+    "ra2a1/fcacheen-0-memwait-0-flwt-0-sbox",
+    "ra2a1/fcacheen-0-memwait-0-flwt-0-ttable1",
+    "ra2a1/fcacheen-0-memwait-0-flwt-0-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/s5d3/s5d3_matrix_bl_o2.npz": {
+   "path": "results/s5d3/s5d3_matrix_bl_o2.npz",
+   "source": "results/s5d3/s5d3_matrix_bl_o2.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 70746,
+   "cells": [
+    "s5d3/fcacheen-0-ttable1",
+    "s5d3/tables-in-sram-sbox",
+    "s5d3/tables-in-sram-ttable1",
+    "s5d3/tables-in-sram-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/same51/matrix.npz": {
+   "path": "results/same51/matrix.npz",
+   "source": "results/same51/matrix.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 160788,
+   "cells": [
+    "same51j20a/cen-1-cmcc-on-ttable1",
+    "same51j20a/rws-0-cmcc-on-sbox",
+    "same51j20a/rws-0-cmcc-on-ttable1",
+    "same51j20a/cen-0-and-cachedis0-ttable1",
+    "same51j20a/cen-0-and-cachedis0-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/stm32f303re/f303_impl0_8mhz_acr30_25k.npz": {
+   "path": "results/stm32f303re/f303_impl0_8mhz_acr30_25k.npz",
+   "source": "results/stm32f303re/f303_impl0_8mhz_acr30_25k.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 401401,
+   "cells": [
+    "stm32f303/latency-0-prftbe-on-sbox"
+   ],
+   "why": "the reducer skipped it: no plaintexts; the ciphertext column cannot be dropped"
+  },
+  "results/stm32f303re/f303_impl1_8mhz_acr30_25k.npz": {
+   "path": "results/stm32f303re/f303_impl1_8mhz_acr30_25k.npz",
+   "source": "results/stm32f303re/f303_impl1_8mhz_acr30_25k.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 401401,
+   "cells": [
+    "stm32f303/latency-0-prftbe-on-ttable1"
+   ],
+   "why": "the reducer skipped it: no plaintexts; the ciphertext column cannot be dropped"
+  },
+  "results/stm32f303re/f303_impl2_8mhz_acr30_25k.npz": {
+   "path": "results/stm32f303re/f303_impl2_8mhz_acr30_25k.npz",
+   "source": "results/stm32f303re/f303_impl2_8mhz_acr30_25k.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 401402,
+   "cells": [
+    "stm32f303/latency-0-prftbe-on-ttable"
+   ],
+   "why": "the reducer skipped it: no plaintexts; the ciphertext column cannot be dropped"
+  },
+  "results/stm32g474/g4_align_sweep.npz": {
+   "path": "results/stm32g474/g4_align_sweep.npz",
+   "source": "results/stm32g474/g4_align_sweep.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 214962,
+   "cells": [
+    "stm32g474/flash-acr-0x00040704-latency-4-p-sbox",
+    "stm32g474/flash-acr-0x00040304-dcen-cleare-sbox"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/stm32l152/l152re_32mhz.npz": {
+   "path": "results/stm32l152/l152re_32mhz.npz",
+   "source": "results/stm32l152/l152re_32mhz.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 34000,
+   "cells": [
+    "stm32l152/flash-acr-0x07-1-ws-sbox",
+    "stm32l152/flash-acr-0x07-1-ws-ttable1",
+    "stm32l152/flash-acr-0x07-1-ws-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/stm32l152/l152re_screen.npz": {
+   "path": "results/stm32l152/l152re_screen.npz",
+   "source": "results/stm32l152/l152re_screen.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 79527,
+   "cells": [
+    "stm32l152/flash-acr-0x06-64-bit-access-pre-sbox",
+    "stm32l152/flash-acr-0x06-64-bit-access-pre-ttable1",
+    "stm32l152/flash-acr-0x06-64-bit-access-pre-ttable"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  },
+  "results/stm32l552/l5_surface.npz": {
+   "path": "results/stm32l552/l5_surface.npz",
+   "source": "results/stm32l552/l5_surface.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 576254,
+   "cells": [
+    "stm32l552/latency-0-sbox"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
+  }
+ }
+}

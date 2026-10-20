@@ -1,0 +1,3556 @@
+{
+ "rows": [
+  {
+   "path": "results/cc1352/cc13_bl_cache_compact_50k.npz",
+   "source": "results/cc1352/cc13_bl_cache_compact_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 818712,
+   "source_bytes": 1622034
+  },
+  {
+   "path": "results/cc1352/cc13_bl_cache_sbox_50k.npz",
+   "source": "results/cc1352/cc13_bl_cache_sbox_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 824179,
+   "source_bytes": 1628695
+  },
+  {
+   "path": "results/cc1352/cc13_bl_cache_ttable_50k.npz",
+   "source": "results/cc1352/cc13_bl_cache_ttable_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 808331,
+   "source_bytes": 1609290
+  },
+  {
+   "path": "results/cc1352/cc13_bl_off_compact_50k.npz",
+   "source": "results/cc1352/cc13_bl_off_compact_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 822521,
+   "source_bytes": 1626777
+  },
+  {
+   "path": "results/cc1352/cc13_bl_off_lbdis_compact_50k.npz",
+   "source": "results/cc1352/cc13_bl_off_lbdis_compact_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 801789,
+   "source_bytes": 1601950
+  },
+  {
+   "path": "results/cc1352/cc13_bl_off_lbdis_sbox_50k.npz",
+   "source": "results/cc1352/cc13_bl_off_lbdis_sbox_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 801789,
+   "source_bytes": 1601940
+  },
+  {
+   "path": "results/cc1352/cc13_bl_off_lbdis_ttable_50k.npz",
+   "source": "results/cc1352/cc13_bl_off_lbdis_ttable_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 801787,
+   "source_bytes": 1601947
+  },
+  {
+   "path": "results/cc1352/cc13_bl_off_sbox_50k.npz",
+   "source": "results/cc1352/cc13_bl_off_sbox_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 827999,
+   "source_bytes": 1632954
+  },
+  {
+   "path": "results/cc1352/cc13_bl_off_ttable_50k.npz",
+   "source": "results/cc1352/cc13_bl_off_ttable_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "a2bf2a1cc94d74c40a98430f9ed95088f9c620941266526ad36ed4a1f40bbc8c",
+   "pt_sha256": "a5c2918ca0bb3fc2491bebda34ddd5901a8438e2bc0438842cebf5759cde0286",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CC1352R1F3"
+   ],
+   "reduced_bytes": 811127,
+   "source_bytes": 1612673
+  },
+  {
+   "path": "results/ch32v203/nzw_sbox_eh0_100k.npz",
+   "source": "results/ch32v203/nzw_sbox_eh0_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "ac1e819969151cf434d9abf621146b329ceb3540a89e1916464bab17cf376a62",
+   "pt_sha256": "64e766eb0b8c0f44ac3426a4b4bc3bf99eee6a2f1ea098c107a7fa2a71710ed3",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "CH32V203G6U6"
+   ],
+   "reduced_bytes": 1646469,
+   "source_bytes": 3255723
+  },
+  {
+   "path": "results/k21fn1m0/k21_all-off_sbox_100000.npz",
+   "source": "results/k21fn1m0/k21_all-off_sbox_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "369a143a67ff621b51915b6e333e9cb3edc803b7512a874f5598bf47a7eedab5",
+   "pt_sha256": "2630542b208c1c130fcbb521fc88db5611d65bf00498030356f522883035f93d",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "MK21FN1M0"
+   ],
+   "reduced_bytes": 1602122,
+   "source_bytes": 3204954
+  },
+  {
+   "path": "results/k21fn1m0/k21_all-on_sbox_alt_100000.npz",
+   "source": "results/k21fn1m0/k21_all-on_sbox_alt_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "369a143a67ff621b51915b6e333e9cb3edc803b7512a874f5598bf47a7eedab5",
+   "pt_sha256": "2630542b208c1c130fcbb521fc88db5611d65bf00498030356f522883035f93d",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "MK21FN1M0"
+   ],
+   "reduced_bytes": 1668695,
+   "source_bytes": 3271540
+  },
+  {
+   "path": "results/k21fn1m0/k21_sebe-only_sbox_100000.npz",
+   "source": "results/k21fn1m0/k21_sebe-only_sbox_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "369a143a67ff621b51915b6e333e9cb3edc803b7512a874f5598bf47a7eedab5",
+   "pt_sha256": "2630542b208c1c130fcbb521fc88db5611d65bf00498030356f522883035f93d",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "MK21FN1M0"
+   ],
+   "reduced_bytes": 1646420,
+   "source_bytes": 3249264
+  },
+  {
+   "path": "results/l475/l475_sbox_flash_acr004_vos1_100000.npz",
+   "source": "results/l475/l475_sbox_flash_acr004_vos1_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "faf270f0f604d09c7c360c1b4ca0f2b83e51d83c4d864f75487394c99455e3e2",
+   "pt_sha256": "1492db6914988668c2580eafe7f1a3b00353c27dbeff77ff6c6f3c8284581fee",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x004 (LATENCY 4, whole ART off), cipher=sbox via single-shot 'E', tables in flash, VOS range 1, SBOX at 08002260, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 100000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 1675334,
+   "source_bytes": 3294884
+  },
+  {
+   "path": "results/l475/l475_sbox_flash_acr004_vos1_O3_sbeef11_12500.npz",
+   "source": "results/l475/l475_sbox_flash_acr004_vos1_O3_sbeef11_12500.npz",
+   "source_sha256": null,
+   "n": 12500,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "3cc8f4b815fd18d4ec61c0f73e62c96e2b88d80fac36239449a21f54980b77cb",
+   "pt_sha256": "c2c345c56367abaf2e3c6f69a89dc10f4aaf28459037e0dfb8efc66d1a72911b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x004 (LATENCY 4, whole ART off), cipher=sbox via single-shot 'E', tables in flash, VOS range 1, SBOX at 08005d00, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O3 O3, seed 0xbeef11, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 12500, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 212976,
+   "source_bytes": 414559
+  },
+  {
+   "path": "results/l475/l475_sbox_flash_acr004_vos1_at3c0_sbeef1b_12500.npz",
+   "source": "results/l475/l475_sbox_flash_acr004_vos1_at3c0_sbeef1b_12500.npz",
+   "source_sha256": null,
+   "n": 12500,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "89852367468ef9273b5a0ce218e61615a476f2bb74b057d01887262036de9bb0",
+   "pt_sha256": "c9b94beb022f65997aa78dfd240ce075f7927f081299c9837493d475de86adf7",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x004 (LATENCY 4, whole ART off), cipher=sbox via single-shot 'E', tables in flash, VOS range 1, SBOX at 080023c0, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2 at3c0, seed 0xbeef1b, capture path=single-shot (one host write per trace), last-round adjacency=state, device-reported ciphertexts, AES-verified on all 12500, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 213041,
+   "source_bytes": 414609
+  },
+  {
+   "path": "results/l475/l475_sbox_flash_acr104_vos1_100000.npz",
+   "source": "results/l475/l475_sbox_flash_acr104_vos1_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "3b51f30b06d86bf7b4a4f3fd32fa35e3f8245c7b9eb64cd90ab1afaca24334c0",
+   "pt_sha256": "9d2bbfcfe08da234e3f43906331a23036d9280106c8ecd78f6e4455b306fb478",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x104 (LATENCY 4 + I-cache only), cipher=sbox via single-shot 'E', tables in flash, VOS range 1, SBOX at 08002260, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 100000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 1683741,
+   "source_bytes": 3301404
+  },
+  {
+   "path": "results/l475/l475_sbox_flash_acr504_vos1_100000.npz",
+   "source": "results/l475/l475_sbox_flash_acr504_vos1_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "faf270f0f604d09c7c360c1b4ca0f2b83e51d83c4d864f75487394c99455e3e2",
+   "pt_sha256": "1492db6914988668c2580eafe7f1a3b00353c27dbeff77ff6c6f3c8284581fee",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x504 (LATENCY 4 + prefetch + D-cache (loudest cell in the screen)), cipher=sbox via single-shot 'E', tables in flash, VOS range 1, SBOX at 08002260, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 100000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 1669496,
+   "source_bytes": 3288359
+  },
+  {
+   "path": "results/l475/l475_sbox_ram_acr504_vos1_25000.npz",
+   "source": "results/l475/l475_sbox_ram_acr504_vos1_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "475d5e3e5833cb65b715f814ea824a4a7efd1618b8d0fc88f9016ed842f96bce",
+   "pt_sha256": "5f80dd7da0f649b16fbd75470387d16bf38554483be31353feee3b4c622c5a5b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x504 (LATENCY 4 + prefetch + D-cache (loudest cell in the screen)), cipher=sbox via single-shot 'E', tables in ram, VOS range 1, SBOX at 200000e0, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 25000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 401974,
+   "source_bytes": 802033
+  },
+  {
+   "path": "results/l475/l475_ttable1_flash_acr004_vos1_100000.npz",
+   "source": "results/l475/l475_ttable1_flash_acr004_vos1_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "faf270f0f604d09c7c360c1b4ca0f2b83e51d83c4d864f75487394c99455e3e2",
+   "pt_sha256": "1492db6914988668c2580eafe7f1a3b00353c27dbeff77ff6c6f3c8284581fee",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x004 (LATENCY 4, whole ART off), cipher=ttable1 via single-shot 'M', tables in flash, VOS range 1, SBOX at 08002260, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 100000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 1661358,
+   "source_bytes": 3278515
+  },
+  {
+   "path": "results/l475/l475_ttable_flash_acr404_vos1_100000.npz",
+   "source": "results/l475/l475_ttable_flash_acr404_vos1_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "faf270f0f604d09c7c360c1b4ca0f2b83e51d83c4d864f75487394c99455e3e2",
+   "pt_sha256": "1492db6914988668c2580eafe7f1a3b00353c27dbeff77ff6c6f3c8284581fee",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x404 (LATENCY 4 + D-cache only), cipher=ttable via single-shot 'T', tables in flash, VOS range 1, SBOX at 08002260, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2, last-round adjacency=ct, device-reported ciphertexts, AES-verified on all 100000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 1686945,
+   "source_bytes": 3304440
+  },
+  {
+   "path": "results/l475/pads/l475_sbox_flash_acr504_vos1_fw_tp16_25000.npz",
+   "source": "results/l475/pads/l475_sbox_flash_acr504_vos1_fw_tp16_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "475d5e3e5833cb65b715f814ea824a4a7efd1618b8d0fc88f9016ed842f96bce",
+   "pt_sha256": "5f80dd7da0f649b16fbd75470387d16bf38554483be31353feee3b4c622c5a5b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"STM32L475VG (B-L475E-IOT01A) FLASH_ACR 0x504 (LATENCY 4 + prefetch + D-cache (loudest cell in the screen)), cipher=sbox via single-shot 'E', tables in flash, VOS range 1, SBOX at 08002270, HSI16 15.986 MHz measured, SysTick timebase, xt=branchless, -O2 fw_tp16, seed 0xc0ffee, last-round adjacency=state, device-reported ciphertexts, AES-verified on all 25000, results/l475/cell_capture.py\"]",
+   "cells": [
+    "STM32L475VG"
+   ],
+   "reduced_bytes": 432442,
+   "source_bytes": 837999
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim1_mam2_flash_sbox_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim1_mam2_flash_sbox_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 1874,
+   "source_bytes": 3204931
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam0_flash_sbox_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam0_flash_sbox_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 1869,
+   "source_bytes": 3204929
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam1_flash_sbox_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam1_flash_sbox_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 110239,
+   "source_bytes": 3326674
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam2_flash_sbox_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam2_flash_sbox_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 111610,
+   "source_bytes": 3325140
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam2_flash_ttable_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam2_flash_ttable_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 105274,
+   "source_bytes": 3317387
+  },
+  {
+   "path": "results/lpc2124/lpc_mul1_tim7_mam2_flash_ttw_100000.npz",
+   "source": "results/lpc2124/lpc_mul1_tim7_mam2_flash_ttw_100000.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0775a0f6d15264a4c4aae03febb70daedd933b813fd72702d04c86711c43d137",
+   "pt_sha256": "3f769ea9a76eb2459582d9ab921fd4a9c107a10e6e547b7ce365465ca8fc67ee",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 112355,
+   "source_bytes": 3326310
+  },
+  {
+   "path": "results/lpc2124/traces/mul1_tim1_mam2_flash_ttable.npz",
+   "source": "results/lpc2124/traces/mul1_tim1_mam2_flash_ttable.npz",
+   "source_sha256": null,
+   "n": 2048,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": null,
+   "pt_sha256": "caa6b1b79324e62f77dae94cc545a7349defd56c2119e1faca319332d94f3f36",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 1603,
+   "source_bytes": 35172
+  },
+  {
+   "path": "results/lpc2124/traces/mul1_tim1_mam2_flash_ttw.npz",
+   "source": "results/lpc2124/traces/mul1_tim1_mam2_flash_ttw.npz",
+   "source_sha256": null,
+   "n": 2048,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": null,
+   "pt_sha256": "caa6b1b79324e62f77dae94cc545a7349defd56c2119e1faca319332d94f3f36",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 1611,
+   "source_bytes": 35162
+  },
+  {
+   "path": "results/lpc2124/traces/mul1_tim7_mam0_flash_ttable.npz",
+   "source": "results/lpc2124/traces/mul1_tim7_mam0_flash_ttable.npz",
+   "source_sha256": null,
+   "n": 2048,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": null,
+   "pt_sha256": "caa6b1b79324e62f77dae94cc545a7349defd56c2119e1faca319332d94f3f36",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 1606,
+   "source_bytes": 35173
+  },
+  {
+   "path": "results/lpc2124/traces/mul1_tim7_mam0_flash_ttw.npz",
+   "source": "results/lpc2124/traces/mul1_tim7_mam0_flash_ttw.npz",
+   "source_sha256": null,
+   "n": 2048,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": null,
+   "pt_sha256": "caa6b1b79324e62f77dae94cc545a7349defd56c2119e1faca319332d94f3f36",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [],
+   "source_meta": null,
+   "cells": [
+    "LPC2124 (Olimex LPC-H2124)"
+   ],
+   "reduced_bytes": 1612,
+   "source_bytes": 35160
+  },
+  {
+   "path": "results/m2351/m2351_s2c2_sbox_alt_400000_o3.npz",
+   "source": "results/m2351/m2351_s2c2_sbox_alt_400000_o3.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "M2351 (NuMaker-PFM-M2351)"
+   ],
+   "reduced_bytes": 456479,
+   "source_bytes": 13312875
+  },
+  {
+   "path": "results/m2351/m2351_s2c2_ttable_200000_attack.npz",
+   "source": "results/m2351/m2351_s2c2_ttable_200000_attack.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58b9b69ff78a59b998d52a8fd5605eca4ee366aebd9dd3fad648773242dce54e",
+   "pt_sha256": "462f8e1f2f50524715336b2e67424c6e6afdb9f3b1b8ea631422f7ff44fd7c25",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "M2351 (NuMaker-PFM-M2351)"
+   ],
+   "reduced_bytes": 208848,
+   "source_bytes": 6633168
+  },
+  {
+   "path": "results/msp430f5529/msp430_sbox_branchless_ram_25mhz_25k.npz",
+   "source": "results/msp430f5529/msp430_sbox_branchless_ram_25mhz_25k.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "68407f3a1b9ac68707e0eb49584410116ac729730dca86e36b54d46786852341",
+   "pt_sha256": "e61c7946810c62272ea6615616ebc69d1843e82c502ba3cf3d9fff1296bc5b67",
+   "pt_seed": 1592590337,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "MSP430F5529"
+   ],
+   "reduced_bytes": 1725,
+   "source_bytes": 803099
+  },
+  {
+   "path": "results/nrf52840/nrf_aes_deep_sbox_aligned.npz",
+   "source": "results/nrf52840/nrf_aes_deep_sbox_aligned.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "4cc8da073f7f8b14181f84306bd5746bac8b347665c5be89b9a3aa766ff4e1e2",
+   "pt_sha256": "7f9ed31e91f76aeaf474a91d9e258dc629c2884f241ad437592cd1ab05f4ede7",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "nRF52840"
+   ],
+   "reduced_bytes": 24417,
+   "source_bytes": 828095
+  },
+  {
+   "path": "results/nrf52840/nrf_aes_deep_ttable_icoff_25k.npz",
+   "source": "results/nrf52840/nrf_aes_deep_ttable_icoff_25k.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "4cc8da073f7f8b14181f84306bd5746bac8b347665c5be89b9a3aa766ff4e1e2",
+   "pt_sha256": "7f9ed31e91f76aeaf474a91d9e258dc629c2884f241ad437592cd1ab05f4ede7",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "nRF52840"
+   ],
+   "reduced_bytes": 10333,
+   "source_bytes": 813003
+  },
+  {
+   "path": "results/nrf52840/nrf_aes_deep_ttw_icoff_25k.npz",
+   "source": "results/nrf52840/nrf_aes_deep_ttw_icoff_25k.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "4cc8da073f7f8b14181f84306bd5746bac8b347665c5be89b9a3aa766ff4e1e2",
+   "pt_sha256": "7f9ed31e91f76aeaf474a91d9e258dc629c2884f241ad437592cd1ab05f4ede7",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "nRF52840"
+   ],
+   "reduced_bytes": 17624,
+   "source_bytes": 821643
+  },
+  {
+   "path": "results/pic32mz/tbl_row1_ttable_200k.npz",
+   "source": "results/pic32mz/tbl_row1_ttable_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 262949,
+   "source_bytes": 6734926
+  },
+  {
+   "path": "results/pic32mz/tbl_row1_ttw_200k.npz",
+   "source": "results/pic32mz/tbl_row1_ttw_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 2059,
+   "source_bytes": 6407982
+  },
+  {
+   "path": "results/pic32mz/tbl_row2_ttable_200k.npz",
+   "source": "results/pic32mz/tbl_row2_ttable_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 68458,
+   "source_bytes": 6496231
+  },
+  {
+   "path": "results/pic32mz/tbl_row2_ttw_200k.npz",
+   "source": "results/pic32mz/tbl_row2_ttw_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 148617,
+   "source_bytes": 6600883
+  },
+  {
+   "path": "results/pic32mz/tbl_row3_sbox_200k.npz",
+   "source": "results/pic32mz/tbl_row3_sbox_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 2060,
+   "source_bytes": 6407947
+  },
+  {
+   "path": "results/pic32mz/tbl_row3_ttable_200k.npz",
+   "source": "results/pic32mz/tbl_row3_ttable_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 252637,
+   "source_bytes": 6718225
+  },
+  {
+   "path": "results/pic32mz/tbl_row3_ttw_200k.npz",
+   "source": "results/pic32mz/tbl_row3_ttw_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cc4c673d26860fc8fd87f70aba3fd039ed8ae87516818fbb141b0ab93e02cec6",
+   "pt_sha256": "1f3600273481042418ee404ddb11d19f143cd734c1e267cb90a34c30d07cd07e",
+   "pt_seed": 305419896,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "PIC32MZ2048EFH144"
+   ],
+   "reduced_bytes": 2058,
+   "source_bytes": 6407952
+  },
+  {
+   "path": "results/pico2/sbox_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
+   "source": "results/pico2/sbox_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "b77ba09080f7cf61865fcfa629135a6a48478da7613ab87d97c5a8e839c453b3",
+   "pt_sha256": "9487a61967e5ab40ee163aff67255f89570414b8caa1165efbed3971a1b1e1a7",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RP2350"
+   ],
+   "reduced_bytes": 6630899,
+   "source_bytes": 13077249
+  },
+  {
+   "path": "results/pico2/ttable4_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
+   "source": "results/pico2/ttable4_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "b77ba09080f7cf61865fcfa629135a6a48478da7613ab87d97c5a8e839c453b3",
+   "pt_sha256": "9487a61967e5ab40ee163aff67255f89570414b8caa1165efbed3971a1b1e1a7",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RP2350"
+   ],
+   "reduced_bytes": 6688703,
+   "source_bytes": 13134344
+  },
+  {
+   "path": "results/pico2/ttw0_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
+   "source": "results/pico2/ttw0_ram0_cache1_sp0_cd3_sb10015968_b2ef27c0ca_400000.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "b77ba09080f7cf61865fcfa629135a6a48478da7613ab87d97c5a8e839c453b3",
+   "pt_sha256": "9487a61967e5ab40ee163aff67255f89570414b8caa1165efbed3971a1b1e1a7",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RP2350"
+   ],
+   "reduced_bytes": 6686273,
+   "source_bytes": 13131172
+  },
+  {
+   "path": "results/ra2a1/ra2_sbox_fc1_mw1_flwt7_400k.npz",
+   "source": "results/ra2a1/ra2_sbox_fc1_mw1_flwt7_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RA2A1 (R7FA2A1AB3CFM)"
+   ],
+   "reduced_bytes": 420098,
+   "source_bytes": 13265862
+  },
+  {
+   "path": "results/ra2a1/ra2_sbox_fc1_stock.npz",
+   "source": "results/ra2a1/ra2_sbox_fc1_stock.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58b9b69ff78a59b998d52a8fd5605eca4ee366aebd9dd3fad648773242dce54e",
+   "pt_sha256": "462f8e1f2f50524715336b2e67424c6e6afdb9f3b1b8ea631422f7ff44fd7c25",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RA2A1 (R7FA2A1AB3CFM)"
+   ],
+   "reduced_bytes": 136036,
+   "source_bytes": 6559582
+  },
+  {
+   "path": "results/ra2a1/ra2_ttable_fc1_mw1_flwt0_400k.npz",
+   "source": "results/ra2a1/ra2_ttable_fc1_mw1_flwt0_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RA2A1 (R7FA2A1AB3CFM)"
+   ],
+   "reduced_bytes": 114391,
+   "source_bytes": 12938567
+  },
+  {
+   "path": "results/ra2a1/ra2_ttable_fc1_mw1_flwt7_400k.npz",
+   "source": "results/ra2a1/ra2_ttable_fc1_mw1_flwt7_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RA2A1 (R7FA2A1AB3CFM)"
+   ],
+   "reduced_bytes": 141960,
+   "source_bytes": 12969773
+  },
+  {
+   "path": "results/ra2a1/ra2_ttw_fc1_mw1_flwt0_400k.npz",
+   "source": "results/ra2a1/ra2_ttw_fc1_mw1_flwt0_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RA2A1 (R7FA2A1AB3CFM)"
+   ],
+   "reduced_bytes": 148079,
+   "source_bytes": 12982222
+  },
+  {
+   "path": "results/ra2a1/ra2_ttw_fc1_mw1_flwt7_400k.npz",
+   "source": "results/ra2a1/ra2_ttw_fc1_mw1_flwt7_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RA2A1 (R7FA2A1AB3CFM)"
+   ],
+   "reduced_bytes": 332187,
+   "source_bytes": 13171233
+  },
+  {
+   "path": "results/rp2040/sbox_ram0_cache1_b2c1d30048_25000.npz",
+   "source": "results/rp2040/sbox_ram0_cache1_b2c1d30048_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "0c80849aa5aea04c2b92c31f4da706e010885a03623e9a88a0c9ea032c972751",
+   "pt_sha256": "f8b0d638c50144f7a4e2bb8b8c2c1719d2ed5b8e3fa512a4dd896fa99ee184d2",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RP2040"
+   ],
+   "reduced_bytes": 401626,
+   "source_bytes": 803124
+  },
+  {
+   "path": "results/rp2040/ttable4_ram0_cache1_b230fa3603_400000.npz",
+   "source": "results/rp2040/ttable4_ram0_cache1_b230fa3603_400000.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "b77ba09080f7cf61865fcfa629135a6a48478da7613ab87d97c5a8e839c453b3",
+   "pt_sha256": "9487a61967e5ab40ee163aff67255f89570414b8caa1165efbed3971a1b1e1a7",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "RP2040"
+   ],
+   "reduced_bytes": 6408376,
+   "source_bytes": 12813605
+  },
+  {
+   "path": "results/s5d3/s5d3_fw_c4_ttw.npz",
+   "source": "results/s5d3/s5d3_fw_c4_ttw.npz",
+   "source_sha256": null,
+   "n": 32000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "44dd451d7498b929f8c37373cb6cb29da737fa4bdb79523b88b5b03611060d44",
+   "pt_sha256": "22b1d95ae86be28b11148a2d04ab91ea8642fa824dfa57d5ad07d5f07e024a89",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 18032,
+   "source_bytes": 1045672
+  },
+  {
+   "path": "results/s5d3/s5d3_fw_sbox.npz",
+   "source": "results/s5d3/s5d3_fw_sbox.npz",
+   "source_sha256": null,
+   "n": 32000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "44dd451d7498b929f8c37373cb6cb29da737fa4bdb79523b88b5b03611060d44",
+   "pt_sha256": "22b1d95ae86be28b11148a2d04ab91ea8642fa824dfa57d5ad07d5f07e024a89",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 21376,
+   "source_bytes": 1049198
+  },
+  {
+   "path": "results/s5d3/s5d3_fw_ttable.npz",
+   "source": "results/s5d3/s5d3_fw_ttable.npz",
+   "source_sha256": null,
+   "n": 32000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "44dd451d7498b929f8c37373cb6cb29da737fa4bdb79523b88b5b03611060d44",
+   "pt_sha256": "22b1d95ae86be28b11148a2d04ab91ea8642fa824dfa57d5ad07d5f07e024a89",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 12497,
+   "source_bytes": 1039479
+  },
+  {
+   "path": "results/s5d3/s5d3_sbox_fc0_w2.npz",
+   "source": "results/s5d3/s5d3_sbox_fc0_w2.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 2578,
+   "source_bytes": 12808885
+  },
+  {
+   "path": "results/s5d3/s5d3_sbox_fc1_w0_30M.npz",
+   "source": "results/s5d3/s5d3_sbox_fc1_w0_30M.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 3302,
+   "source_bytes": 12809624
+  },
+  {
+   "path": "results/s5d3/s5d3_ttable_fc0_w2.npz",
+   "source": "results/s5d3/s5d3_ttable_fc0_w2.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 2443,
+   "source_bytes": 12808754
+  },
+  {
+   "path": "results/s5d3/s5d3_ttable_fc1_w0_30M.npz",
+   "source": "results/s5d3/s5d3_ttable_fc1_w0_30M.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "Synergy S5D3 (R7FS5D37A3A01CFP)"
+   ],
+   "reduced_bytes": 3304,
+   "source_bytes": 12809640
+  },
+  {
+   "path": "results/samd21/deep_cachedis_rws1_sbox_400k.npz",
+   "source": "results/samd21/deep_cachedis_rws1_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'cachedis_rws1', 'kind': 'sbox', 'n': 400000, 'seed': 20260925, 'mhz': 44.117568564027195, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 1, 'cachedis': 1, 'clk_level': 3, 'sbox_addr': 27904, 'line_off': 0, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 2844,
+   "source_bytes": 12806989
+  },
+  {
+   "path": "results/samd21/deep_cachedis_rws1_ttable_400k.npz",
+   "source": "results/samd21/deep_cachedis_rws1_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'cachedis_rws1', 'kind': 'ttable', 'n': 400000, 'seed': 20260925, 'mhz': 44.58934453900281, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 1, 'cachedis': 1, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 3701,
+   "source_bytes": 12807880
+  },
+  {
+   "path": "results/samd21/deep_cachedis_rws1_ttw_400k.npz",
+   "source": "results/samd21/deep_cachedis_rws1_ttw_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'cachedis_rws1', 'kind': 'ttw', 'n': 400000, 'seed': 20260925, 'mhz': 44.40633899797575, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 1, 'cachedis': 1, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 2853,
+   "source_bytes": 12806994
+  },
+  {
+   "path": "results/samd21/deep_determ_rws1_sbox_400k.npz",
+   "source": "results/samd21/deep_determ_rws1_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'determ_rws1', 'kind': 'sbox', 'n': 400000, 'seed': 20260925, 'mhz': 44.5175036824262, 'selftest': 31, 'readmode': 2, 'readmode_name': 'DETERMINISTIC', 'rws': 1, 'cachedis': 0, 'clk_level': 3, 'sbox_addr': 27904, 'line_off': 0, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 2892,
+   "source_bytes": 12807039
+  },
+  {
+   "path": "results/samd21/deep_determ_rws1_ttable_400k.npz",
+   "source": "results/samd21/deep_determ_rws1_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'determ_rws1', 'kind': 'ttable', 'n': 400000, 'seed': 20260925, 'mhz': 44.16493135740718, 'selftest': 31, 'readmode': 2, 'readmode_name': 'DETERMINISTIC', 'rws': 1, 'cachedis': 0, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 4021,
+   "source_bytes": 12808193
+  },
+  {
+   "path": "results/samd21/deep_determ_rws1_ttw_400k.npz",
+   "source": "results/samd21/deep_determ_rws1_ttw_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'determ_rws1', 'kind': 'ttw', 'n': 400000, 'seed': 20260925, 'mhz': 43.74118614974367, 'selftest': 31, 'readmode': 2, 'readmode_name': 'DETERMINISTIC', 'rws': 1, 'cachedis': 0, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 2866,
+   "source_bytes": 12807013
+  },
+  {
+   "path": "results/samd21/deep_lowpower_rws0_sbox_400k.npz",
+   "source": "results/samd21/deep_lowpower_rws0_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'lowpower_rws0', 'kind': 'sbox', 'n': 400000, 'seed': 20260925, 'mhz': 22.897737190907232, 'selftest': 31, 'readmode': 1, 'readmode_name': 'LOW_POWER', 'rws': 0, 'cachedis': 0, 'clk_level': 2, 'sbox_addr': 27904, 'line_off': 0, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 311498,
+   "source_bytes": 13150126
+  },
+  {
+   "path": "results/samd21/deep_lowpower_rws0_ttable_400k.npz",
+   "source": "results/samd21/deep_lowpower_rws0_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'lowpower_rws0', 'kind': 'ttable', 'n': 400000, 'seed': 20260925, 'mhz': 22.740652472624472, 'selftest': 31, 'readmode': 1, 'readmode_name': 'LOW_POWER', 'rws': 0, 'cachedis': 0, 'clk_level': 2, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 278633,
+   "source_bytes": 13123976
+  },
+  {
+   "path": "results/samd21/deep_lowpower_rws0_ttw_400k.npz",
+   "source": "results/samd21/deep_lowpower_rws0_ttw_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'lowpower_rws0', 'kind': 'ttw', 'n': 400000, 'seed': 20260925, 'mhz': 22.992899234556823, 'selftest': 31, 'readmode': 1, 'readmode_name': 'LOW_POWER', 'rws': 0, 'cachedis': 0, 'clk_level': 2, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 285635,
+   "source_bytes": 13129798
+  },
+  {
+   "path": "results/samd21/deep_nomiss_rws0_sbox_400k_2bb4.npz",
+   "source": "results/samd21/deep_nomiss_rws0_sbox_400k_2bb4.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'nomiss_rws0', 'kind': 'sbox', 'n': 400000, 'seed': 20260925, 'mhz': 22.678825141406154, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 0, 'cachedis': 0, 'clk_level': 2, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 2895,
+   "source_bytes": 12807037
+  },
+  {
+   "path": "results/samd21/deep_nomiss_rws0_ttable_400k.npz",
+   "source": "results/samd21/deep_nomiss_rws0_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'nomiss_rws0', 'kind': 'ttable', 'n': 400000, 'seed': 20260925, 'mhz': 23.025361831974422, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 0, 'cachedis': 0, 'clk_level': 2, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 4124,
+   "source_bytes": 12808324
+  },
+  {
+   "path": "results/samd21/deep_nomiss_rws0_ttw_400k.npz",
+   "source": "results/samd21/deep_nomiss_rws0_ttw_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'nomiss_rws0', 'kind': 'ttw', 'n': 400000, 'seed': 20260925, 'mhz': 22.91086138696012, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 0, 'cachedis': 0, 'clk_level': 2, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 2853,
+   "source_bytes": 12806991
+  },
+  {
+   "path": "results/samd21/deep_nomiss_rws1_sbox_400k_2bb4.npz",
+   "source": "results/samd21/deep_nomiss_rws1_sbox_400k_2bb4.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "569588df4f19e596fd76e244b0c4200944af70251fa68257a8470fa16a6de5d4",
+   "pt_sha256": "d57c48c9e66b845ab9b3802dc8f8c4c549eef4223afc36f2d75cb63c6de47cfa",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'nomiss_rws1', 'kind': 'sbox', 'n': 400000, 'seed': 20260925, 'mhz': 44.65774929866045, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 1, 'cachedis': 0, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 307897,
+   "source_bytes": 13147900
+  },
+  {
+   "path": "results/samd21/deep_ttable_nomiss_rws1_100k.npz",
+   "source": "results/samd21/deep_ttable_nomiss_rws1_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "fe02423e944fcc1c1218c2584fe80cf3d584c2ffa4dbe1fad2233f63a5ff1a20",
+   "pt_sha256": "623a213e6b448742a3102cbd3ccf7c896bd87fe234d7c3891afa2059e59b6459",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'nomiss_rws1', 'kind': 'ttable', 'n': 100000, 'seed': 20260925, 'mhz': 44.25952851407793, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 1, 'cachedis': 0, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 70653,
+   "source_bytes": 3281085
+  },
+  {
+   "path": "results/samd21/deep_ttw_nomiss_rws1_100k.npz",
+   "source": "results/samd21/deep_ttw_nomiss_rws1_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "fe02423e944fcc1c1218c2584fe80cf3d584c2ffa4dbe1fad2233f63a5ff1a20",
+   "pt_sha256": "623a213e6b448742a3102cbd3ccf7c896bd87fe234d7c3891afa2059e59b6459",
+   "pt_seed": 20260925,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'nomiss_rws1', 'kind': 'ttw', 'n': 100000, 'seed': 20260925, 'mhz': 44.44710139498669, 'selftest': 31, 'readmode': 0, 'readmode_name': 'NO_MISS_PENALTY', 'rws': 1, 'cachedis': 0, 'clk_level': 3, 'sbox_addr': 11188, 'line_off': 4, 'line_shift': 3, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMD21J18A"
+   ],
+   "reduced_bytes": 69687,
+   "source_bytes": 3280252
+  },
+  {
+   "path": "results/same51/deep_alloff_sbox_400k.npz",
+   "source": "results/same51/deep_alloff_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'alloff', 'kind': 'sbox', 'n': 400000, 'seed': 20261007, 'mhz': 48.15308829800935, 'selftest': 31, 'rws': 1, 'autows': 0, 'cachedis': 1, 'cen': 0, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 8924, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7033, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 2779,
+   "source_bytes": 12806895
+  },
+  {
+   "path": "results/same51/deep_cen0_autows_ttable1_400k.npz",
+   "source": "results/same51/deep_cen0_autows_ttable1_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'cen0_autows', 'kind': 'ttable1', 'n': 400000, 'seed': 20261007, 'mhz': 47.849634105674795, 'selftest': 63, 'rws': 0, 'autows': 1, 'cachedis': 0, 'cen': 0, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 9036, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7133, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 12, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 152792,
+   "source_bytes": 12987021
+  },
+  {
+   "path": "results/same51/deep_csize1k_sbox_400k.npz",
+   "source": "results/same51/deep_csize1k_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'csize1k', 'kind': 'sbox', 'n': 400000, 'seed': 20261007, 'mhz': 47.928722004218095, 'selftest': 31, 'rws': 1, 'autows': 0, 'cachedis': 0, 'cen': 1, 'icdis': 0, 'dcdis': 0, 'csizesw': 0, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 8924, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7033, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 47957,
+   "source_bytes": 12857027
+  },
+  {
+   "path": "results/same51/deep_csize1k_ttable_400k.npz",
+   "source": "results/same51/deep_csize1k_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'csize1k', 'kind': 'ttable', 'n': 400000, 'seed': 20261007, 'mhz': 47.84716627134782, 'selftest': 31, 'rws': 1, 'autows': 0, 'cachedis': 0, 'cen': 1, 'icdis': 0, 'dcdis': 0, 'csizesw': 0, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 8924, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7033, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 415200,
+   "source_bytes": 13256241
+  },
+  {
+   "path": "results/same51/deep_csize1k_ttw_400k.npz",
+   "source": "results/same51/deep_csize1k_ttw_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'csize1k', 'kind': 'ttw', 'n': 400000, 'seed': 20261007, 'mhz': 47.998957143680045, 'selftest': 31, 'rws': 1, 'autows': 0, 'cachedis': 0, 'cen': 1, 'icdis': 0, 'dcdis': 0, 'csizesw': 0, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 8924, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7033, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 397005,
+   "source_bytes": 13233365
+  },
+  {
+   "path": "results/same51/deep_shipped_sbox_400k.npz",
+   "source": "results/same51/deep_shipped_sbox_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'shipped', 'kind': 'sbox', 'n': 400000, 'seed': 20261007, 'mhz': 47.9254324941911, 'selftest': 31, 'rws': 0, 'autows': 1, 'cachedis': 0, 'cen': 1, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 8924, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7033, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 2773,
+   "source_bytes": 12806896
+  },
+  {
+   "path": "results/same51/deep_shipped_ttable_400k.npz",
+   "source": "results/same51/deep_shipped_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'shipped', 'kind': 'ttable', 'n': 400000, 'seed': 20261007, 'mhz': 47.695121948737786, 'selftest': 31, 'rws': 0, 'autows': 1, 'cachedis': 0, 'cen': 1, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 2, 'ram': 0, 'afirst': 1, 'sbox_addr': 8924, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 7033, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 411842,
+   "source_bytes": 13260590
+  },
+  {
+   "path": "results/same51/deep_ws0_24m_ttable_400k.npz",
+   "source": "results/same51/deep_ws0_24m_ttable_400k.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58cbda176253c89fd56cf6df5d6f3e858421a7228fe47c4421f5b1f0888a6dae",
+   "pt_sha256": "b16f4ac262a9cf5b91cdfc755a5fedb959fe7be669ad2d850d1ca9ccfd0ac159",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'ws0_24m', 'kind': 'ttable', 'n': 400000, 'seed': 20261007, 'mhz': 23.942770234155393, 'selftest': 63, 'rws': 0, 'autows': 0, 'cachedis': 0, 'cen': 1, 'icdis': 0, 'dcdis': 0, 'csizesw': 2, 'ahbns': 0, 'clk_level': 1, 'ram': 0, 'afirst': 1, 'sbox_addr': 9024, 'line_off': 0, 'line_shift': 4, 'cipher_addr': 7133, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c', 'resets': 1}\"]",
+   "cells": [
+    "ATSAME51J20A (SAM E51 Curiosity Nano)"
+   ],
+   "reduced_bytes": 348661,
+   "source_bytes": 13182960
+  },
+  {
+   "path": "results/samg55/deep_clk24_f15_cloe0_sbox_25k.npz",
+   "source": "results/samg55/deep_clk24_f15_cloe0_sbox_25k.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "f940fb955c71547323ec174b2f5ede4684bab9e901751289e552e73993be7324",
+   "pt_sha256": "82c17d71c72288942d01d858702de49fba921c8b4192b88f7a94d6575764c2b2",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'clk24_f15_cloe0', 'kind': 'sbox', 'n': 25000, 'seed': 20261007, 'mhz': 23.54674818282685, 'mainck_mhz': 25.131008, 'selftest': 31, 'observable': 'cyc', 'fws': 15, 'scod': 0, 'fam': 0, 'cloe': 0, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 2, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 22085,
+   "source_bytes": 845956
+  },
+  {
+   "path": "results/samg55/deep_clk24_f15_cloe0_ttable_100k.npz",
+   "source": "results/samg55/deep_clk24_f15_cloe0_ttable_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'clk24_f15_cloe0', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 24.338811189848524, 'mainck_mhz': 25.100288, 'selftest': 31, 'observable': 'cyc', 'fws': 15, 'scod': 0, 'fam': 0, 'cloe': 0, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 2, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 47495,
+   "source_bytes": 3309698
+  },
+  {
+   "path": "results/samg55/deep_clk24_f15_cloe0_ttw_100k.npz",
+   "source": "results/samg55/deep_clk24_f15_cloe0_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'clk24_f15_cloe0', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 24.2033031015941, 'mainck_mhz': 25.100288, 'selftest': 31, 'observable': 'cyc', 'fws': 15, 'scod': 0, 'fam': 0, 'cloe': 0, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 2, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 81977,
+   "source_bytes": 3379619
+  },
+  {
+   "path": "results/samg55/deep_clk24_f6_off_sbox_25k.npz",
+   "source": "results/samg55/deep_clk24_f6_off_sbox_25k.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "f940fb955c71547323ec174b2f5ede4684bab9e901751289e552e73993be7324",
+   "pt_sha256": "82c17d71c72288942d01d858702de49fba921c8b4192b88f7a94d6575764c2b2",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'clk24_f6_off', 'kind': 'sbox', 'n': 25000, 'seed': 20261007, 'mhz': 23.883348832647684, 'mainck_mhz': 25.131008, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 2, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 27398,
+   "source_bytes": 855926
+  },
+  {
+   "path": "results/samg55/deep_clk24_f6_off_ttable_100k.npz",
+   "source": "results/samg55/deep_clk24_f6_off_ttable_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'clk24_f6_off', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 24.37840686080861, 'mainck_mhz': 25.100288, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 2, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 50449,
+   "source_bytes": 3315925
+  },
+  {
+   "path": "results/samg55/deep_clk24_f6_off_ttw_100k.npz",
+   "source": "results/samg55/deep_clk24_f6_off_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'clk24_f6_off', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 23.95794419733781, 'mainck_mhz': 25.100288, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 2, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 80636,
+   "source_bytes": 3376417
+  },
+  {
+   "path": "results/samg55/deep_off_f0_sbox.npz",
+   "source": "results/samg55/deep_off_f0_sbox.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f0', 'kind': 'sbox', 'n': 100000, 'seed': 20261007, 'mhz': 7.907128573918396, 'mainck_mhz': 7.913472, 'selftest': 31, 'observable': 'cyc', 'fws': 0, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 5796,
+   "source_bytes": 3210781
+  },
+  {
+   "path": "results/samg55/deep_off_f0_ttable_100k.npz",
+   "source": "results/samg55/deep_off_f0_ttable_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f0', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 7.914874388513436, 'mainck_mhz': 8.298496, 'selftest': 31, 'observable': 'cyc', 'fws': 0, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 4699,
+   "source_bytes": 3208139
+  },
+  {
+   "path": "results/samg55/deep_off_f0_ttw_100k.npz",
+   "source": "results/samg55/deep_off_f0_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f0', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 7.901857252888598, 'mainck_mhz': 8.298496, 'selftest': 31, 'observable': 'cyc', 'fws': 0, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 4798,
+   "source_bytes": 3208348
+  },
+  {
+   "path": "results/samg55/deep_off_f1_sbox_100k.npz",
+   "source": "results/samg55/deep_off_f1_sbox_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f1', 'kind': 'sbox', 'n': 100000, 'seed': 20261007, 'mhz': 7.854993016360675, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 1, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 62117,
+   "source_bytes": 3343310
+  },
+  {
+   "path": "results/samg55/deep_off_f1_ttable_100k.npz",
+   "source": "results/samg55/deep_off_f1_ttable_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f1', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 7.93057934075001, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 1, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 36252,
+   "source_bytes": 3283452
+  },
+  {
+   "path": "results/samg55/deep_off_f1_ttw_100k.npz",
+   "source": "results/samg55/deep_off_f1_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f1', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 7.880974571789345, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 1, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 49857,
+   "source_bytes": 3316475
+  },
+  {
+   "path": "results/samg55/deep_off_f6_sbox.npz",
+   "source": "results/samg55/deep_off_f6_sbox.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f6', 'kind': 'sbox', 'n': 100000, 'seed': 20261007, 'mhz': 7.906897246588572, 'mainck_mhz': 7.913472, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 99791,
+   "source_bytes": 3413904
+  },
+  {
+   "path": "results/samg55/deep_off_f6_ttable_100k.npz",
+   "source": "results/samg55/deep_off_f6_ttable_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f6', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 7.928912993005911, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 50806,
+   "source_bytes": 3316577
+  },
+  {
+   "path": "results/samg55/deep_off_f6_ttw_100k.npz",
+   "source": "results/samg55/deep_off_f6_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'off_f6', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 7.922806958348078, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 0, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 80714,
+   "source_bytes": 3376472
+  },
+  {
+   "path": "results/samg55/deep_on_f0_ttable.npz",
+   "source": "results/samg55/deep_on_f0_ttable.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'on_f0', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 7.895190608555186, 'mainck_mhz': 7.913472, 'selftest': 31, 'observable': 'cyc', 'fws': 0, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 171698,
+   "source_bytes": 3476219
+  },
+  {
+   "path": "results/samg55/deep_on_f0_ttw_100k.npz",
+   "source": "results/samg55/deep_on_f0_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'on_f0', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 7.917839062764708, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 0, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 4843,
+   "source_bytes": 3208489
+  },
+  {
+   "path": "results/samg55/deep_on_f6_sbox.npz",
+   "source": "results/samg55/deep_on_f6_sbox.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'on_f6', 'kind': 'sbox', 'n': 100000, 'seed': 20261007, 'mhz': 7.914599743219298, 'mainck_mhz': 7.913472, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 5847,
+   "source_bytes": 3210937
+  },
+  {
+   "path": "results/samg55/deep_on_f6_ttable_100k.npz",
+   "source": "results/samg55/deep_on_f6_ttable_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'on_f6', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 7.960794085825723, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 204527,
+   "source_bytes": 3555547
+  },
+  {
+   "path": "results/samg55/deep_on_f6_ttw_100k.npz",
+   "source": "results/samg55/deep_on_f6_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'on_f6', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 7.892395429076807, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 2, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 4958,
+   "source_bytes": 3208724
+  },
+  {
+   "path": "results/samg55/deep_pg3_f6_sbox_100k.npz",
+   "source": "results/samg55/deep_pg3_f6_sbox_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'pg3_f6', 'kind': 'sbox', 'n': 100000, 'seed': 20261007, 'mhz': 7.874414470515309, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 3, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 5895,
+   "source_bytes": 3211000
+  },
+  {
+   "path": "results/samg55/deep_pg3_f6_ttable.npz",
+   "source": "results/samg55/deep_pg3_f6_ttable.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'pg3_f6', 'kind': 'ttable', 'n': 100000, 'seed': 20261007, 'mhz': 7.920593306353366, 'mainck_mhz': 7.913472, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 3, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 4727,
+   "source_bytes": 3208136
+  },
+  {
+   "path": "results/samg55/deep_pg3_f6_ttw_100k.npz",
+   "source": "results/samg55/deep_pg3_f6_ttw_100k.npz",
+   "source_sha256": null,
+   "n": 100000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "28fce9f16eaf4408e9fc67c21f46d32cced94acf67b8f53f13c209cee1c2d8fd",
+   "pt_sha256": "9c8e49b28e49e1b1e6073616250d9ff40e789503efa054953d47e2b20c7eee9a",
+   "pt_seed": 20261007,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "cyc_dhits"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "[\"{'cell': 'pg3_f6', 'kind': 'ttw', 'n': 100000, 'seed': 20261007, 'mhz': 7.866188613420085, 'mainck_mhz': 8.27392, 'selftest': 31, 'observable': 'cyc', 'fws': 6, 'scod': 0, 'fam': 0, 'cloe': 1, 'cache_on': 1, 'icdis': 0, 'dcdis': 0, 'prgcsize': 3, 'clk_level': 0, 'cmcc_type': 5079, 'sbox_addr': 4200988, 'line_off': 12, 'line_shift': 4, 'cipher_addr': 4199105, 'xt': 'branchless', 'sbox_align': 0, 'codepad': 0, 'tablepad': 0, 'key': '2b7e151628aed2a6abf7158809cf4f3c'}\"]",
+   "cells": [
+    "ATSAMG55J19 (SAM G55 Xplained Pro)"
+   ],
+   "reduced_bytes": 4915,
+   "source_bytes": 3208609
+  },
+  {
+   "path": "results/stm32f4/f4cell_ttable1_acr000_50000.npz",
+   "source": "results/stm32f4/f4cell_ttable1_acr000_50000.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "ffa8e3480f52d34ce30ece57b22e6e17baa04217fa0cdf5cbb4e5843328688d6",
+   "pt_sha256": "0deabf872769ffae5ab73ce4a422d435c922585c55b96188194e9474c9a2a0d3",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x000 = LATENCY 0, caches off; cipher=ttable1 (1.25 KB compact one-table Te0+rotations + byte S-box final round, aes_ttable1_encrypt); single-shot `M`, device-reported ciphertexts, AES-verified on all 50000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 823773,
+   "source_bytes": 1632411
+  },
+  {
+   "path": "results/stm32f4/f4cell_ttable1_acr700_150000.npz",
+   "source": "results/stm32f4/f4cell_ttable1_acr700_150000.npz",
+   "source_sha256": null,
+   "n": 150000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "f0a2719ab79f12f0858c8b786ff4dd271317b8ef65ddfb4133be9aa6f3c0fb5e",
+   "pt_sha256": "118fc3a97c9723abd8fa8e4ceeb052790583243eebecf35a0eaa5dc3a6421f99",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x700 = LATENCY 0, caches on; tables=flash; cipher=ttable1 (1.25 KB compact one-table Te0+rotations + byte S-box final round, aes_ttable1_encrypt); single-shot `M`, device-reported ciphertexts, AES-verified on all 150000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 2486254,
+   "source_bytes": 4915753
+  },
+  {
+   "path": "results/stm32f4/f4cell_ttable1_acr705_50000.npz",
+   "source": "results/stm32f4/f4cell_ttable1_acr705_50000.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "ffa8e3480f52d34ce30ece57b22e6e17baa04217fa0cdf5cbb4e5843328688d6",
+   "pt_sha256": "0deabf872769ffae5ab73ce4a422d435c922585c55b96188194e9474c9a2a0d3",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x705 = FLASH_ACR 0x705 -- caches and prefetch on; cipher=ttable1 (1.25 KB compact one-table Te0+rotations + byte S-box final round, aes_ttable1_encrypt); single-shot `M`, device-reported ciphertexts, AES-verified on all 50000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 853839,
+   "source_bytes": 1663933
+  },
+  {
+   "path": "results/stm32f4/f4cell_ttable_acr000_50000.npz",
+   "source": "results/stm32f4/f4cell_ttable_acr000_50000.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "ffa8e3480f52d34ce30ece57b22e6e17baa04217fa0cdf5cbb4e5843328688d6",
+   "pt_sha256": "0deabf872769ffae5ab73ce4a422d435c922585c55b96188194e9474c9a2a0d3",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x000 = LATENCY 0, caches off; cipher=ttable (4.25 KB four-table Te0..Te3 + byte S-box final round, aes_ttable_encrypt); single-shot `T`, device-reported ciphertexts, AES-verified on all 50000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 802149,
+   "source_bytes": 1603922
+  },
+  {
+   "path": "results/stm32f4/f4cell_ttable_acr700_150000.npz",
+   "source": "results/stm32f4/f4cell_ttable_acr700_150000.npz",
+   "source_sha256": null,
+   "n": 150000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "f0a2719ab79f12f0858c8b786ff4dd271317b8ef65ddfb4133be9aa6f3c0fb5e",
+   "pt_sha256": "118fc3a97c9723abd8fa8e4ceeb052790583243eebecf35a0eaa5dc3a6421f99",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x700 = LATENCY 0, caches on; cipher=ttable (4.25 KB four-table Te0..Te3 + byte S-box final round, aes_ttable_encrypt); single-shot `T`, device-reported ciphertexts, AES-verified on all 150000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 2470202,
+   "source_bytes": 4896230
+  },
+  {
+   "path": "results/stm32f4/f4cell_ttable_acr705_50000.npz",
+   "source": "results/stm32f4/f4cell_ttable_acr705_50000.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "ffa8e3480f52d34ce30ece57b22e6e17baa04217fa0cdf5cbb4e5843328688d6",
+   "pt_sha256": "0deabf872769ffae5ab73ce4a422d435c922585c55b96188194e9474c9a2a0d3",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32F429ZI (board f429) FLASH_ACR 0x705 = FLASH_ACR 0x705 -- caches and prefetch on; cipher=ttable (4.25 KB four-table Te0..Te3 + byte S-box final round, aes_ttable_encrypt); single-shot `T`, device-reported ciphertexts, AES-verified on all 50000; HSI 16 MHz; rigs/fw_f4 -O2; SBOX at 0x08001eec so line_off = 0x8001eec % 16 = 12, line_shift 4; final round reads the 256 B byte S-box in both builds; f4_ttable_cells.py']",
+   "cells": [
+    "STM32F429ZI"
+   ],
+   "reduced_bytes": 848013,
+   "source_bytes": 1657387
+  },
+  {
+   "path": "results/stm32g474/g4_ttable1_acr000_25000.npz",
+   "source": "results/stm32g474/g4_ttable1_acr000_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "475d5e3e5833cb65b715f814ea824a4a7efd1618b8d0fc88f9016ed842f96bce",
+   "pt_sha256": "5f80dd7da0f649b16fbd75470387d16bf38554483be31353feee3b4c622c5a5b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x000 (?), cipher=ttable1, single-shot M, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 401758,
+   "source_bytes": 801798
+  },
+  {
+   "path": "results/stm32g474/g4_ttable1_acr300_25000.npz",
+   "source": "results/stm32g474/g4_ttable1_acr300_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "4a72d0e46b1371164738347d48406b6ac8345cef915333d2e7aa78014c1a347c",
+   "pt_sha256": "9deb1ac435f0fc6e34c0e9d103558aa7c42ce67a1e22d39280a44514887944ea",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x300 (?), cipher=ttable1, single-shot M, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 401757,
+   "source_bytes": 801797
+  },
+  {
+   "path": "results/stm32g474/g4_ttable1_acr301_25000.npz",
+   "source": "results/stm32g474/g4_ttable1_acr301_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "c63b4c84fce98a5218d5d6c54bb966d4b34949af625204f6c74e28ac445e1198",
+   "pt_sha256": "23f969d0ec7f1c0771cfde4b7ada30d8f36c0e4399df4810d3b5d2891606a6fa",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x301 (?), cipher=ttable1, single-shot M, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 412332,
+   "source_bytes": 815629
+  },
+  {
+   "path": "results/stm32g474/g4_ttable1_acr40304_25000.npz",
+   "source": "results/stm32g474/g4_ttable1_acr40304_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "c63b4c84fce98a5218d5d6c54bb966d4b34949af625204f6c74e28ac445e1198",
+   "pt_sha256": "23f969d0ec7f1c0771cfde4b7ada30d8f36c0e4399df4810d3b5d2891606a6fa",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x40304 (?), cipher=ttable1, single-shot M, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 413540,
+   "source_bytes": 817018
+  },
+  {
+   "path": "results/stm32g474/g4_ttable1_acr40704_25000.npz",
+   "source": "results/stm32g474/g4_ttable1_acr40704_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "475d5e3e5833cb65b715f814ea824a4a7efd1618b8d0fc88f9016ed842f96bce",
+   "pt_sha256": "5f80dd7da0f649b16fbd75470387d16bf38554483be31353feee3b4c622c5a5b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x40704 (?), cipher=ttable1, single-shot M, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 425713,
+   "source_bytes": 830090
+  },
+  {
+   "path": "results/stm32g474/g4_ttable1_acr701_25000.npz",
+   "source": "results/stm32g474/g4_ttable1_acr701_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "330b575c0efd18b207b11be8839957173c4b9f27d2ff804ef2c7d1e26e2042ea",
+   "pt_sha256": "4f4d12584840f58fcc87b9586be87ec6161d4b8e8a2f5ecc851e4d116628515a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x701 (?), cipher=ttable1, single-shot M, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 417118,
+   "source_bytes": 821316
+  },
+  {
+   "path": "results/stm32g474/g4_ttable_acr000_25000.npz",
+   "source": "results/stm32g474/g4_ttable_acr000_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "475d5e3e5833cb65b715f814ea824a4a7efd1618b8d0fc88f9016ed842f96bce",
+   "pt_sha256": "5f80dd7da0f649b16fbd75470387d16bf38554483be31353feee3b4c622c5a5b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x000 (?), cipher=ttable, single-shot T, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 401757,
+   "source_bytes": 801798
+  },
+  {
+   "path": "results/stm32g474/g4_ttable_acr300_25000.npz",
+   "source": "results/stm32g474/g4_ttable_acr300_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "4a72d0e46b1371164738347d48406b6ac8345cef915333d2e7aa78014c1a347c",
+   "pt_sha256": "9deb1ac435f0fc6e34c0e9d103558aa7c42ce67a1e22d39280a44514887944ea",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x300 (?), cipher=ttable, single-shot T, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 401759,
+   "source_bytes": 801797
+  },
+  {
+   "path": "results/stm32g474/g4_ttable_acr301_25000.npz",
+   "source": "results/stm32g474/g4_ttable_acr301_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "c63b4c84fce98a5218d5d6c54bb966d4b34949af625204f6c74e28ac445e1198",
+   "pt_sha256": "23f969d0ec7f1c0771cfde4b7ada30d8f36c0e4399df4810d3b5d2891606a6fa",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x301 (?), cipher=ttable, single-shot T, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 408724,
+   "source_bytes": 810560
+  },
+  {
+   "path": "results/stm32g474/g4_ttable_acr40304_25000.npz",
+   "source": "results/stm32g474/g4_ttable_acr40304_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "c63b4c84fce98a5218d5d6c54bb966d4b34949af625204f6c74e28ac445e1198",
+   "pt_sha256": "23f969d0ec7f1c0771cfde4b7ada30d8f36c0e4399df4810d3b5d2891606a6fa",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x40304 (?), cipher=ttable, single-shot T, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 410181,
+   "source_bytes": 812419
+  },
+  {
+   "path": "results/stm32g474/g4_ttable_acr40704_25000.npz",
+   "source": "results/stm32g474/g4_ttable_acr40704_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "475d5e3e5833cb65b715f814ea824a4a7efd1618b8d0fc88f9016ed842f96bce",
+   "pt_sha256": "5f80dd7da0f649b16fbd75470387d16bf38554483be31353feee3b4c622c5a5b",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x40704 (?), cipher=ttable, single-shot T, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 422642,
+   "source_bytes": 826355
+  },
+  {
+   "path": "results/stm32g474/g4_ttable_acr701_25000.npz",
+   "source": "results/stm32g474/g4_ttable_acr701_25000.npz",
+   "source_sha256": null,
+   "n": 25000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "device",
+   "ct_sha256": "330b575c0efd18b207b11be8839957173c4b9f27d2ff804ef2c7d1e26e2042ea",
+   "pt_sha256": "4f4d12584840f58fcc87b9586be87ec6161d4b8e8a2f5ecc851e4d116628515a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": "['STM32G474 FLASH_ACR 0x701 (?), cipher=ttable, single-shot T, device-reported ciphertexts, AES-verified on all 25000, g4_cell_capture.py']",
+   "cells": [
+    "STM32G474RE"
+   ],
+   "reduced_bytes": 415595,
+   "source_bytes": 819567
+  },
+  {
+   "path": "results/stm32h723/h7_aes_sbox_idcache.npz",
+   "source": "results/stm32h723/h7_aes_sbox_idcache.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "STM32H723ZG"
+   ],
+   "reduced_bytes": 229152,
+   "source_bytes": 13108539
+  },
+  {
+   "path": "results/stm32h723/h7_ttable_cachesoff_axi_50k.npz",
+   "source": "results/stm32h723/h7_ttable_cachesoff_axi_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "3a49672c9607dcdef869d8ec7c32d7a1c87a10417441d42d61d44c5b9810bf80",
+   "pt_sha256": "dd36b97a07221222f9f2027a4c6596ffbe0cb147c137611522dddab9f5893360",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "STM32H723ZG"
+   ],
+   "reduced_bytes": 1974,
+   "source_bytes": 1602871
+  },
+  {
+   "path": "results/stm32h723/h7_ttable_icache_flash_50k.npz",
+   "source": "results/stm32h723/h7_ttable_icache_flash_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "3a49672c9607dcdef869d8ec7c32d7a1c87a10417441d42d61d44c5b9810bf80",
+   "pt_sha256": "dd36b97a07221222f9f2027a4c6596ffbe0cb147c137611522dddab9f5893360",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "STM32H723ZG"
+   ],
+   "reduced_bytes": 45268,
+   "source_bytes": 1655652
+  },
+  {
+   "path": "results/stm32h723/h7_ttable_idcache_flash_200k.npz",
+   "source": "results/stm32h723/h7_ttable_idcache_flash_200k.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58b9b69ff78a59b998d52a8fd5605eca4ee366aebd9dd3fad648773242dce54e",
+   "pt_sha256": "462f8e1f2f50524715336b2e67424c6e6afdb9f3b1b8ea631422f7ff44fd7c25",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "STM32H723ZG"
+   ],
+   "reduced_bytes": 125374,
+   "source_bytes": 6569507
+  },
+  {
+   "path": "results/stm32h723/h7_ttw_cachesoff_axi_50k.npz",
+   "source": "results/stm32h723/h7_ttw_cachesoff_axi_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "3a49672c9607dcdef869d8ec7c32d7a1c87a10417441d42d61d44c5b9810bf80",
+   "pt_sha256": "dd36b97a07221222f9f2027a4c6596ffbe0cb147c137611522dddab9f5893360",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "STM32H723ZG"
+   ],
+   "reduced_bytes": 15722,
+   "source_bytes": 1620940
+  },
+  {
+   "path": "results/stm32h723/h7_ttw_icache_flash_50k.npz",
+   "source": "results/stm32h723/h7_ttw_icache_flash_50k.npz",
+   "source_sha256": null,
+   "n": 50000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "3a49672c9607dcdef869d8ec7c32d7a1c87a10417441d42d61d44c5b9810bf80",
+   "pt_sha256": "dd36b97a07221222f9f2027a4c6596ffbe0cb147c137611522dddab9f5893360",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc",
+    "steps"
+   ],
+   "dropped": [
+    "cts"
+   ],
+   "source_meta": null,
+   "cells": [
+    "STM32H723ZG"
+   ],
+   "reduced_bytes": 49752,
+   "source_bytes": 1659946
+  },
+  {
+   "path": "results/tc234lp/deep_d0p1_ttable_26k.npz",
+   "source": "results/tc234lp/deep_d0p1_ttable_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc",
+    "drb_hit",
+    "drb_miss"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 495346,
+   "source_bytes": 1281440
+  },
+  {
+   "path": "results/tc234lp/deep_d1p1_ttable_26k.npz",
+   "source": "results/tc234lp/deep_d1p1_ttable_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc",
+    "drb_hit",
+    "drb_miss"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 450562,
+   "source_bytes": 1281440
+  },
+  {
+   "path": "results/tc234lp/deep_dcbyp0_sbox_26k.npz",
+   "source": "results/tc234lp/deep_dcbyp0_sbox_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc",
+    "drb_hit",
+    "drb_miss"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 509861,
+   "source_bytes": 1281184
+  },
+  {
+   "path": "results/tc234lp/deep_dcbyp1_sbox_26k.npz",
+   "source": "results/tc234lp/deep_dcbyp1_sbox_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc",
+    "drb_hit",
+    "drb_miss"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 457723,
+   "source_bytes": 1281184
+  },
+  {
+   "path": "results/tc234lp/dflash_sbox_26k.npz",
+   "source": "results/tc234lp/dflash_sbox_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc",
+    "drb_hit",
+    "drb_miss"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 429239,
+   "source_bytes": 1281432
+  },
+  {
+   "path": "results/tc234lp/dflash_ttable_26k.npz",
+   "source": "results/tc234lp/dflash_ttable_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc",
+    "drb_hit",
+    "drb_miss"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 428656,
+   "source_bytes": 1281440
+  },
+  {
+   "path": "results/tc234lp/ws1_26k.npz",
+   "source": "results/tc234lp/ws1_26k.npz",
+   "source_sha256": null,
+   "n": 26624,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "e9f80091ca26d35e1fad80fc646092ec475af97030cd8b491e238be364d1135c",
+   "pt_sha256": "ee442ee672493c8aff7343b02b2d8594902a809656b6c75b503e3ed41a9d3a6a",
+   "pt_seed": null,
+   "pt_form": "stored",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "TC234LP"
+   ],
+   "reduced_bytes": 453525,
+   "source_bytes": 1066436
+  },
+  {
+   "path": "results/xmc1100/sbox_adaptive_32.npz",
+   "source": "results/xmc1100/sbox_adaptive_32.npz",
+   "source_sha256": null,
+   "n": 400000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "cd9944f1040050841fa82aeefc05caa8d2f216c22656b30c2cfdf638a283b7c5",
+   "pt_sha256": "98cac570109fab18db4a7f3bf3556c9f211c4a0ae796ada65203c461487afd29",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "XMC1100"
+   ],
+   "reduced_bytes": 421810,
+   "source_bytes": 13265852
+  },
+  {
+   "path": "results/xmc1100/ttable_adaptive_32.npz",
+   "source": "results/xmc1100/ttable_adaptive_32.npz",
+   "source_sha256": null,
+   "n": 200000,
+   "cyc_dtype": "uint16",
+   "ct_provenance": "unknown",
+   "ct_sha256": "58b9b69ff78a59b998d52a8fd5605eca4ee366aebd9dd3fad648773242dce54e",
+   "pt_sha256": "462f8e1f2f50524715336b2e67424c6e6afdb9f3b1b8ea631422f7ff44fd7c25",
+   "pt_seed": 1,
+   "pt_form": "seed",
+   "observables": [
+    "cyc"
+   ],
+   "dropped": [
+    "ct"
+   ],
+   "source_meta": null,
+   "cells": [
+    "XMC1100"
+   ],
+   "reduced_bytes": 178865,
+   "source_bytes": 6595960
+  }
+ ],
+ "skipped": [
+  [
+   "results/aducm3029/aducm3029_screen.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/f429_matrix/f4mx_tinyaes_000_ws0.npz",
+   "no plaintexts; cannot drop ct"
+  ],
+  [
+   "results/g4_ctguard/g4ct_codepad.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/g4_ctguard/g4ct_map.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/m2351/screen_align0.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/pic32mz/deep_sbox_uncached.npz",
+   "no plaintexts; cannot drop ct"
+  ],
+  [
+   "results/pic32mz/deep_ttable_ram_uncached.npz",
+   "no plaintexts; cannot drop ct"
+  ],
+  [
+   "results/ra2a1/ra2_flwt_bl.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/ra2a1/ra2_matrix_branchless.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/s5d3/s5d3_matrix_bl_o2.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/same51/matrix.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/stm32g474/g4_align_sweep.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/stm32l152/l152re_32mhz.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/stm32l152/l152re_screen.npz",
+   "no per-trace timing column"
+  ],
+  [
+   "results/stm32l552/l5_surface.npz",
+   "no per-trace timing column"
+  ]
+ ],
+ "prose_captures": [
+  [
+   "STM32L475VG",
+   "results/l475/l475_sbox_flash_acr600_vos1_100000.npz + l475_sbox_flash_acr600_vos1_sbeef2[1-4]_25000.npz + l475_sbox_flash_acr600_vos1_sbeef3[1-3]_25000.npz (summed with ladder.py --concat)"
+  ],
+  [
+   "STM32L475VG",
+   "results/l475/matrix.json"
+  ],
+  [
+   "STM32L475VG",
+   "results/l475/matrix.json"
+  ],
+  [
+   "MPC5606B",
+   "results/mpc5606b/aes_sbox_flash_20k_20260923T182407Z.json"
+  ],
+  [
+   "MPC5606B",
+   "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json"
+  ],
+  [
+   "MPC5606B",
+   "results/mpc5606b/aes_ttable4_flash_20260923T183012Z.json"
+  ],
+  [
+   "MPC5606B",
+   "results/mpc5606b/aes_sbox_rwsc0_20260923T183637Z.json"
+  ],
+  [
+   "MPC5606B",
+   "results/mpc5606b/aes_sbox_bfe0_20260923T183242Z.json"
+  ],
+  [
+   "MPC5606B",
+   "results/mpc5606b/aes_sbox_dflash2_20260923T223718Z.json"
+  ],
+  [
+   "MSP430F5529",
+   "results/msp430f5529/aes_matrix_25mhz.json"
+  ],
+  [
+   "MSP430F5529",
+   "results/msp430f5529/aes_matrix_25mhz.json"
+  ]
+ ]
+}
