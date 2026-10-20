@@ -56,7 +56,10 @@ python tools/reproduce.py --json out.json      # every rung of every ladder
 A full run is slow, in minutes rather than seconds per cell on the large
 captures: a ladder is six pair sets at every rung, the rungs are cumulative
 prefixes of one capture, and the cells that swept both last-round adjacencies
-run twice. `--part` is the way to work.
+run twice. `-j <n>` scores that many cells at once in separate processes and is
+how a whole run gets done in under an hour; the rows still print in cell order
+so two runs of one selection give the same output. `--part` is the way to work
+while you are looking at one part.
 
 ## 2. The toolchain, before the board
 

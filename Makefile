@@ -14,10 +14,13 @@
 #   python tools/record.py --cell <id> --probe <probe serial>
 #
 # PYTHON is whatever you have; numpy is the only requirement for stage 3.
+# JOBS is how many cells stage 3 scores at once. A full serial run is hours:
+# a ladder is six pair sets at every rung and the rungs go to 400 000 traces.
 
 PYTHON ?= python
 RESEARCH ?= ../../flash-accelerator-tests
 REPRO_JSON ?= figures/reproduce.json
+JOBS ?= 8
 
 .PHONY: all deps verify reproduce table3 cells traces figures clean-figures
 
@@ -31,10 +34,10 @@ verify:
 	$(PYTHON) tools/verify.py
 
 reproduce:
-	$(PYTHON) tools/reproduce.py --json $(REPRO_JSON)
+	$(PYTHON) tools/reproduce.py -j $(JOBS) --json $(REPRO_JSON)
 
 table3:
-	$(PYTHON) tools/reproduce.py --table 3
+	$(PYTHON) tools/reproduce.py -j $(JOBS) --table 3
 
 # Needs the private research tree beside this one. Regenerating rather than
 # hand-editing is the point: the triage fragments land in batches and a copied
