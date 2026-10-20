@@ -70,3 +70,9 @@ calls `os.path.exists` on the sentence reports the cell missing.
 hand-edited. The prose in them is the research tree's own, carried across so a
 reader can see what a cell claims and what was recorded about it without
 needing that tree.
+
+The voice scanner flags a few hundred lines across these pages. They are left
+alone on purpose: that text is the evidence a cell rests on, in the words it
+was written in, and rewriting a quotation to read better is how a claim quietly
+turns into a different claim. The hand-written prose in this repository is the
+seven README files and `REPRODUCING.md`, and those are clean.

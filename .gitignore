@@ -1,0 +1,12 @@
+# Derived. figures/make_figures.py draws these from a reproduce run, and a
+# committed PDF is a claim nobody can check.
+figures/*.pdf
+figures/*.png
+figures/reproduce.json
+
+# Captures recorded by tools/record.py land here at full size. The shippable
+# form is what the research tree's artifact_reduce.py writes.
+traces/raw/
+
+__pycache__/
+*.pyc
