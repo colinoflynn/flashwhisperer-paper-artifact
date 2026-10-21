@@ -37,8 +37,7 @@
 #                   --list` prints which, and which of the roster's parts
 #                   therefore cannot be rebuilt here yet.
 #
-#                   TWO THINGS THIS PIN DOES NOT GIVE, both deliberate.
-#
+#                   WHAT THIS PIN STILL DOES NOT GIVE, and it is deliberate.
 #                   The eight roster parts with no mcufw/ directory are not an
 #                   oversight: five need a toolchain you register for, so CI
 #                   can never build them and this artifact ships the binary
@@ -49,12 +48,13 @@
 #                   timed by a Husky trig_count, while crypto-eval's whole
 #                   premise is the victim's own cycle counter.
 #
-#                   AND THE SAM G55 PORT HERE IS THE PRE-FIX ONE. Upstream has
-#                   one further commit, a63f330, which unlocks the PMC and
-#                   steps MOSCRCF so the port comes up on silicon at all - and
-#                   it is NOT PUSHED, so pinning it would leave a commit that
-#                   nobody else can resolve and verify.py would be right to
-#                   fail. Push it upstream and this becomes a one-line bump.
+#                   The SAM G55 port here IS the fixed one. This pin was
+#                   827f187 for one commit's worth of 2026-10-21, where the
+#                   port did not come up on silicon at all; a63f330 unlocks
+#                   the PMC and steps MOSCRCF one notch at a time, and it was
+#                   pushed before this pin moved onto it, because a pin has to
+#                   be resolvable by a fresh clone and not just by the machine
+#                   that wrote it.
 #
 #   demos           section 7 of the paper, the delivered attacks over real
 #                   protocol stacks, each with the vectors it was measured
@@ -62,5 +62,5 @@
 #                   duplicate any of it: its own README points here.
 #
 flashwhisperer  https://github.com/colinoflynn/flashwhisperer.git                3b44032bfa7c5ac4e5942b1ae965489aeed197cf  tool
-crypto-eval     https://github.com/colinoflynn/flashwhisperer-crypto-eval.git    827f187a618e58d82c0871c547aeba40d420b26e  tool
+crypto-eval     https://github.com/colinoflynn/flashwhisperer-crypto-eval.git    a63f3305a782abd437cbf5dead7dd98780807e89  tool
 demos           https://github.com/colinoflynn/flashwhisperer-demos              ed143146b3ead2e8c73faea0ba3dd8ace1a8796c  tool
