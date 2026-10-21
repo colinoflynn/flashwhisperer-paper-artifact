@@ -32,10 +32,29 @@
 #
 #   crypto-eval     the instrument stages 1 and 2 run on: one part, one
 #                   library, the victim's own cycle counter, the accelerator
-#                   word read back off the device. At this commit it builds six
-#                   ST parts; `python tools/build.py --list` prints which, and
-#                   which of the roster's parts therefore cannot be rebuilt
-#                   here yet.
+#                   word read back off the device. At this commit it builds 22
+#                   parts, up from six on 2026-10-21; `python tools/build.py
+#                   --list` prints which, and which of the roster's parts
+#                   therefore cannot be rebuilt here yet.
+#
+#                   TWO THINGS THIS PIN DOES NOT GIVE, both deliberate.
+#
+#                   The eight roster parts with no mcufw/ directory are not an
+#                   oversight: five need a toolchain you register for, so CI
+#                   can never build them and this artifact ships the binary
+#                   (MPC5606B, TC234LP, TMS320F280049C, PIC32MZ2048EFH144,
+#                   MSP430F5529); two are unported (CH32V203G6U6, LPC2124);
+#                   and the STM32F415RGT6 is excluded on purpose, because it
+#                   is a CW308T running ChipWhisperer's own simpleserial-aes
+#                   timed by a Husky trig_count, while crypto-eval's whole
+#                   premise is the victim's own cycle counter.
+#
+#                   AND THE SAM G55 PORT HERE IS THE PRE-FIX ONE. Upstream has
+#                   one further commit, a63f330, which unlocks the PMC and
+#                   steps MOSCRCF so the port comes up on silicon at all - and
+#                   it is NOT PUSHED, so pinning it would leave a commit that
+#                   nobody else can resolve and verify.py would be right to
+#                   fail. Push it upstream and this becomes a one-line bump.
 #
 #   demos           section 7 of the paper, the delivered attacks over real
 #                   protocol stacks, each with the vectors it was measured
@@ -43,5 +62,5 @@
 #                   duplicate any of it: its own README points here.
 #
 flashwhisperer  https://github.com/colinoflynn/flashwhisperer.git                3b44032bfa7c5ac4e5942b1ae965489aeed197cf  tool
-crypto-eval     https://github.com/colinoflynn/flashwhisperer-crypto-eval.git    8daf96b3660cee948708f2348e02e2df62d5be64  tool
+crypto-eval     https://github.com/colinoflynn/flashwhisperer-crypto-eval.git    827f187a618e58d82c0871c547aeba40d420b26e  tool
 demos           https://github.com/colinoflynn/flashwhisperer-demos              ed143146b3ead2e8c73faea0ba3dd8ace1a8796c  tool
