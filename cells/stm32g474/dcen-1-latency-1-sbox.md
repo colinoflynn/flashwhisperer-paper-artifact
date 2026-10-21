@@ -48,12 +48,7 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "ct_adjacent": false,
  "expect_spelling": "null",
  "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
- "pt_seed": 12648430,
- "loader_args_from": [
-  "key_hex",
-  "pt_seed"
- ],
- "loader_args_why": "the FLASH_ACR x code-offset map: one cycle array per cell, named cy_flash_<acr>. Neither the key nor the seed is a field; both were constants in the capture script."
+ "pt_seed": 12648430
 }
 ```
 

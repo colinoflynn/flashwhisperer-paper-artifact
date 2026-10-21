@@ -47,12 +47,7 @@ Every one of these comes from the cell and not from a tool's default. `line_shif
  "ct_adjacent": false,
  "expect_spelling": "null",
  "key_hex": "2b7e151628aed2a6abf7158809cf4f3c",
- "pt_seed": 12648430,
- "loader_args_from": [
-  "key_hex",
-  "pt_seed"
- ],
- "loader_args_why": "the table-alignment sweep: one array per (code offset, FLASH_ACR) named o<off>_<acr> and nothing else at all, not even a rows string."
+ "pt_seed": 12648430
 }
 ```
 

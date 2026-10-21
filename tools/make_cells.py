@@ -444,6 +444,7 @@ def write_pages(cells):
     was recorded about it without opening the private tree.
     """
     n = 0
+    written = set()
     for cell in cells:
         part, name = cell["id"].split("/", 1)
         directory = os.path.join(ROOT, "cells", part)
@@ -497,7 +498,37 @@ def write_pages(cells):
         path = os.path.join(directory, name + ".md")
         with open(path, "wb") as fh:
             fh.write(("\n".join(lines).rstrip() + "\n").encode("utf-8"))
+        written.add(os.path.normpath(path))
         n += 1
+
+    # PRUNE, because writing the new page does not remove the old one and a
+    # configuration can be RENAMED. A page's name is a slug of the config
+    # string, so amending that string writes new pages and leaves the old
+    # ones describing a configuration the table no longer has -- a reader
+    # finds both and nothing says which is live. It happened on 2026-10-21:
+    # the MK21FN1M0's "B0SEBE 0 with the cache also off" was amended because
+    # read literally it names a configuration that LEAKS, and three stale
+    # pages sat beside the three new ones.
+    #
+    # Only ever removes a `.md` inside a `cells/<part>/` directory that THIS
+    # run did not write, and says what it removed, because a silent delete in
+    # a generator is worse than the orphan it fixes.
+    removed = []
+    for part in sorted(os.listdir(os.path.join(ROOT, "cells"))):
+        directory = os.path.join(ROOT, "cells", part)
+        if not os.path.isdir(directory):
+            continue
+        for fn in sorted(os.listdir(directory)):
+            if not fn.endswith(".md") or fn == "README.md":
+                continue
+            path = os.path.normpath(os.path.join(directory, fn))
+            if path not in written:
+                os.remove(path)
+                removed.append("cells/%s/%s" % (part, fn))
+    for r in removed:
+        print("  pruned %s (no such cell any more)" % r)
+    if removed:
+        print("  %d stale page(s) removed" % len(removed))
     return n
 
 
