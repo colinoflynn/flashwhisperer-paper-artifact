@@ -208,6 +208,28 @@
    ],
    "why": "the reducer skipped it: not an npz"
   },
+  "results/mpc5606b/aes_ttable1_bfe0_20261020T205657Z.json": {
+   "path": "results/mpc5606b/aes_ttable1_bfe0_20261020T205657Z.json",
+   "source": "results/mpc5606b/aes_ttable1_bfe0_20261020T205657Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120519,
+   "cells": [
+    "mpc5606b/bfe-0-buffers-disabled-ttable1"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_ttable1_dflash_20261020T205844Z.json": {
+   "path": "results/mpc5606b/aes_ttable1_dflash_20261020T205844Z.json",
+   "source": "results/mpc5606b/aes_ttable1_dflash_20261020T205844Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120519,
+   "cells": [
+    "mpc5606b/tables-in-the-dflash-array-ttable1"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
   "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json": {
    "path": "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json",
    "source": "results/mpc5606b/aes_ttable1_flash_20260923T182925Z.json",
@@ -216,6 +238,39 @@
    "bytes": 120483,
    "cells": [
     "mpc5606b/pfcr0-0x18c780ed-buffers-on-dept-ttable1"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_ttable1_rwsc0_20261020T205513Z.json": {
+   "path": "results/mpc5606b/aes_ttable1_rwsc0_20261020T205513Z.json",
+   "source": "results/mpc5606b/aes_ttable1_rwsc0_20261020T205513Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120520,
+   "cells": [
+    "mpc5606b/pfcr0-0x18c180ed-rwsc-0-ttable1"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_ttable4_bfe0_20261020T205757Z.json": {
+   "path": "results/mpc5606b/aes_ttable4_bfe0_20261020T205757Z.json",
+   "source": "results/mpc5606b/aes_ttable4_bfe0_20261020T205757Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120519,
+   "cells": [
+    "mpc5606b/bfe-0-buffers-disabled-ttable"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
+  "results/mpc5606b/aes_ttable4_dflash_20261020T205931Z.json": {
+   "path": "results/mpc5606b/aes_ttable4_dflash_20261020T205931Z.json",
+   "source": "results/mpc5606b/aes_ttable4_dflash_20261020T205931Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120518,
+   "cells": [
+    "mpc5606b/tables-in-the-dflash-array-ttable"
    ],
    "why": "the reducer skipped it: not an npz"
   },
@@ -230,6 +285,17 @@
    ],
    "why": "the reducer skipped it: not an npz"
   },
+  "results/mpc5606b/aes_ttable4_rwsc0_20261020T205556Z.json": {
+   "path": "results/mpc5606b/aes_ttable4_rwsc0_20261020T205556Z.json",
+   "source": "results/mpc5606b/aes_ttable4_rwsc0_20261020T205556Z.json",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 120520,
+   "cells": [
+    "mpc5606b/pfcr0-0x18c180ed-rwsc-0-ttable"
+   ],
+   "why": "the reducer skipped it: not an npz"
+  },
   "results/msp430f5529/aes_matrix_25mhz.json": {
    "path": "results/msp430f5529/aes_matrix_25mhz.json",
    "source": "results/msp430f5529/aes_matrix_25mhz.json",
@@ -241,6 +307,17 @@
     "msp430f5529/xt-branchless-fctl4-mgr-0-3-tabl-ttable"
    ],
    "why": "the reducer skipped it: not an npz"
+  },
+  "results/nrf52840/nrf_scode_20k.npz": {
+   "path": "results/nrf52840/nrf_scode_20k.npz",
+   "source": "results/nrf52840/nrf_scode_20k.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 41520,
+   "cells": [
+    "nrf52840/s-box-as-code-i-cache-on-vs-off-sbox"
+   ],
+   "why": "the reducer skipped it: no per-trace timing column; the cells it holds are named arrays"
   },
   "results/pic32mz/deep_sbox_uncached.npz": {
    "path": "results/pic32mz/deep_sbox_uncached.npz",
@@ -351,6 +428,17 @@
     "stm32f303/latency-0-prftbe-on-ttable"
    ],
    "why": "the reducer skipped it: no plaintexts; the ciphertext column cannot be dropped"
+  },
+  "results/stm32f4/f4mx_tinyaes_705_sbox0b94_off4_50000.npz": {
+   "path": "results/stm32f4/f4mx_tinyaes_705_sbox0b94_off4_50000.npz",
+   "source": "results/stm32f4/f4mx_tinyaes_705_sbox0b94_off4_50000.npz",
+   "kind": "verbatim",
+   "ct_provenance": "unknown",
+   "bytes": 51235,
+   "cells": [
+    "stm32f429/flash-acr-0x705-caches-and-prefe-sbox"
+   ],
+   "why": "the reducer skipped it: see the reducer's output"
   },
   "results/stm32g474/g4_align_sweep.npz": {
    "path": "results/stm32g474/g4_align_sweep.npz",
