@@ -1,12 +1,18 @@
-# flashwhisperer-paper-artifact
+# FlashWhisperer ("Beyond the Scope of This Paper") Artifacts
 
-*🤖WARNING🤖: This file LLM generated and may read oddly. Will eventually be human-edited for that real-life touch and typos.*
+*🤖🥩: This document is partially human-written, partially LLM. This repo flags
+LLM-written docs as I find they can be more annoying to read as a human bag of 🥩*
 
 The reproduction artifact for the flash-accelerator timing paper. A
 microcontroller's flash accelerator (the read latch, the prefetch buffer, the
 little data cache) makes an AES lookup table's access time depend on which
 flash row the last lookup touched, and that is enough to recover the key off
 the part's own cycle counter.
+
+The paper is available at: (see latest papers on E-Print)
+
+This paper has not yet been peer reviewed. It is currently a draft and will
+have further updates.
 
 Sections 3 to 6 of the paper land here: the mechanism, the method, the
 cross-part survey, and what turns the channel up or down. It lets you build the
